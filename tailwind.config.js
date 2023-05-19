@@ -14,9 +14,9 @@ module.exports = {
       },
     },
     colors: {
-      'dk-main': '##1081A9',
       'dk-secondary': '#60DBC5',
       'dk-red': '#D91F26',
+      'dk-main': '#1081A9',
       'dk-gray': '#C4C4C4',
       'dk-bluelight': '#dff8f3',
       'dk-darkgray': '#6B6B6B',
