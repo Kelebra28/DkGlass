@@ -1,0 +1,45 @@
+import Image from "next/image"
+
+const Proyects = () => (
+  <div className="mb-[100px]">
+    <div className="ml-[60px]">
+      <h3 className="text-[36px]">Proyectos</h3>
+      <div className="border-b-4 border-dk-secondary w-[92px] mt-[15px]" />
+    </div>
+    <div className=" mx-[38px] mt-[67px]">
+      <div className="h-[240px] relative">
+        <Image
+          src="/escalera.png"
+          alt="escalera"
+          layout="fill"
+        />
+      </div>
+      <div className="pt-8 px-[22px] pb-[28px] border-b-4 border-b-dk-secondary">
+        <span className="text-[24px]">Escaleras</span>
+        <p className="mt-3 text-[14px] text-dk-darkgray">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorp</p>
+
+        <div className="mt-[30px] text-[14px]">
+          <span>TITULO</span> <span className="text-dk-darkgray">/   August 21 2023</span>
+        </div>
+      </div>
+    </div>
+    <div className="flex justify-between pt-[90px]">
+      <div className="w-[134px] h-[152px] relative">
+        <Image
+          src="/proyect2.png"
+          alt="escalera"
+          layout="fill"
+        />
+      </div>
+      <div className="w-[243px] h-[186px] relative">
+        <Image
+          src="/proyect1.png"
+          alt="escalera"
+          layout="fill"
+        />
+      </div>
+    </div>
+  </div>
+)
+
+export default Proyects
