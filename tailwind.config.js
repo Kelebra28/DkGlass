@@ -21,6 +21,7 @@ module.exports = {
       'dk-bluelight': '#dff8f3',
       'dk-darkgray': '#6B6B6B',
       'dk-bg-gray': '#F1F1F1',
+      'dk-bg-darkgray': '#D9D9D9',
     },
     height: {
       '22': '5.313rem',
