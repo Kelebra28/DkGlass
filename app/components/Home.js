@@ -6,9 +6,11 @@ import Proyects from "./Proyects"
 import Register from "./Register"
 import Testimonials from "./Testimonials"
 import Footer from "./Footer"
+import Header from "./common/header"
 
 const Home = () => (
   <>
+    <Header />
     <Hero />
     <Register />
     <AboutUs />
