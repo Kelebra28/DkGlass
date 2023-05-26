@@ -1,20 +1,29 @@
 import Image from "next/image"
 
 const Header = () => (
-  <div className="flex justify-center pt-[20px] pl-[20px] absolute left-0 right-0 top-0">
-    <div className="w-[29px] h-[54px] absolute left-[20px]">
-      <Image
-        src="/icons/menu.svg"
-        alt="Logo"
-        layout="fill"
-      />
+  <div className=" border-dk-secondary bg-none  lg:bg-[rgba(255,255,255,.8)] flex pt-[20px] pl-[20px] absolute z-10 left-0 right-0 top-0 justify-center lg:justify-start lg:pb-[17px]">
+    <div className="flex justify-center lg:w-4/12 w-12/12  lg:justify-start">
+      <div className="w-[29px] h-[54px] absolute left-[20px] lg:relative lg:left-0 lg:mr-[30px]">
+        <Image
+          src="/icons/menu.svg"
+          alt="Logo"
+          layout="fill"
+        />
+      </div>
+      <div className="w-[132px] h-[54px] relative ">
+        <Image
+          src="/logo-full.svg"
+          alt="menu icon"
+          layout="fill"
+        />
+      </div>
     </div>
-    <div className="w-[132px] h-[54px] relative">
-      <Image
-        src="/logo-full.svg"
-        alt="menu icon"
-        layout="fill"
-      />
+    <div className="hidden lg:flex  w-8/12 pt-[20px]">
+      <span className="text-[13px] px-[10px] font-semibold  mx-[25px]">Home</span>
+      <span className="text-[13px] px-[10px] font-semibold mx-[25px]">Nosotros</span>
+      <span className="text-[13px] px-[10px] font-semibold mx-[25px]">Servicios</span>
+      <span className="text-[13px] px-[10px] font-semibold mx-[25px]">Productos</span>
+      <span className="text-[13px] px-[10px] font-semibold mx-[25px]">Contacto</span>
     </div>
   </div>
 )
