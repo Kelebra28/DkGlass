@@ -22,8 +22,12 @@ const Home = () => (
       <Products />
       <Proyects />
     </div>
-    <AnualSales />
-    <Testimonials />
+    <div className="">
+      <AnualSales />
+    </div>
+    <div className="lg:hidden">
+      <Testimonials />
+    </div>
     <Footer />
   </>
 )
