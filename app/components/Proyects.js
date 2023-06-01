@@ -2,6 +2,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Image from "next/image"
+import CarouselCard from "./common/CarouselCard";
 import CarouselCard2 from "./common/CarouselCard2";
 
 const responsive = {
@@ -25,35 +26,59 @@ const responsive = {
 };
 
 const Proyects = () => (
-  <div className="mb-[100px]">
+  <div className="mb-[100px] lg:flex lg:justify-between">
     <div className="ml-[60px]">
-      <h3 className="text-[36px]">Proyectos</h3>
-      <div className="border-b-4 border-dk-secondary w-[92px] mt-[15px]" />
+      <div className="border-l-4 border-dk-secondary h-[52px] items-center mt-[40px] ml-[57px] pl-[21px] hidden lg:flex">
+        <span className="text-dk-main text-[36px]">Proyectos</span>
+      </div>
+      <p className="w-[180px] ml-[100px] text-[11px] mt-[41px] hidden lg:flex ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet </p>
+      <div className="lg:hidden">
+        <h3 className="text-[36px]">Proyectos</h3>
+        <div className="border-b-4 border-dk-secondary w-[92px] mt-[15px]" />
+      </div>
     </div>
-    <div>
+    <div className="lg:hidden">
       <Carousel responsive={responsive}>
+        <CarouselCard2 />
+        <CarouselCard2 />
+        <CarouselCard2 />
+        <CarouselCard2 />
+        <CarouselCard2 />
         <CarouselCard2 />
         <CarouselCard2 />
         <CarouselCard2 />
         <CarouselCard2 />
       </Carousel>
     </div>
-    <div className="flex justify-between pt-[90px]">
-      <div className="w-[134px] h-[152px] relative">
-        <Image
-          src="/proyect2.png"
-          alt="escalera"
-          layout="fill"
-        />
-      </div>
-      <div className="w-[243px] h-[186px] relative">
-        <Image
-          src="/proyect1.png"
-          alt="escalera"
-          layout="fill"
-        />
-      </div>
+    <div className="lg:w-[70%] hidden lg:block">
+      <Carousel responsive={responsive}>
+        <CarouselCard />
+        <CarouselCard />
+        <CarouselCard />
+        <CarouselCard />
+        <CarouselCard />
+        <CarouselCard />
+        <CarouselCard />
+        <CarouselCard />
+        <CarouselCard />
+      </Carousel>
     </div>
+    <div className="flex justify-between pt-[90px] lg:hidden">
+        <div className="w-[134px] h-[152px] relative">
+          <Image
+            src="/proyect2.png"
+            alt="escalera"
+            layout="fill"
+          />
+        </div>
+        <div className="w-[243px] h-[186px] relative">
+          <Image
+            src="/proyect1.png"
+            alt="escalera"
+            layout="fill"
+          />
+        </div>
+      </div>
   </div>
 )
 
