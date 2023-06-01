@@ -14,8 +14,14 @@ const Home = () => (
     <Hero />
     {/* <Register /> */}
     <AboutUs />
-    <Products />
-    <Proyects />
+    <div className="hidden lg:block">
+      <Proyects />
+      <Products />
+    </div>
+    <div className="lg:hidden">
+      <Products />
+      <Proyects />
+    </div>
     <AnualSales />
     <Testimonials />
     <Footer />
