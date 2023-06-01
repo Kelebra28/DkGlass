@@ -1,3 +1,27 @@
+'use client'
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import CarouselCard from "./common/CarouselCard";
+const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 3
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1.5
+  }
+};
+
 const Products = () => (
   <div className="">
     <div className="border h-[224px] mx-[12px] flex justify-center items-center mt-[40px]">
@@ -8,7 +32,14 @@ const Products = () => (
     </div>
     <p className="mt-[41px] ml-[89px]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet </p>
 
-    <h1 className="my-[60px] text-center">Carrusel</h1>
+    <div className="mt-[40px] mb-[40px] pl-[30px]">
+      <Carousel responsive={responsive}>
+        <CarouselCard />
+        <CarouselCard />
+        <CarouselCard />
+        <CarouselCard />
+      </Carousel>
+    </div>
   </div>
 )
 
