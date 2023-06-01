@@ -34,7 +34,7 @@ const Products = () => (
         layout="fill"
       />
     </div>
-    <div className="lg:flex lg:flex-col lg:ml-[100px]">
+    <div className="lg:flex lg:flex-col lg:ml-[100px] overflow-hidden">
       <div className="border-l-4 border-dk-main h-[52px] flex items-center mt-[40px] ml-[57px] pl-[21px] lg:ml-[17px]">
         <span className="text-dk-main text-[36px]">Productos</span>
       </div>
