@@ -42,10 +42,21 @@ const Products = () => (
 
       <div className="mt-[40px] mb-[40px] pl-[30px] w-screen lg:hidden">
         <Carousel responsive={responsive}>
-          <CarouselCard />
-          <CarouselCard />
-          <CarouselCard />
-          <CarouselCard />
+          <div className="mx-[10px]">
+            <CarouselCard />
+          </div>
+          <div className="mx-[10px]">
+            <CarouselCard />
+          </div>
+          <div className="mx-[10px]">
+            <CarouselCard />
+          </div>
+          <div className="mx-[10px]">
+            <CarouselCard />
+          </div>
+          <div className="mx-[10px]">
+            <CarouselCard />
+          </div>
         </Carousel>
       </div>
       <div className="mt-[40px] mb-[40px] w-screen lg:block hidden">
@@ -56,7 +67,6 @@ const Products = () => (
           <CarouselSimpleCard/>
           <CarouselSimpleCard/>
           <CarouselSimpleCard/>
-
         </Carousel>
       </div>
     </div>

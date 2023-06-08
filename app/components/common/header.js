@@ -19,11 +19,11 @@ const Header = () => (
       </div>
     </div>
     <div className="hidden lg:flex  w-8/12 pt-[20px]">
-      <span className="text-[13px] px-[10px] font-semibold  mx-[25px]">Home</span>
-      <span className="text-[13px] px-[10px] font-semibold mx-[25px]">Nosotros</span>
-      <span className="text-[13px] px-[10px] font-semibold mx-[25px]">Servicios</span>
-      <span className="text-[13px] px-[10px] font-semibold mx-[25px]">Productos</span>
-      <span className="text-[13px] px-[10px] font-semibold mx-[25px]">Contacto</span>
+      <span className="text-[13px] px-[10px] font-semibold  mx-[25px] cursor-pointer">Home</span>
+      <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Nosotros</span>
+      <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Servicios</span>
+      <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Productos</span>
+      <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Contacto</span>
     </div>
   </div>
 )
