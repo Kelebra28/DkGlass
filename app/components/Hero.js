@@ -27,7 +27,7 @@ const responsive = {
 
 const Hero = () => (
   <div>
-    <div className="flex flex-col items-end relative">
+    {/* <div className="flex flex-col items-end relative">
       <div className="w-40 bg-dk-bluelight h-22 lg:hidden" />
       <div className="w-40 bg-dk-secondary h-120 lg:hidden" />
       <div className="absolute left-10 right-0 h-20 top-[7.625rem] h-[26.75rem] rounded-ss-[60px] overflow-hidden lg:hidden">
@@ -37,13 +37,17 @@ const Hero = () => (
           layout="fill"
         />
       </div>
-    </div>
+    </div> */}
 
     <div className="flex">
       <div className="">
-        <div className=" relative w-screen hidden lg:block pr-[20px]">
+        <div className=" relative w-screen  lg:block lg:pr-[20px]">
           <Carousel responsive={responsive}>
             <div className="w-[736px] h-[450px] relative">
+              <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:hidden">
+                <span className="text-[30px] font-semibold text-[white]">Lorem ipsum</span>
+                <Button text="Click me" color="white" />
+              </div>
               <Image
                 src="/hero.png"
                 alt="Portada"
@@ -51,6 +55,10 @@ const Hero = () => (
               />
             </div>
             <div className="w-[736px] h-[450px] relative">
+              <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:hidden">
+                <span className="text-[30px] font-semibold text-[white]">Lorem ipsum</span>
+                <Button text="Click me" color="white" />
+              </div>
               <Image
                 src="/hero.png"
                 alt="Portada"
@@ -58,6 +66,10 @@ const Hero = () => (
               />
             </div>
             <div className="w-[736px] h-[450px] relative">
+              <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:hidden">
+                <span className="text-[30px] font-semibold text-[white]">Lorem ipsum</span>
+                <Button text="Click me" color="white" />
+              </div>
               <Image
                 src="/hero.png"
                 alt="Portada"
@@ -65,6 +77,10 @@ const Hero = () => (
               />
             </div>
             <div className="w-[736px] h-[450px] relative">
+              <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:hidden">
+                <span className="text-[30px] font-semibold text-[white]">Lorem ipsum</span>
+                <Button text="Click me" color="white" />
+              </div>
               <Image
                 src="/hero.png"
                 alt="Portada"
@@ -72,6 +88,10 @@ const Hero = () => (
               />
             </div>
             <div className="w-[736px] h-[450px] relative">
+              <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:hidden">
+                <span className="text-[30px] font-semibold text-[white]">Lorem ipsum</span>
+                <Button text="Click me" color="white" />
+              </div>
               <Image
                 src="/hero.png"
                 alt="Portada"
@@ -79,6 +99,10 @@ const Hero = () => (
               />
             </div>
             <div className="w-[736px] h-[450px] relative">
+              <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:hidden">
+                <span className="text-[30px] font-semibold text-[white]">Lorem ipsum</span>
+                <Button text="Click me" color="white" />
+              </div>
               <Image
                 src="/hero.png"
                 alt="Portada"
@@ -86,6 +110,10 @@ const Hero = () => (
               />
             </div>
             <div className="w-[736px] h-[450px] relative">
+              <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:hidden">
+                <span className="text-[30px] font-semibold text-[white]">Lorem ipsum</span>
+                <Button text="Click me" color="white" />
+              </div>
               <Image
                 src="/hero.png"
                 alt="Portada"
@@ -104,7 +132,6 @@ const Hero = () => (
           <div className="w-4/12 bg-dk-bg-gray flex justify-end py-[46px]">
             <div className="flex flex-col mr-[35px] items-center">
               <p className="text-[15px] w-[280px] pb-[10px]">Desarrollamos productos únicos basado en tendencias actuales a las que en el futuro no pasaran ese atractivo visual que imponen de inicio.</p>
-              <Button text="Regístrate" />
             </div>
           </div>
           <div className="w-4/12 flex justify-center items-center relative">
@@ -154,7 +181,7 @@ const Hero = () => (
           </div>
           <div className="w-[26px] h-[26px] my-[20px] relative">
             <Image
-              src="/icons/Linkedin-white.svg"
+              src="/icons/LinkedIn-white.svg"
               alt="Portada"
               layout="fill"
             />
