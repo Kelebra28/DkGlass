@@ -4,7 +4,7 @@ import Image from "next/image"
 import SideBar from "./SideBar"
 
 const Header = () => {
-  const [showMenu, setShowMenu] = useState(true)
+  const [showMenu, setShowMenu] = useState(false)
   const handleClickMenu = () => {
     setShowMenu(!showMenu)
   }
