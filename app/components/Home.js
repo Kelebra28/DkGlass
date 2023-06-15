@@ -7,6 +7,7 @@ import Register from "./Register"
 import Testimonials from "./Testimonials"
 import Footer from "./Footer"
 import Header from "./common/header"
+import Services from "./Services"
 
 const Home = () => (
   <>
@@ -21,6 +22,9 @@ const Home = () => (
     <div className="lg:hidden">
       <Products />
       <Proyects />
+    </div>
+    <div className="hidden lg:block">
+      <Services />
     </div>
     <div className="">
       <AnualSales />
