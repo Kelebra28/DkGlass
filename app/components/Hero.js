@@ -164,7 +164,6 @@ const Hero = () => (
                   />
                 </div>
                 <span className="text-[12px] font-semibold ml-[10px]">+52 55 1204 0419</span>
-
               </div>
             </div>
           </div>
