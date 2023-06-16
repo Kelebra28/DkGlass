@@ -14,7 +14,7 @@ const Header = () => {
         showMenu && <SideBar handleClickMenu={handleClickMenu}/>
       }
       <div className="flex justify-center lg:w-4/12 w-12/12  lg:justify-start">
-        <div onClick={handleClickMenu} className="w-[29px] h-[54px] absolute left-[20px] lg:relative lg:left-0 lg:mr-[30px]">
+        <div onClick={handleClickMenu} className="w-[29px] h-[54px] absolute left-[20px] lg:relative lg:left-0 lg:mr-[30px] cursor-pointer">
           <Image
             src="/icons/menu.svg"
             alt="Logo"

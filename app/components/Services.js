@@ -6,13 +6,13 @@ const Services = () => (
       <span className=" text-[36px]">Servicios</span>
     </div>
     <div className="pt-[90px] pl-[70px] flex flex-col">
-      <span className="font-medium text-dk-main text-[20px] mb-[25px]">{`>Temperados de vidrio`}</span>
-      <span className="font-medium text-dk-main text-[20px] mb-[25px]">{`>Temperados de vidrio`}</span>
-      <span className="font-medium text-dk-main text-[20px] mb-[25px]">{`>Temperados de vidrio`}</span>
-      <span className="font-medium text-dk-main text-[20px] mb-[25px]">{`>Temperados de vidrio`}</span>
-      <span className="font-medium text-dk-main text-[20px] mb-[25px]">{`>Temperados de vidrio`}</span>
-      <span className="font-medium text-dk-main text-[20px] mb-[25px]">{`>Temperados de vidrio`}</span>
-      <span className="font-medium text-dk-main text-[20px] mb-[25px]">{`>Temperados de vidrio`}</span>
+      <span className="cursor-pointer font-medium text-dk-main text-[20px] mb-[25px]">{`>Temperados de vidrio`}</span>
+      <span className="cursor-pointer font-medium text-dk-main text-[20px] mb-[25px]">{`>Temperados de vidrio`}</span>
+      <span className="cursor-pointer font-medium text-dk-main text-[20px] mb-[25px]">{`>Temperados de vidrio`}</span>
+      <span className="cursor-pointer font-medium text-dk-main text-[20px] mb-[25px]">{`>Temperados de vidrio`}</span>
+      <span className="cursor-pointer font-medium text-dk-main text-[20px] mb-[25px]">{`>Temperados de vidrio`}</span>
+      <span className="cursor-pointer font-medium text-dk-main text-[20px] mb-[25px]">{`>Temperados de vidrio`}</span>
+      <span className="cursor-pointer font-medium text-dk-main text-[20px] mb-[25px]">{`>Temperados de vidrio`}</span>
     </div>
     <div className=" flex justify-center">
       <Button text="Solicita una cotización" />

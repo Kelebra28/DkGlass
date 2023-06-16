@@ -4,6 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import Image from "next/image"
 import Button from "./common/Button"
 import CarouselCard from "./common/CarouselCard";
+import Link from "next/link";
 
 const responsive = {
   superLargeDesktop: {
@@ -144,62 +145,65 @@ const Hero = () => (
           <div className="w-4/12 flex justify-center items-center relative flex-col">
             <Button text="Contactanos" background="blue" border="none" color="white" />
             <div className="flex mt-[50px]">
-              <div className="flex items-center">
-                <div className="w-[16px] h-[16px] relative">
-                  <Image
-                    src="/icons/phone.svg"
-                    alt="Portada"
-                    layout="fill"
-                  />
+              <Link href="tel:+52 55 1204 0419">
+                <div className="flex items-center  cursor-pointer">
+                  <div className="w-[16px] h-[16px] relative">
+                    <Image
+                      src="/icons/phone.svg"
+                      alt="Portada"
+                      layout="fill"
+                    />
+                  </div>
+                  <span className="text-[12px] font-semibold ml-[10px]">+52 55 1204 0419</span>
                 </div>
-                <span className="text-[12px] font-semibold ml-[10px]">+52 55 1204 0419</span>
-
-              </div>
-              <div className="flex items-center ml-[55px]">
-                <div className="w-[23px] h-[23px] relative">
-                  <Image
-                    src="/icons/email.svg"
-                    alt="Portada"
-                    layout="fill"
-                  />
+              </Link>
+              <Link href={`mailto:info@dkglass&velazco.com`}>
+                <div className="flex items-center ml-[55px] cursor-pointer">
+                  <div className="w-[23px] h-[23px] relative">
+                    <Image
+                      src="/icons/email.svg"
+                      alt="Portada"
+                      layout="fill"
+                    />
+                  </div>
+                  <span className="text-[12px] font-semibold ml-[10px]">{`info@dkglass&velazco.com`}</span>
                 </div>
-                <span className="text-[12px] font-semibold ml-[10px]">+52 55 1204 0419</span>
-              </div>
+              </Link>
             </div>
           </div>
         </div>
       </div>
       <div className="w-[68px] box-border bg-[#1081A9] z-20 h-[1024px] absolute top-0 right-0 hidden lg:flex flex-col justify-between">
         <div className="pt-[100px] pl-[15px]">
-          <div className="w-[26px] h-[26px] my-[20px] relative">
+          <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
             <Image
               src="/icons/facebook-white.svg"
               alt="Portada"
               layout="fill"
             />
           </div>
-          <div className="w-[26px] h-[26px] my-[20px] relative">
+          <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
             <Image
               src="/icons/LinkedIn-white.svg"
               alt="Portada"
               layout="fill"
             />
           </div>
-          <div className="w-[26px] h-[26px] my-[20px] relative">
+          <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
             <Image
               src="/icons/twiter-white.svg"
               alt="Portada"
               layout="fill"
             />
           </div>
-          <div className="w-[26px] h-[26px] my-[20px] relative">
+          <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
             <Image
               src="/icons/instagram-white.svg"
               alt="Portada"
               layout="fill"
             />
           </div>
-          <div className="w-[26px] h-[26px] my-[20px] relative">
+          <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
             <Image
               src="/icons/youtube-white.svg"
               alt="Portada"
@@ -207,7 +211,7 @@ const Hero = () => (
             />
           </div>
         </div>
-        <div className="bg-dk-secondary mb-[250px] w-[67px] h-[67px] rounded-lg relative flex justify-center items-center">
+        <div className="bg-dk-secondary mb-[250px] w-[67px] h-[67px] rounded-lg relative flex justify-center items-center cursor-pointer">
           <div className="w-[40px] h-[40px] relative">
             <Image
               src="/icons/message-white.svg"
