@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import Image from "next/image"
 import SideBar from "./SideBar"
+import Link from 'next/link'
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false)
@@ -30,11 +31,21 @@ const Header = () => {
         </div>
       </div>
       <div className="hidden lg:flex  w-8/12 pt-[20px]">
-        <span className="text-[13px] px-[10px] font-semibold  mx-[25px] cursor-pointer">Home</span>
-        <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Nosotros</span>
-        <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Servicios</span>
-        <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Productos</span>
-        <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Contacto</span>
+        <Link href='/'>
+          <span className="text-[13px] px-[10px] font-semibold  mx-[25px] cursor-pointer">Home</span>
+        </Link>
+        <Link href='/nosotros'>
+          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Nosotros</span>
+        </Link>
+        <Link href='#services'>
+          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Servicios</span>
+        </Link>
+        <Link href='#products' scroll>
+          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Productos</span>
+        </Link>
+        <Link href='#contact'>
+          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Contacto</span>
+        </Link>
       </div>
     </div>
   )

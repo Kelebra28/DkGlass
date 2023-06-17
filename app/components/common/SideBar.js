@@ -23,14 +23,20 @@ const SideBar = ({ handleClickMenu }) => (
       </header>
       <div className="absolute top-[160px] bottom-0 left-0 right-0 pl-[40px] pr-[30px] overflow-scroll pb-[50px]">
         <section className="border-b-[2px] border-b-dk-secondary pt-[20px] pb-[20px] flex flex-col">
-          <h2 className="text-[18px] font-medium hover:bg-dk-secondary pl-[12px] hover:text-[white]">Home</h2>
-          <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Sobre nosotros</span>
-          <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">{`¿Porque elegir DK Glass & velasco?`}</span>
+          <Link href="/">
+            <h2 className="text-[18px] font-medium hover:bg-dk-secondary pl-[12px] hover:text-[white]">Home</h2>
+          </Link>
+          <Link href="/nosotros">
+            <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Sobre nosotros</span>
+          </Link>
+          <span className="mt-[15px] hidden text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">{`¿Porque elegir DK Glass & velasco?`}</span>
         </section>
         <section className="border-b-[2px] border-b-dk-secondary pt-[20px] pb-[20px] flex flex-col">
-          <h2 className="text-[18px] font-medium hover:bg-dk-secondary pl-[12px] hover:text-[white]">Productos</h2>
-          <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Titulo</span>
-          <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Titulo</span>
+          <Link href="#products" className="flex flex-col">
+            <h2 className="text-[18px] font-medium hover:bg-dk-secondary pl-[12px] hover:text-[white]">Productos</h2>
+            <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Titulo</span>
+            <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Titulo</span>
+          </Link>
         </section>
         <section className="border-b-[2px] border-b-dk-secondary pt-[20px] pb-[20px] flex flex-col">
           <h2 className="text-[18px] font-medium  hover:bg-dk-secondary pl-[12px] hover:text-[white]">Tienda</h2>
@@ -73,7 +79,7 @@ const SideBar = ({ handleClickMenu }) => (
     </div>
     <div onClick={handleClickMenu} className="bg-[black] opacity-30 absolute top-0 bottom-0 left-[80%] lg:left-[30%] right-0" />
 
-    
+
   </div>
 )
 

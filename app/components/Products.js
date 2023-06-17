@@ -26,7 +26,7 @@ const responsive = {
 };
 
 const Products = () => (
-  <div className="">
+  <div className="" id="products">
     <div className=" h-[224px] mx-[12px] mt-[40px] relative lg:hidden">
       <Image
         src="/hero.png"
