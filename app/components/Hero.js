@@ -127,7 +127,7 @@ const Hero = () => (
         <div className="px-[49px] lg:px-[82px] lg:mt-[20px]">
           <p className="mt-[19px] text-lg font-semibold lg:text-[28px]">Encuentra soluciones creativas y atractivas para tus necesidades de decoración con nuestros accesorios de vidrio para interiores.</p>
           <p className="text-dk-darkgray mt-3 mb-[77px] lg:mb-[49px] text-[11px] lg:text-[15px] lg:mt-[12px]">Te acompañamos en cada módulo te garantizamos una opción a tu medida</p>
-          <span className="hidden lg:inline-block border-b-dk-secondary text-[23px] font-semibold border-b-2 mb-[67px]">Explora Nuestra variedad de ideas</span>
+          <span id="contact" className="hidden lg:inline-block border-b-dk-secondary text-[23px] font-semibold border-b-2 mb-[67px]">Explora Nuestra variedad de ideas</span>
         </div>
         <div className="hidden lg:flex">
           <div className="w-4/12 bg-dk-bg-gray flex justify-end py-[46px]">
@@ -135,7 +135,7 @@ const Hero = () => (
               <p className="text-[15px] w-[280px] pb-[10px]">Desarrollamos productos únicos basado en tendencias actuales a las que en el futuro no pasaran ese atractivo visual que imponen de inicio.</p>
             </div>
           </div>
-          <div className="w-4/12 flex justify-center items-center relative">
+          <div className="w-4/12 flex justify-center items-center relative" >
             <Image
               src="/hero.png"
               alt="Portada"
