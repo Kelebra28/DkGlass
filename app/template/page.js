@@ -13,8 +13,8 @@ export default function Home() {
           <div className="w-[50%]">
             <div className="h-[29px] bg-dk-main" />
             <div className="px-[80px] mt-[20px] flex flex-col">
-              <span className="text-[25px] font-medium">Mirrors</span>
-              <p className="mt-[20px] mb-[30px] text-[18px] font-medium">"Optimiza el uso del espacio y la luz natural con nuestros accesorios de vidrio para interiores personalizables"</p>
+              <span className="text-[25px] font-medium">NOMBRE</span>
+              <p className="mt-[20px] mb-[30px] text-[18px] font-medium">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."</p>
               <span className="text-[15px]">Modelo</span>
               <span className="mt-[20px] bg-dk-secondary w-[330px] text-[]15px pl-[18px] text-[white] italic font-semibold">Especificaciones</span>
             </div>
