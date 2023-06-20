@@ -32,11 +32,11 @@ const SideBar = ({ handleClickMenu }) => (
           <span className="mt-[15px] hidden text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">{`¿Porque elegir DK Glass & velasco?`}</span>
         </section>
         <section className="border-b-[2px] border-b-dk-secondary pt-[20px] pb-[20px] flex flex-col">
-          <Link href="#products" className="flex flex-col">
+          <Link href="#products" scroll className="flex flex-col">
             <h2 className="text-[18px] font-medium hover:bg-dk-secondary pl-[12px] hover:text-[white]">Productos</h2>
-            <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Titulo</span>
-            <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Titulo</span>
           </Link>
+          <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Titulo</span>
+          <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Titulo</span>
         </section>
         <section className="border-b-[2px] border-b-dk-secondary pt-[20px] pb-[20px] flex flex-col">
           <h2 className="text-[18px] font-medium  hover:bg-dk-secondary pl-[12px] hover:text-[white]">Tienda</h2>
