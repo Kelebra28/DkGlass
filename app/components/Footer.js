@@ -1,15 +1,15 @@
 import Image from "next/image"
 const Footer = () => (
   <div className=" bg-dk-bg-gray pt-[64px] pb-[48px]">
-    <div className="pl-[70px]">
-      <div className="w-[213px] h-[54px] relative mb-[54px]">
+    <div className="pl-[70px] ">
+      <div className="w-[213px] h-[54px] relative mb-[54px] lg:mx-auto">
         <Image
           src="/logo.svg"
           alt="Portada"
           layout="fill"
         />
       </div>
-      <div className="flex flex-col pb-[25px]">
+      <div className="flex flex-col pb-[25px] lg:flex-row  lg:justify-between lg:px-[300px]">
         <span className="my-[11px] text-[13px] font-semibold">Home</span>
         <span className="my-[11px] text-[13px] font-semibold">Nosotros</span>
         <span className="my-[11px] text-[13px] font-semibold">Servicios</span>
@@ -17,7 +17,7 @@ const Footer = () => (
         <span className="my-[11px] text-[13px] font-semibold">Contacto</span>
       </div>
     </div>
-    <div className="mx-[5px] border border-dk-secondary" />
+    <div className="mx-[5px] border border-dk-secondary lg:mx-[60px]" />
     <div className="flex justify-center mt-[17px]">
       <span className="text-center opacity-[50%]">Live the live your <br /> want</span>
     </div>
