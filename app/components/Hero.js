@@ -26,7 +26,7 @@ const responsive = {
   }
 };
 
-const Hero = () => (
+const Hero = ({handleContactPopUp}) => (
   <div>
     {/* <div className="flex flex-col items-end relative">
       <div className="w-40 bg-dk-bluelight h-22 lg:hidden" />
@@ -143,7 +143,7 @@ const Hero = () => (
             />
           </div>
           <div className="w-4/12 flex justify-center items-center relative flex-col">
-            <Button text="Contactanos" background="blue" border="none" color="white" />
+            <Button onClick={handleContactPopUp} text="Contactanos" background="blue" border="none" color="white" />
             <div className="flex mt-[50px]">
               <Link href="tel:+52 55 1204 0419">
                 <div className="flex items-center  cursor-pointer">
@@ -211,7 +211,7 @@ const Hero = () => (
             />
           </div>
         </div>
-        <div className="bg-dk-secondary mb-[250px] w-[67px] h-[67px] rounded-lg relative flex justify-center items-center cursor-pointer">
+        {/* <div className="bg-dk-secondary mb-[250px] w-[67px] h-[67px] rounded-lg relative flex justify-center items-center cursor-pointer">
           <div className="w-[40px] h-[40px] relative">
             <Image
               src="/icons/message-white.svg"
@@ -219,7 +219,7 @@ const Hero = () => (
               layout="fill"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   </div>

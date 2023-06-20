@@ -39,7 +39,7 @@ const SocialMedia = () => (
         />
       </div>
     </div>
-    <div className="bg-[#255429] mb-[250px] w-[67px] h-[67px] rounded-lg relative flex justify-center items-center cursor-pointer">
+    {/* <div className="bg-[#255429] mb-[250px] w-[67px] h-[67px] rounded-lg relative flex justify-center items-center cursor-pointer">
       <div className="w-[40px] h-[40px] relative">
         <Image
           src="/icons/message-white.svg"
@@ -47,7 +47,7 @@ const SocialMedia = () => (
           layout="fill"
         />
       </div>
-    </div>
+    </div> */}
   </div>
 )
 

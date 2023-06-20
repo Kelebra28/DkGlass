@@ -22,13 +22,15 @@ const Header = () => {
             layout="fill"
           />
         </div>
-        <div className="w-[132px] h-[54px] relative ">
-          <Image
-            src="/logo-full.svg"
-            alt="menu icon"
-            layout="fill"
-          />
-        </div>
+        <Link href="/">
+          <div className="w-[132px] h-[54px] relative ">
+            <Image
+              src="/logo-full.svg"
+              alt="menu icon"
+              layout="fill"
+            />
+          </div>
+        </Link>
       </div>
       <div className="hidden lg:flex  w-8/12 pt-[20px]">
         <Link href='/'>
