@@ -1,3 +1,5 @@
+'use client'
+import { useState } from "react"
 import Image from "next/image"
 import Button from "../components/common/Button"
 import Header from "../components/common/header"
@@ -5,9 +7,16 @@ import SocialMedia from "../components/common/SocialMedia"
 import Footer from "../components/Footer"
 
 export default function Home() {
+  const [contactPopActive, setContactPopActive] = useState(false)
+  const handleContactPopUp = () => {
+    setContactPopActive(!contactPopActive)
+  }
   return (
     <div>
       <Header />
+      {
+        contactPopActive && <EmailPopUp handleContactPopUp={handleContactPopUp}/>
+      }
       <SocialMedia />
       <div className=" mt-[90px]">
         <div className="flex flex-col-reverse lg:flex-row">
@@ -43,7 +52,7 @@ export default function Home() {
           </div>
           <div className="lg:w-[33%] flex items-end">
             <div className="ml-[40px] mb-[50px]">
-              <Button text="Contactanos" />
+              <Button text="Contactanos" onClick={handleContactPopUp} />
             </div>
           </div>
         </div>

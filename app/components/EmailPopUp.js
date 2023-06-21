@@ -67,7 +67,6 @@ const EmailPopUp = ({ handleContactPopUp }) => {
                 </div>
               </div>
               <div className="flex justify-center mt-[40px]">
-                <button type='submit'>Submit</button>
                 <Button text='Enviar mensaje' onClick={sendEmail} />
               </div>
             </form>
