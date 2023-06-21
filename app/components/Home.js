@@ -24,7 +24,9 @@ const Home = () => {
     }
       <Header />
       <Hero handleContactPopUp={handleContactPopUp}/>
-      {/* <Register /> */}
+      <div className="lg:hidden">
+        <Register handleContactPopUp={handleContactPopUp} />
+      </div>
       <AboutUs />
       <div className="hidden lg:block">
         <Proyects />
@@ -34,8 +36,8 @@ const Home = () => {
         <Products />
         <Proyects />
       </div>
-      <div className="hidden lg:block">
-        <Services />
+      <div className="">
+        <Services handleContactPopUp={handleContactPopUp}/>
       </div>
       <div className="">
         <AnualSales />
