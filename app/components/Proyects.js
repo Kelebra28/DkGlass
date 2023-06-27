@@ -63,28 +63,6 @@ const Proyects = () => (
         <CarouselCard />
       </Carousel>
     </div>
-    <div className="flex justify-between pt-[90px] lg:hidden">
-        <div className="w-[134px] h-[152px] relative">
-          <Image
-            src="/proyect2.png"
-            alt="escalera"
-            layout="fill"
-          />
-        </div>
-        <div className="w-[243px] h-[186px] relative">
-          <Image
-            src="/proyect1.png"
-            alt="escalera"
-            layout="fill"
-          />
-        </div>
-      </div>
-      <div className="hidden lg:flex">
-        <div className="w-[50%]">
-          imagenes
-        </div>
-
-      </div>
   </div>
 )
 
