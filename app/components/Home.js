@@ -11,6 +11,7 @@ import Footer from "./Footer"
 import Header from "./common/header"
 import Services from "./Services"
 import EmailPopUp from "./EmailPopUp"
+import Map from "./Map"
 
 const Home = () => {
   const [contactPopActive, setContactPopActive] = useState(false)
@@ -40,7 +41,8 @@ const Home = () => {
         <Services handleContactPopUp={handleContactPopUp}/>
       </div>
       <div className="">
-        <AnualSales />
+        {/* <AnualSales /> */}
+        <Map />
       </div>
       <div className="lg:hidden">
         <Testimonials />
