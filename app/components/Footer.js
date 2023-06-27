@@ -10,7 +10,7 @@ const Footer = () => (
           layout="fill"
         />
       </div>
-      <div className="flex flex-col pb-[25px] lg:flex-row  lg:justify-between lg:px-[300px]">
+      <div className="hidden lg:flex flex-col pb-[25px] lg:flex-row  lg:justify-between lg:px-[300px]">
         <Link href="/">
           <span className="my-[11px] text-[13px] font-semibold">Home</span>
         </Link>
@@ -33,17 +33,17 @@ const Footer = () => (
       <span className="text-center opacity-[50%]">Live the live your <br /> want</span>
     </div>
     <div className="flex justify-center mt-[40px]">
-      <div className="w-[12px] h-[12px] relative">
+      <div className="w-[16px] h-[16px] relative">
         <Image
-          src="/icons/facebook.svg"
-          alt="Portada"
+          src="/icons/facebook-black.svg"
+          alt="facebook"
           layout="fill"
         />
       </div>
-      <div className="w-[12px] h-[12px] relative ml-[33px]">
+      <div className="w-[16px] h-[16px] relative ml-[33px]">
         <Image
-          src="/icons/instagram.svg"
-          alt="Portada"
+          src="/icons/instagram-black.svg"
+          alt="instagram"
           layout="fill"
         />
       </div>
