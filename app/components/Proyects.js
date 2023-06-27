@@ -79,6 +79,12 @@ const Proyects = () => (
           />
         </div>
       </div>
+      <div className="hidden lg:flex">
+        <div className="w-[50%]">
+          imagenes
+        </div>
+
+      </div>
   </div>
 )
 
