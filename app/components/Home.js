@@ -12,6 +12,7 @@ import Header from "./common/header"
 import Services from "./Services"
 import EmailPopUp from "./EmailPopUp"
 import Map from "./Map"
+import WhyUs from "./WhyChoose"
 
 const Home = () => {
   const [contactPopActive, setContactPopActive] = useState(false)
@@ -42,9 +43,10 @@ const Home = () => {
       </div>
       <div className="">
         {/* <AnualSales /> */}
+        <WhyUs />
         <Map />
       </div>
-      <div className="lg:hidden">
+      <div className="">
         <Testimonials />
       </div>
       <Footer />
