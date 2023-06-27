@@ -50,31 +50,24 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="mt-[40px] mb-[40px] pl-[30px] w-screen lg:hidden">
-        <Carousel responsive={responsive}>
-          <div className="mx-[10px]">
-            <CarouselCard />
-          </div>
-          <div className="mx-[10px]">
-            <CarouselCard />
-          </div>
-          <div className="mx-[10px]">
-            <CarouselCard />
-          </div>
-          <div className="mx-[10px]">
-            <CarouselCard />
-          </div>
-          <div className="mx-[10px]">
-            <CarouselCard />
-          </div>
-        </Carousel>
-      </div>
-      <div className="w-[110px] h-[36px] mt-[150px] ml-[100px] mb-[30px] relative lg:hidden">
-              <Image
-                src="/media.png"
-                alt="media"
-                layout="fill"
-              />
+          <Carousel responsive={responsive}>
+            <div className="mx-[10px]">
+              <CarouselCard />
             </div>
+            <div className="mx-[10px]">
+              <CarouselCard />
+            </div>
+            <div className="mx-[10px]">
+              <CarouselCard />
+            </div>
+            <div className="mx-[10px]">
+              <CarouselCard />
+            </div>
+            <div className="mx-[10px]">
+              <CarouselCard />
+            </div>
+          </Carousel>
+        </div>
         <Footer />
       </div>
     </div>
