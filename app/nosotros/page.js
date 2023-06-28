@@ -33,15 +33,15 @@ const AboutUs = () => {
       <Header />
       <div className="relative mt-[120px]">
         {/* <div className="w-[52px] h-[100%] bg-dk-secondary absolute top-0 left-0 z-[-1] lg:w-[80px]" /> */}
-        <div className="flex flex-col lg:flex-col-reverse lg:items-end items-center">
-          <div className="w-[90%] lg:w-[65%] h-[325px] flex relative right-0 lg:mt-[100px] lg:mr-[17px] lg:mb-[25px]">
+        <div className="flex flex-col lg:flex-row items-center">
+          <div className="w-[90%] lg:w-[40%] h-[325px] flex relative">
             <Image
               src="/about.png"
               alt="Portada"
               layout="fill"
             />
           </div>
-          <div className="lg:w-[100%] lg:pl-[120px] flex flex-col pl-[20%] mb-[31px] lg:mb-[0]">
+          <div className="lg:w-[50%] flex flex-col pl-[20%] lg:pl-[40px] mb-[31px] lg:mb-[0]">
             <div className="border-l-4 border-dk-secondary h-[62px] flex items-center mt-[60px] pl-[21px]">
               <span className="text-dk-main text-[36px] leading-[28px]">Sobre  nosotros</span>
             </div>
@@ -49,7 +49,10 @@ const AboutUs = () => {
 
           </div>
         </div>
-        <div className="mt-[40px] mb-[40px] pl-[30px] w-screen lg:hidden">
+        <div className="mt-[40px] mb-[40px] pl-[30px] w-screen lg:mt-[100px] lg:pl-[300px]">
+          <div className="border-l-4 border-dk-secondary h-[62px] items-center mt-[60px] pl-[21px] mb-[50px] hidden lg:flex">
+            <span className="text-dk-main text-[28px]">Nuestros productos</span>
+          </div>
           <Carousel responsive={responsive}>
             <div className="mx-[10px]">
               <CarouselCard />

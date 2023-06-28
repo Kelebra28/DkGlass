@@ -26,7 +26,7 @@ const responsive = {
 };
 
 const Products = () => (
-  <div className="" id="products">
+  <div className="" id="industrial">
     <div className=" h-[224px] mx-[12px] mt-[40px] relative lg:hidden">
       <Image
         src="/hero.png"
@@ -36,7 +36,7 @@ const Products = () => (
     </div>
     <div className="lg:flex lg:flex-col lg:ml-[100px] overflow-hidden">
       <div className="border-l-4 border-dk-main h-[52px] flex items-center mt-[40px] ml-[57px] pl-[21px] lg:ml-[17px]">
-        <span className="text-dk-main text-[36px]">Productos</span>
+        <span className="text-dk-main text-[36px]">Industrial</span>
       </div>
       <p className="mt-[41px] ml-[89px] lg:hidden">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet </p>
 
