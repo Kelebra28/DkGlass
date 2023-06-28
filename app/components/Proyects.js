@@ -26,10 +26,10 @@ const responsive = {
 };
 
 const Proyects = () => (
-  <div className="mb-[100px] lg:mb-[20px] lg:flex lg:justify-between">
+  <div id="residencial" className="mb-[100px] lg:mb-[20px] lg:flex lg:justify-between">
     <div className="ml-[60px]">
       <div className="border-l-4 border-dk-secondary h-[52px] items-center mt-[40px] ml-[57px] pl-[21px] hidden lg:flex">
-        <span className="text-dk-main text-[36px]">Proyectos</span>
+        <span className="text-dk-main text-[36px]">Residencial</span>
       </div>
       <p className="w-[180px] ml-[100px] text-[11px] mt-[41px] hidden lg:flex ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet </p>
       <div className="lg:hidden">

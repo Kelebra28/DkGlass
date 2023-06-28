@@ -10,7 +10,7 @@ const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
     breakpoint: { max: 4000, min: 3000 },
-    items: 5
+    items: 3
   },
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
@@ -40,84 +40,84 @@ const Hero = ({handleContactPopUp}) => (
       </div>
     </div> */}
 
-    <div className="flex">
+    <div className="flex mt-[100px]">
       <div className="">
         <div className=" relative w-screen  lg:block lg:pr-[20px]">
           <Carousel responsive={responsive}>
             <div className="w-[736px] h-[450px] relative">
-              <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:hidden">
+              <div className="absolute z-30 top-[50%] w-screen  flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]  ">
                 <span className="text-[30px] font-semibold text-[white]">Lorem ipsum</span>
-                <Button text="Click me" color="white" />
+                <Button text="Ver más" color="white" />
               </div>
               <Image
-                src="/hero.png"
-                alt="Portada"
+                src="/carousel4.jpg"
+                alt="carousel4"
                 layout="fill"
               />
             </div>
             <div className="w-[736px] h-[450px] relative">
-              <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:hidden">
+              <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
                 <span className="text-[30px] font-semibold text-[white]">Lorem ipsum</span>
-                <Button text="Click me" color="white" />
+                <Button text="Ver más" color="white" />
               </div>
               <Image
-                src="/hero.png"
-                alt="Portada"
+                src="/carousel2.jpg"
+                alt="carousel2"
                 layout="fill"
               />
             </div>
             <div className="w-[736px] h-[450px] relative">
-              <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:hidden">
+              <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
                 <span className="text-[30px] font-semibold text-[white]">Lorem ipsum</span>
-                <Button text="Click me" color="white" />
+                <Button text="Ver más" color="white" />
               </div>
               <Image
-                src="/hero.png"
-                alt="Portada"
+                src="/carousel3.jpg"
+                alt="carousel3"
                 layout="fill"
               />
             </div>
             <div className="w-[736px] h-[450px] relative">
-              <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:hidden">
+              <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
                 <span className="text-[30px] font-semibold text-[white]">Lorem ipsum</span>
-                <Button text="Click me" color="white" />
+                <Button text="Ver más" color="white" />
               </div>
               <Image
-                src="/hero.png"
-                alt="Portada"
+                src="/carousel5.jpeg"
+                alt="carousel5"
                 layout="fill"
               />
             </div>
             <div className="w-[736px] h-[450px] relative">
-              <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:hidden">
+              <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
                 <span className="text-[30px] font-semibold text-[white]">Lorem ipsum</span>
-                <Button text="Click me" color="white" />
+                <Button text="Ver más" color="white" />
               </div>
               <Image
-                src="/hero.png"
-                alt="Portada"
+                src="/carousel6.jpg"
+                alt="carousel6"
                 layout="fill"
               />
             </div>
             <div className="w-[736px] h-[450px] relative">
-              <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:hidden">
+              <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
                 <span className="text-[30px] font-semibold text-[white]">Lorem ipsum</span>
-                <Button text="Click me" color="white" />
+                <Button text="Ver más" color="white" />
               </div>
               <Image
-                src="/hero.png"
-                alt="Portada"
+                src="/carousel7.jpeg"
+                alt="carousel7"
                 layout="fill"
               />
             </div>
             <div className="w-[736px] h-[450px] relative">
-              <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:hidden">
+              <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
                 <span className="text-[30px] font-semibold text-[white]">Lorem ipsum</span>
-                <Button text="Click me" color="white" />
+                <Button text="Ver más" color="white" />
               </div>
               <Image
-                src="/hero.png"
-                alt="Portada"
+                src="/carousel1.jpg"
+                alt="carousel1"
                 layout="fill"
               />
             </div>
@@ -126,11 +126,11 @@ const Hero = ({handleContactPopUp}) => (
         </div>
         <div className="px-[49px] lg:px-[82px] lg:mt-[20px]">
           <p className="mt-[19px] text-lg font-semibold lg:text-[28px]">Encuentra soluciones creativas y atractivas para tus necesidades de decoración con nuestros accesorios de vidrio para interiores.</p>
-          <p className="text-dk-darkgray mt-3 mb-[77px] lg:mb-[49px] text-[11px] lg:text-[15px] lg:mt-[12px]">Te acompañamos en cada módulo te garantizamos una opción a tu medida</p>
-          <span id="contact" className="hidden lg:inline-block border-b-dk-secondary text-[23px] font-semibold border-b-2 mb-[67px]">Explora Nuestra variedad de ideas</span>
+          <p className="text-dk-darkgray mt-3 mb-[77px] lg:mb-[80px] text-[11px] lg:text-[15px] lg:mt-[12px]">Te acompañamos en cada módulo te garantizamos una opción a tu medida</p>
+          {/* <span id="contact" className="hidden lg:inline-block border-b-dk-secondary text-[23px] font-semibold border-b-2 mb-[67px]">Explora Nuestra variedad de ideas</span> */}
         </div>
-        <div className="hidden lg:flex">
-          <div className="w-4/12 bg-dk-bg-gray flex justify-end py-[46px]">
+        <div className="hidden lg:flex justify-center">
+          {/* <div className="w-4/12 bg-dk-bg-gray flex justify-end py-[46px]">
             <div className="flex flex-col mr-[35px] items-center">
               <p className="text-[15px] w-[280px] pb-[10px]">Desarrollamos productos únicos basado en tendencias actuales a las que en el futuro no pasaran ese atractivo visual que imponen de inicio.</p>
             </div>
@@ -141,7 +141,7 @@ const Hero = ({handleContactPopUp}) => (
               alt="Portada"
               layout="fill"
             />
-          </div>
+          </div> */}
           <div className="w-4/12 flex justify-center items-center relative flex-col">
             <Button onClick={handleContactPopUp} text="Contactanos" background="blue" border="none" color="white" />
             <div className="flex mt-[50px]">
