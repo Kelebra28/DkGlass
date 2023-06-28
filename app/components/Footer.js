@@ -10,7 +10,7 @@ const Footer = () => (
           layout="fill"
         />
       </div>
-      <div className="hidden lg:flex flex-col pb-[25px] lg:flex-row  lg:justify-between lg:px-[300px]">
+      <div className="flex lg:flex flex-col pb-[25px] lg:flex-row  lg:justify-between lg:px-[300px]">
         <Link href="/">
           <span className="my-[11px] text-[13px] font-semibold">Home</span>
         </Link>
