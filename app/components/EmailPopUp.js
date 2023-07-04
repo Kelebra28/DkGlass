@@ -13,8 +13,9 @@ const EmailPopUp = ({ handleContactPopUp }) => {
   const sendEmail = (e) => {
 
     e.preventDefault();
-    emailjs.sendForm('service_8vmp7h7', 'template_lxghbfb', form.current, 'PARGqIlzeRMB21br_')
+    emailjs.sendForm('service_hi4xm8o', 'template_okp1zf9', form.current, 'mcx-b1254G5kydduL')
       .then((result) => {
+        handleContactPopUp()
         console.log(result.text);
       }, (error) => {
         console.log(error.text);
