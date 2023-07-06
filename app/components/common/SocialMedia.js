@@ -10,20 +10,20 @@ const SocialMedia = () => (
           layout="fill"
         />
       </div>
-      <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
+      {/* <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
         <Image
           src="/icons/LinkedIn-white.svg"
           alt="Portada"
           layout="fill"
         />
-      </div>
-      <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
+      </div> */}
+      {/* <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
         <Image
           src="/icons/twiter-white.svg"
           alt="Portada"
           layout="fill"
         />
-      </div>
+      </div> */}
       <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
         <Image
           src="/icons/instagram-white.svg"

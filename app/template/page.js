@@ -53,7 +53,7 @@ export default function Home() {
           </div>
           <div className="lg:w-[33%] flex items-end">
             <div className="ml-[40px] mb-[50px]">
-              <Button text="Contactanos" onClick={handleContactPopUp} />
+              <Button text="Contact us" onClick={handleContactPopUp} />
             </div>
           </div>
         </div>

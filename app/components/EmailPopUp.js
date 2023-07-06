@@ -47,7 +47,7 @@ const EmailPopUp = ({ handleContactPopUp }) => {
           </div>
           <div className="maincontent  ml-[26px]">
             <div>
-              <span className="text-[26px] font-semibold">Contactanos</span>
+              <span className="text-[26px] font-semibold">Contact us</span>
               <p className="text-[14px] text-[#707070]">Te aseguro que encontraremos la mejor opción para tus proyectos agregando elegancia y funcionalidad a tus espacios con nuestros accesorios</p>
             </div>
             <form action="" ref={form}>
