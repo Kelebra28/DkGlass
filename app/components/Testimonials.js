@@ -34,50 +34,51 @@ const Testimonials = () => (
     </div>
     <div className="w-12/12 lg:w-8/12 mb-[100px]">
       <div className="border-l-4 border-dk-main mt-[41px] h-[52px] ml-[54px] flex items-center pl-[21px]">
-        <span className="text-[21px]">Testimonios de clientes satisfechos</span>
+        <span className="text-[21px]">Testimonials from satisfied customers</span>
       </div>
       <div>
         <Carousel responsive={responsive} className="mt-[50px]">
           <div className="w-[220px] relative mx-[40px]">
-            <div className="">
-              <span className="text-[15px] font-semibold">Title</span>
+            <a href="https://www.google.com/maps/contrib/103080209440644939912/reviews?hl=en-US" target="_blank" className="">
+              <span className="text-[15px] font-semibold">Daikel Barea Utria</span>
               <p className="mt-[20px] text-[14px] text-[#6B6B6B]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptates repudiandae esse veritatis eligendi, a earum assumenda sunt dolorem nihil animi, quae reprehenderit harum. Iure cupiditate ratione necessitatibus culpa labore.
+              Very professional staff. Excellent experience in the process of remodeling my bathroom. They also have all the accessories for glass doors..."Very professional person. Excellent experience in the process of remodeling my bathroom. They also have all the accessories for glass doors".
               </p>
-            </div>
+            </a>
           </div>
          
           <div className="w-[220px] relative mx-[40px]">
-            <div className="">
-              <span className="text-[15px] font-semibold">Title</span>
+            <a href="https://www.facebook.com/edmund.rodriguez.14/posts/pfbid024vSot3sjB6AJ7pXmBn66v535n1FNBszq63txzi3hP8wpuTVghVUCwZiyXc9gAg9Zl" target="_blank" className="">
+              <span className="text-[15px] font-semibold">Edmund Rodriguez</span>
               <p className="mt-[20px] text-[14px] text-[#6B6B6B]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptates repudiandae esse veritatis eligendi, a earum assumenda sunt dolorem nihil animi, quae reprehenderit harum. Iure cupiditate ratione necessitatibus culpa labore.
+              DK Glass did a great job on our shower glass.   They were very nice and we enjoyed talking to them.   Communication was outstanding, they called me when they were running late and called when they were on the way.
               </p>
-            </div>
+            </a>
           </div>
           <div className="w-[220px] relative mx-[40px]">
-            <div className="">
-              <span className="text-[15px] font-semibold">Title</span>
+            <a href="https://www.google.com/maps/contrib/110711627387905173999/reviews?hl=en-US" target="_blank" className="">
+              <span className="text-[15px] font-semibold">Arley Villanueva Garcia</span>
               <p className="mt-[20px] text-[14px] text-[#6B6B6B]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptates repudiandae esse veritatis eligendi, a earum assumenda sunt dolorem nihil animi, quae reprehenderit harum. Iure cupiditate ratione necessitatibus culpa labore.
+              Excellent company ,super recommended by me .Speed and efficiency at work.
               </p>
-            </div>
+            </a>
           </div>
           <div className="w-[220px] relative mx-[40px]">
-            <div className="">
-              <span className="text-[15px] font-semibold">Title</span>
+            <a href="https://www.facebook.com/permalink.php?story_fbid=pfbid0Vt2WRdna9PDxofWSAn4jcGTXPAuLkSpFrj4pFv2P9BzXNA7MCGqgBWF4c3XpCGHHl&id=100073638592526" target="_blank" className="">
+              <span className="text-[15px] font-semibold">Alejandro Batista</span>
               <p className="mt-[20px] text-[14px] text-[#6B6B6B]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptates repudiandae esse veritatis eligendi, a earum assumenda sunt dolorem nihil animi, quae reprehenderit harum. Iure cupiditate ratione necessitatibus culpa labore.
+              Those guys make very good job.
               </p>
-            </div>
-          </div><div className="w-[220px] relative mx-[40px]">
-            <div className="">
-              <span className="text-[15px] font-semibold">Title</span>
-              <p className="mt-[20px] text-[14px] text-[#6B6B6B]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptates repudiandae esse veritatis eligendi, a earum assumenda sunt dolorem nihil animi, quae reprehenderit harum. Iure cupiditate ratione necessitatibus culpa labore.
-              </p>
-            </div>
+            </a>
           </div>
+          {/* <div className="w-[220px] relative mx-[40px]">
+            <div className="">
+              <span className="text-[15px] font-semibold">Title</span>
+              <p className="mt-[20px] text-[14px] text-[#6B6B6B]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptates repudiandae esse veritatis eligendi, a earum assumenda sunt dolorem nihil animi, quae reprehenderit harum. Iure cupiditate ratione necessitatibus culpa labore.
+              </p>
+            </div>
+          </div> */}
         </Carousel>
       </div>
     </div>

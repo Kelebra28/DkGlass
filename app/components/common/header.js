@@ -36,17 +36,17 @@ const Header = () => {
         <Link href='/'>
           <span className="text-[13px] px-[10px] font-semibold  mx-[25px] cursor-pointer">Home</span>
         </Link>
-        <Link href='/nosotros'>
-          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Nosotros</span>
+        <Link href='/About Us'>
+          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">About Us</span>
         </Link>
         <Link href='#services'>
-          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Servicios</span>
+          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer"> Services</span>
         </Link>
         <Link href='#products' scroll>
-          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Productos</span>
+          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Products</span>
         </Link>
         <Link href='#contact'>
-          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Contacto</span>
+          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Contact us</span>
         </Link>
       </div>
     </div>
