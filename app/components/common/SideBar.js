@@ -26,14 +26,14 @@ const SideBar = ({ handleClickMenu }) => (
           <Link href="/">
             <h2 className="text-[18px] font-medium hover:bg-dk-secondary pl-[12px] hover:text-[white]">Home</h2>
           </Link>
-          <Link href="/nosotros">
-            <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Sobre nosotros</span>
+          <Link href="/About Us">
+            <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">About Us</span>
           </Link>
           <span className="mt-[15px] hidden text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">{`¿Porque elegir DK Glass & velasco?`}</span>
         </section>
         <section className="border-b-[2px] border-b-dk-secondary pt-[20px] pb-[20px] flex flex-col">
           <Link href="#products" scroll className="flex flex-col">
-            <h2 className="text-[18px] font-medium hover:bg-dk-secondary pl-[12px] hover:text-[white]">Productos</h2>
+            <h2 className="text-[18px] font-medium hover:bg-dk-secondary pl-[12px] hover:text-[white]">Products</h2>
           </Link>
           <Link href="#residencial">
             <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Residencial</span>

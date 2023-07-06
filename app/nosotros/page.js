@@ -41,17 +41,17 @@ const AboutUs = () => {
               layout="fill"
             />
           </div>
-          <div className="lg:w-[50%] flex flex-col pl-[20%] lg:pl-[40px] mb-[31px] lg:mb-[0]">
+          <div className="lg:w-[50%] flex flex-col pl-[20%] lg:pl-[40px] mb-[31px] lg:mb-[0] mt-[80px]">
             <div className="border-l-4 border-dk-secondary h-[62px] flex items-center mt-[60px] pl-[21px]">
-              <span className="text-dk-main text-[36px] leading-[28px]">Sobre  nosotros</span>
+              <span className="text-dk-main text-[36px] leading-[28px]">About Us</span>
             </div>
-            <p className="w-[80%] lg:w-[800px] mt-[55px] text-[14px] text-[#6B6B6B]">Empresa creada en el 2017 bajo el nombre de Velasco Glass and Mirrors como mayorista de accesorios para vidrio (glass fitting). En el año 2019 se fusiona con DK GLASS ofreciendo soluciones integrales de diseño e instalación. A finales del 2021 se incrementa otra línea de negocios en el área de importación para lograr la expansión hacia otros territorios. Actualmente contamos con locaciones en Texas (Houston, oficina principal, - Odessa) y Kentucky.</p>
+            <p className="w-[80%] lg:w-[800px] mt-[55px] text-[14px] text-[#6B6B6B]">Our company offers comprehensive design and installation solutions for custom work for commercial and residential clients. We design, create and install all kinds of products with safety and sustainability top of mind. We offer wholesale sales with competitive prices. As strategic expansion planning, our company has a presence in other territories such as Houston, Odessa and Kentucky. trust your next new construction or renovation project to Dk glass & Velasco and let us crystallize your dreams</p>
 
           </div>
         </div>
         <div className="mt-[40px] mb-[40px] pl-[30px] w-screen lg:mt-[100px] lg:pl-[300px]">
           <div className="border-l-4 border-dk-secondary h-[62px] items-center mt-[60px] pl-[21px] mb-[50px] hidden lg:flex">
-            <span className="text-dk-main text-[28px]">Nuestros productos</span>
+            <span className="text-dk-main text-[28px]">Nuestros Products</span>
           </div>
           <Carousel responsive={responsive}>
             <div className="mx-[10px]">
