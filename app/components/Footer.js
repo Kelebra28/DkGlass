@@ -14,17 +14,17 @@ const Footer = () => (
         <Link href="/">
           <span className="my-[11px] text-[13px] font-semibold">Home</span>
         </Link>
-        <Link href="/nosotros">
-          <span className="my-[11px] text-[13px] font-semibold">Nosotros</span>
+        <Link href="/About Us">
+          <span className="my-[11px] text-[13px] font-semibold">About Us</span>
         </Link>
         <Link href="#services">
-          <span className="my-[11px] text-[13px] font-semibold">Servicios</span>
+          <span className="my-[11px] text-[13px] font-semibold"> Services</span>
         </Link>
         <Link href="#products">
-          <span className="my-[11px] text-[13px] font-semibold">Productos</span>
+          <span className="my-[11px] text-[13px] font-semibold">Products</span>
         </Link>
         <Link href="#contact">
-          <span className="my-[11px] text-[13px] font-semibold">Contacto</span>
+          <span className="my-[11px] text-[13px] font-semibold">Contact us</span>
         </Link>
       </div>
     </div>
