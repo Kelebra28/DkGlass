@@ -27,7 +27,7 @@ const Testimonials = () => (
   <div className="pb-[40px] flex flex-col lg:flex-row-reverse relative">
     <div className="h-[395px] hidden lg:block relative lg:w-4/12 w-12/12">
       <Image
-        src="/testimonials.png"
+       src="/residencial/residelcia4.jpg"
         alt="Portada"
         layout="fill"
       />
