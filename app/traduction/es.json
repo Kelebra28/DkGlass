@@ -1,0 +1,10 @@
+{
+  "navBar": {
+     "home" : "Inicio",
+     "about": "Nosotros",
+     "service" : "Servicios",
+     "products" : "Productos", 
+     "contact": "Contacto",
+     "language": "En"
+  }
+ }

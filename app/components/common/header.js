@@ -1,14 +1,20 @@
 'use client'
 import { useState } from 'react'
 import Image from "next/image"
-import SideBar from "./SideBar"
+import { useContext } from 'react'
 import Link from 'next/link'
+
+import { LanguageContext } from '../../context/languageContext';
+
+import SideBar from "./SideBar"
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false)
+  const { language, toggleLanguage, translations } = useContext(LanguageContext);
   const handleClickMenu = () => {
     setShowMenu(!showMenu)
   }
+
   return (
     <div className=" border-dk-secondary bg-[white]  lg:bg-[rgba(255,255,255,.8)] flex pt-[20px] pl-[20px] fixed z-10 left-0 right-0 top-0 justify-center lg:justify-start lg:pb-[17px]">
       {
@@ -34,20 +40,21 @@ const Header = () => {
       </div>
       <div className="hidden lg:flex  w-8/12 pt-[20px]">
         <Link href='/'>
-          <span className="text-[13px] px-[10px] font-semibold  mx-[25px] cursor-pointer">Home</span>
+          <span className="text-[13px] px-[10px] font-semibold  mx-[25px] cursor-pointer">{translations.navBar.home}</span>
         </Link>
         <Link href='/About Us'>
-          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">About Us</span>
+          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">{translations.navBar.about}</span>
         </Link>
         <Link href='#services'>
-          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer"> Services</span>
+          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">{translations.navBar.service}</span>
         </Link>
         <Link href='#products' scroll>
-          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Products</span>
+          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">{translations.navBar.products}</span>
         </Link>
         <Link href='#contact'>
-          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Contact us</span>
+          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">{translations.navBar.contact}</span>
         </Link>
+        <span onClick={() => toggleLanguage()} className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">{translations.navBar.language}</span>
       </div>
     </div>
   )

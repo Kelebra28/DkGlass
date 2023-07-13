@@ -1,6 +1,14 @@
+
+import { useContext } from "react"
 import Image from "next/image"
 import Link from "next/link"
-const Footer = () => (
+
+import { LanguageContext } from "../context/languageContext"
+
+
+const Footer = () => {
+  const { translations } = useContext(LanguageContext);
+  return(
   <div className=" bg-dk-bg-gray pt-[64px] pb-[48px]">
     <div className="pl-[70px] ">
       <div className="w-[213px] h-[54px] relative mb-[54px] lg:mx-auto">
@@ -12,19 +20,19 @@ const Footer = () => (
       </div>
       <div className="flex lg:flex flex-col pb-[25px] lg:flex-row  lg:justify-between lg:px-[300px]">
         <Link href="/">
-          <span className="my-[11px] text-[13px] font-semibold">Home</span>
+          <span className="my-[11px] text-[13px] font-semibold">{translations.navBar.home}</span>
         </Link>
         <Link href="/About Us">
-          <span className="my-[11px] text-[13px] font-semibold">About Us</span>
+          <span className="my-[11px] text-[13px] font-semibold">{translations.navBar.about}</span>
         </Link>
         <Link href="#services">
-          <span className="my-[11px] text-[13px] font-semibold"> Services</span>
+          <span className="my-[11px] text-[13px] font-semibold">{translations.navBar.service}</span>
         </Link>
         <Link href="#products">
-          <span className="my-[11px] text-[13px] font-semibold">Products</span>
+          <span className="my-[11px] text-[13px] font-semibold">{translations.navBar.products}</span>
         </Link>
         <Link href="#contact">
-          <span className="my-[11px] text-[13px] font-semibold">Contact us</span>
+          <span className="my-[11px] text-[13px] font-semibold">{translations.navBar.contact}</span>
         </Link>
       </div>
     </div>
@@ -48,7 +56,7 @@ const Footer = () => (
         />
       </div>
     </div>
-  </div>
-)
+  </div>)
+}
 
 export default Footer
