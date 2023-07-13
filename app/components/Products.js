@@ -36,26 +36,26 @@ const Products = () => (
     </div>
     <div className="lg:flex lg:flex-col lg:ml-[100px] overflow-hidden">
       <div className="border-l-4 border-dk-main h-[52px] flex items-center mt-[40px] ml-[57px] pl-[21px] lg:ml-[17px]">
-        <span className="text-dk-main text-[36px]">Industrial</span>
+        <span className="text-dk-main text-[36px]">Comercial</span>
       </div>
       <p className="mt-[41px] ml-[89px] lg:hidden">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet </p>
 
       <div className="mt-[40px] mb-[40px] pl-[30px] w-screen lg:hidden">
         <Carousel responsive={responsive}>
           <div className="mx-[10px]">
-            <CarouselCard />
+          <CarouselCard text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, quibusdam expedita! Nisi minus blanditiis, eos quos ratione veniam, maiores dignissimos reiciendis possimus animi eveniet tenetur. Minus voluptate error temporibus mollitia!" img="/residencial/residencial10.jpg" />
           </div>
           <div className="mx-[10px]">
-            <CarouselCard />
+          <CarouselCard text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, quibusdam expedita! Nisi minus blanditiis, eos quos ratione veniam, maiores dignissimos reiciendis possimus animi eveniet tenetur. Minus voluptate error temporibus mollitia!" img="/residencial/residencial11.jpg" />
           </div>
           <div className="mx-[10px]">
-            <CarouselCard />
+          <CarouselCard text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, quibusdam expedita! Nisi minus blanditiis, eos quos ratione veniam, maiores dignissimos reiciendis possimus animi eveniet tenetur. Minus voluptate error temporibus mollitia!" img="/residencial/residencial12.jpg" />
           </div>
           <div className="mx-[10px]">
-            <CarouselCard />
+          <CarouselCard text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, quibusdam expedita! Nisi minus blanditiis, eos quos ratione veniam, maiores dignissimos reiciendis possimus animi eveniet tenetur. Minus voluptate error temporibus mollitia!" img="/residencial/residencial13.jpg" />
           </div>
           <div className="mx-[10px]">
-            <CarouselCard />
+          <CarouselCard text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, quibusdam expedita! Nisi minus blanditiis, eos quos ratione veniam, maiores dignissimos reiciendis possimus animi eveniet tenetur. Minus voluptate error temporibus mollitia!" img="/residencial/residencial14.jpg" />
           </div>
         </Carousel>
       </div>

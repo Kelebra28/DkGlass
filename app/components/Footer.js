@@ -14,7 +14,7 @@ const Footer = () => (
         <Link href="/">
           <span className="my-[11px] text-[13px] font-semibold">Home</span>
         </Link>
-        <Link href="/About Us">
+        <Link href="/nosotros">
           <span className="my-[11px] text-[13px] font-semibold">About Us</span>
         </Link>
         <Link href="#services">

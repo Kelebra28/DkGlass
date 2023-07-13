@@ -64,6 +64,38 @@ const Testimonials = () => (
             </a>
           </div>
           <div className="w-[220px] relative mx-[40px]">
+            <a href="https://www.google.com/maps/contrib/117090844837125871366/reviews/@29.8743038,-95.5909727,17z/data=!3m1!4b1!4m3!8m2!3m1!1e1?hl=en-US&entry=ttu" target="_blank" className="">
+              <span className="text-[15px] font-semibold">Dianet Barea Rodríguez</span>
+              <p className="mt-[20px] text-[14px] text-[#6B6B6B]">
+              I love it, excellent service !!
+              </p>
+            </a>
+          </div>
+          <div className="w-[220px] relative mx-[40px]">
+            <a href="https://www.google.com/maps/contrib/105093483314072535346/place/ChIJh3KOJubRQIYRo57X7YKaOks/@30.0492184,-95.3403768,10z/data=!4m6!1m5!8m4!1e1!2s105093483314072535346!3m1!1e1?hl=en-US&entry=ttu" target="_blank" className="">
+              <span className="text-[15px] font-semibold">Daikel Barea Utria</span>
+              <p className="mt-[20px] text-[14px] text-[#6B6B6B]">
+              N⁰ 1 in the quality of services offered (design, manufacture and installation of glass doors, store front, stairs and mirrors) sales of hardware.
+              </p>
+            </a>
+          </div>
+          <div className="w-[220px] relative mx-[40px]">
+            <a href="https://www.google.com/maps/contrib/114365325992272813259/place/ChIJh3KOJubRQIYRo57X7YKaOks/@32.8811684,-105.2276418,6z/data=!4m6!1m5!8m4!1e1!2s114365325992272813259!3m1!1e1?hl=en-US&entry=ttu" target="_blank" className="">
+              <span className="text-[15px] font-semibold">Matias Molins</span>
+              <p className="mt-[20px] text-[14px] text-[#6B6B6B]">
+              They treated me exceptionally the girls are divine, they have cheap prices and quality in their glasses
+              </p>
+            </a>
+          </div>
+          <div className="w-[220px] relative mx-[40px]">
+            <a href="https://www.google.com/maps/contrib/113555642976183916406/reviews/@29.8743117,-95.5911664,17z/data=!3m1!4b1!4m3!8m2!3m1!1e1?hl=en-US&entry=ttu" target="_blank" className="">
+              <span className="text-[15px] font-semibold">Laura E Ibañez</span>
+              <p className="mt-[20px] text-[14px] text-[#6B6B6B]">
+              Very pleased with the attention and the work done, it was spectacular….
+              </p>
+            </a>
+          </div>
+          <div className="w-[220px] relative mx-[40px]">
             <a href="https://www.facebook.com/permalink.php?story_fbid=pfbid0Vt2WRdna9PDxofWSAn4jcGTXPAuLkSpFrj4pFv2P9BzXNA7MCGqgBWF4c3XpCGHHl&id=100073638592526" target="_blank" className="">
               <span className="text-[15px] font-semibold">Alejandro Batista</span>
               <p className="mt-[20px] text-[14px] text-[#6B6B6B]">
