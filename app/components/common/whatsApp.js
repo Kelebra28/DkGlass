@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 
 const WhatsAppLink = () => {
-  const phoneNumber = '832 580 0383'; 
+  const phoneNumber = '+1 (832) 580-0383'; 
   const message = '¡Hi!';
 
   const handleClick = () => {

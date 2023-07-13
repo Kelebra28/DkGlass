@@ -36,7 +36,7 @@ const Header = () => {
         <Link href='/'>
           <span className="text-[13px] px-[10px] font-semibold  mx-[25px] cursor-pointer">Home</span>
         </Link>
-        <Link href='/About Us'>
+        <Link href="/nosotros">
           <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">About Us</span>
         </Link>
         <Link href='#services'>
