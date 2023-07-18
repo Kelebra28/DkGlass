@@ -27,7 +27,7 @@ const responsive = {
   }
 };
 
-const Hero = ({handleContactPopUp}) => (
+const Hero = ({ handleContactPopUp }) => (
   <div>
     {/* <div className="flex flex-col items-end relative">
       <div className="w-40 bg-dk-bluelight h-22 lg:hidden" />
@@ -45,10 +45,13 @@ const Hero = ({handleContactPopUp}) => (
       <div className="">
         <div className=" relative w-screen  lg:block lg:pr-[20px]">
           <Carousel responsive={responsive}>
+
             <div className="w-[736px] h-[450px] relative">
               <div className="absolute z-30 top-[50%] w-screen  flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]  ">
-                <span className="text-[30px] font-semibold text-[white]">Lorem ipsum</span>
-                <Button text="Ver más" color="white" />
+                <span className="text-[30px] font-semibold text-[white]">Custom Glass</span>
+                <Link href="/principal/custom">
+                  <Button text="See more" color="white" />
+                </Link>
               </div>
               <Image
                 src="/carousel4.jpg"
@@ -58,19 +61,23 @@ const Hero = ({handleContactPopUp}) => (
             </div>
             <div className="w-[736px] h-[450px] relative">
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
-                <span className="text-[30px] font-semibold text-[white]">Lorem ipsum</span>
-                <Button text="Ver más" color="white" />
+                <span className="text-[30px] font-semibold text-center text-[white]">Commercial Service</span>
+                <Link href="/principal/comercial">
+                  <Button text="See more" color="white" />
+                </Link>
               </div>
               <Image
-                src="/carousel2.jpg"
+                src="/residencial/residelcia1.jpg"
                 alt="carousel2"
                 layout="fill"
               />
             </div>
             <div className="w-[736px] h-[450px] relative">
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
-                <span className="text-[30px] font-semibold text-[white]">Lorem ipsum</span>
-                <Button text="Ver más" color="white" />
+                <span className="text-[30px] font-semibold text-[white]">Mirror</span>
+                <Link href="/principal/mirror">
+                  <Button text="See more" color="white" />
+                </Link>
               </div>
               <Image
                 src="/carousel3.jpg"
@@ -80,8 +87,10 @@ const Hero = ({handleContactPopUp}) => (
             </div>
             <div className="w-[736px] h-[450px] relative">
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
-                <span className="text-[30px] font-semibold text-[white]">Lorem ipsum</span>
-                <Button text="Ver más" color="white" />
+                <span className="text-[30px] font-semibold text-[white]">Bathrooms</span>
+                <Link href="/principal/bathrooms">
+                  <Button text="See more" color="white" />
+                </Link>
               </div>
               <Image
                 src="/carousel5.jpeg"
@@ -91,8 +100,10 @@ const Hero = ({handleContactPopUp}) => (
             </div>
             <div className="w-[736px] h-[450px] relative">
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
-                <span className="text-[30px] font-semibold text-[white]">Lorem ipsum</span>
-                <Button text="Ver más" color="white" />
+                <span className="text-[30px] text-center font-semibold text-[white]">Shower Glass Doors & Supplies</span>
+                <Link href="/principal/showerglassdoor">
+                  <Button text="See more" color="white" />
+                </Link>
               </div>
               <Image
                 src="/carousel6.jpg"
@@ -102,8 +113,10 @@ const Hero = ({handleContactPopUp}) => (
             </div>
             <div className="w-[736px] h-[450px] relative">
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
-                <span className="text-[30px] font-semibold text-[white]">Lorem ipsum</span>
-                <Button text="Ver más" color="white" />
+                <span className="text-[30px] text-center font-semibold text-[white]">Sliding Glass Shower Doors</span>
+                <Link href="/principal/slidingglassshowerdoors">
+                  <Button text="See more" color="white" />
+                </Link>
               </div>
               <Image
                 src="/carousel7.jpeg"
@@ -113,8 +126,10 @@ const Hero = ({handleContactPopUp}) => (
             </div>
             <div className="w-[736px] h-[450px] relative">
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
-                <span className="text-[30px] font-semibold text-[white]">Lorem ipsum</span>
-                <Button text="Ver más" color="white" />
+                <span className="text-[30px] text-center font-semibold text-[white]">Stairs</span>
+                <Link href="/principal/stairs">
+                  <Button text="See more" color="white" />
+                </Link>
               </div>
               <Image
                 src="/carousel1.jpg"
@@ -158,7 +173,7 @@ const Hero = ({handleContactPopUp}) => (
                   <span className="text-[12px] font-semibold ml-[10px]">(832) 740-4977</span>
                 </div>
               </Link>
-              <Link href={`mailto:info@dkglass&velazco.com`}>
+              <Link href={`mailto:dkglassvelasco@gmail.com`}>
                 <div className="flex items-center ml-[55px] cursor-pointer">
                   <div className="w-[23px] h-[23px] relative">
                     <Image
@@ -167,13 +182,13 @@ const Hero = ({handleContactPopUp}) => (
                       layout="fill"
                     />
                   </div>
-                  <span className="text-[12px] font-semibold ml-[10px]">{`info@dkglass&velazco.com`}</span>
+                  <span className="text-[12px] font-semibold ml-[10px]">{`dkglassvelasco@gmail.com`}</span>
                 </div>
               </Link>
               <div className="flex items-center ml-[55px] cursor-pointer">
-                  <div className="w-[23px] h-[23px] relative">
-              <WhatsAppLink />
-              </div>
+                <div className="w-[23px] h-[23px] relative">
+                  <WhatsAppLink />
+                </div>
               </div>
             </div>
           </div>
@@ -182,12 +197,12 @@ const Hero = ({handleContactPopUp}) => (
       <div className="w-[68px] box-border bg-[#1081A9] z-20 h-[100vh] absolute top-0 right-0 hidden lg:flex flex-col justify-between">
         <div className="pt-[100px] pl-[15px]">
           <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
-          <a href="https://www.facebook.com/Daikel82" target="_blank">
-            <Image
-              src="/icons/facebook-white.svg"
-              alt="Portada"
-              layout="fill"
-            />
+            <a href="https://www.facebook.com/profile.php?id=100087137256154" target="_blank">
+              <Image
+                src="/icons/facebook-white.svg"
+                alt="Portada"
+                layout="fill"
+              />
             </a>
           </div>
           {/* <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
@@ -205,11 +220,13 @@ const Hero = ({handleContactPopUp}) => (
             />
           </div> */}
           <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
-            <Image
-              src="/icons/instagram-white.svg"
-              alt="Portada"
-              layout="fill"
-            />
+            <a target="_blank" href="https://www.instagram.com/_dkglassshop/">
+              <Image
+                src="/icons/instagram-white.svg"
+                alt="Portada"
+                layout="fill"
+              />
+            </a>
           </div>
           {/* <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
             <Image
