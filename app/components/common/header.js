@@ -4,7 +4,7 @@ import Image from "next/image"
 import SideBar from "./SideBar"
 import Link from 'next/link'
 
-const Header = () => {
+const Header = ({ handleContactPopUp }) => {
   const [showMenu, setShowMenu] = useState(false)
   const handleClickMenu = () => {
     setShowMenu(!showMenu)
@@ -23,8 +23,9 @@ const Header = () => {
           />
         </div>
         <Link href="/">
-          <div className="w-[132px] h-[54px] relative ">
+          <div className="w-[200px] h-[54px] relative ">
             <Image
+              className='logo'
               src="/logo-full.svg"
               alt="menu icon"
               layout="fill"
@@ -33,21 +34,23 @@ const Header = () => {
         </Link>
       </div>
       <div className="hidden lg:flex  w-8/12 pt-[20px]">
-        <Link href='/'>
+        <Link className='hover_header' href='/#home'>
           <span className="text-[13px] px-[10px] font-semibold  mx-[25px] cursor-pointer">Home</span>
         </Link>
-        <Link href="/nosotros">
+        <Link className='hover_header' href="/nosotros">
           <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">About Us</span>
         </Link>
-        <Link href='#services'>
+        <Link className='hover_header smooth-scroll' href='#services' scroll={false}>
           <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer"> Services</span>
         </Link>
-        <Link href='#products' scroll>
+        <Link className='hover_header smooth-scroll' href='#residencial' scroll={false}>
           <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Products</span>
         </Link>
-        <Link href='#contact'>
-          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Contact us</span>
-        </Link>
+        <div className='animate-bounce'>
+          <div className='hover_header' onClick={handleContactPopUp}>
+            <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Contact us</span>
+          </div>
+        </div>
       </div>
     </div>
   )
