@@ -36,37 +36,49 @@ const Products = () => (
     </div>
     <div className="lg:flex lg:flex-col lg:ml-[100px] overflow-hidden">
       <div className="border-l-4 border-dk-main h-[52px] flex items-center mt-[40px] ml-[57px] pl-[21px] lg:ml-[17px]">
-        <span className="text-dk-main text-[36px]">Comercial</span>
+        <span className="text-dk-main text-[36px]">Residencial</span>
       </div>
-      <p className="mt-[41px] ml-[89px] lg:hidden">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet </p>
+      <p className="mt-[41px] ml-[89px] lg:hidden">Shower Glass Doors & Supplies & sliding glass shower doors </p>
 
       <div className="mt-[40px] mb-[40px] pl-[30px] w-screen lg:hidden">
         <Carousel responsive={responsive}>
           <div className="mx-[10px]">
-          <CarouselCard text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, quibusdam expedita! Nisi minus blanditiis, eos quos ratione veniam, maiores dignissimos reiciendis possimus animi eveniet tenetur. Minus voluptate error temporibus mollitia!" img="/residencial/residencial10.jpg" />
+            <CarouselCard text="Sliding Glass Shower Doors" img="/residencial/residencial8.jpeg" />
           </div>
           <div className="mx-[10px]">
-          <CarouselCard text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, quibusdam expedita! Nisi minus blanditiis, eos quos ratione veniam, maiores dignissimos reiciendis possimus animi eveniet tenetur. Minus voluptate error temporibus mollitia!" img="/residencial/residencial11.jpg" />
+            <CarouselCard text="Semi-Frameled Glass Shower Doors" img="/residencial/residelcia7.jpeg" />
           </div>
           <div className="mx-[10px]">
-          <CarouselCard text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, quibusdam expedita! Nisi minus blanditiis, eos quos ratione veniam, maiores dignissimos reiciendis possimus animi eveniet tenetur. Minus voluptate error temporibus mollitia!" img="/residencial/residencial12.jpg" />
+            <CarouselCard text="Custom Glass  Shower Doors" img="/residencial/recidencial9.jpeg" />
           </div>
           <div className="mx-[10px]">
-          <CarouselCard text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, quibusdam expedita! Nisi minus blanditiis, eos quos ratione veniam, maiores dignissimos reiciendis possimus animi eveniet tenetur. Minus voluptate error temporibus mollitia!" img="/residencial/residencial13.jpg" />
+            <CarouselCard text="Frameless glass shower doors" img="/residencial/residencial10.jpg" />
           </div>
           <div className="mx-[10px]">
-          <CarouselCard text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, quibusdam expedita! Nisi minus blanditiis, eos quos ratione veniam, maiores dignissimos reiciendis possimus animi eveniet tenetur. Minus voluptate error temporibus mollitia!" img="/residencial/residencial14.jpg" />
+            <CarouselCard text="Splash panels" img="/residencial/residencial11.jpg" />
+          </div>
+          <div className="mx-[10px]">
+            <CarouselCard text="Shower Doors Hinges" img="/residencial/residencial12.jpg" />
+          </div>
+          <div className="mx-[10px]">
+            <CarouselCard text="Windows Glass Repair & Replacement" img="/residencial/residelcia5.jpeg" />
+          </div>
+          <div className="mx-[10px]">
+            <CarouselCard text="Costum Window" img="/residencial/window1.jpg" />
+          </div>
+          <div className="mx-[10px]">
+            <CarouselCard text="Frame & Frameless Mirrors" img="/comercial/conercial5.jpg" />
           </div>
         </Carousel>
       </div>
       <div className="mt-[40px] mb-[40px] w-screen lg:block hidden">
         <Carousel responsive={responsive}>
-          <CarouselSimpleCard/>
-          <CarouselSimpleCard/>
-          <CarouselSimpleCard/>
-          <CarouselSimpleCard/>
-          <CarouselSimpleCard/>
-          <CarouselSimpleCard/>
+          <CarouselSimpleCard title="Store Front & Entrances" img="/comercial/comercial1.jpeg" text="" />
+          <CarouselSimpleCard title="Exterior & Interior Glass" img="/comercial/comercial2.jpg" text="" />
+          <CarouselSimpleCard title="Interior Office Partitions" img="/comercial/comercail3.jpg" text="" />
+          <CarouselSimpleCard title="Door Repair & Replacement" img="/comercial/comercial3.jpg" text="" />
+          <CarouselSimpleCard title="Commercial Mirrors" img="/comercial/comercial4.jpg" text="" />
+          {/* <CarouselSimpleCard title="" img="" text=""/> */}
         </Carousel>
       </div>
     </div>
