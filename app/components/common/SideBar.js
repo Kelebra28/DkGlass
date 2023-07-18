@@ -66,7 +66,7 @@ const SideBar = ({ handleClickMenu }) => (
               <span className="text-[12px] font-semibold ml-[10px]">+52 55 1204 0419</span>
             </div>
           </Link>
-          <Link href={`mailto:info@dkglass&velazco.com`}>
+          <Link href={`mailto:dkglassvelasco@gmail.com`}>
             <div className="flex items-center mt-[12px]">
               <div className="w-[23px] h-[23px] relative">
                 <Image
@@ -75,7 +75,7 @@ const SideBar = ({ handleClickMenu }) => (
                   layout="fill"
                 />
               </div>
-              <span className="text-[12px] font-semibold ml-[10px]">info@dkglass&velazco.com</span>
+              <span className="text-[12px] font-semibold ml-[10px]">dkglassvelasco@gmail.com</span>
             </div>
           </Link>
         </div>

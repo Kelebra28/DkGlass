@@ -1,11 +1,11 @@
 'use client'
 import { useState } from "react"
 import Image from "next/image"
-import Button from "../components/common/Button"
-import Header from "../components/common/header"
-import SocialMedia from "../components/common/SocialMedia"
-import Footer from "../components/Footer"
-import EmailPopUp from "../components/EmailPopUp"
+import Button from "../../components/common/Button"
+import Header from "../../components/common/header"
+import SocialMedia from "../../components/common/SocialMedia"
+import Footer from "../../components/Footer"
+import EmailPopUp from "../../components/EmailPopUp"
 
 export default function Home() {
   const [contactPopActive, setContactPopActive] = useState(false)
@@ -24,8 +24,8 @@ export default function Home() {
           <div className="w-[100%] lg:w-[50%]  mb-[60px] lg:mb-0">
             <div className="hidden lg:block h-[29px] bg-dk-main" />
             <div className="px-[30px] lg:px-[80px] mt-[20px] flex flex-col">
-              <span className="text-[25px] font-medium">Titulo</span>
-              <p className="mt-[20px] mb-[30px] text-[18px] font-medium">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod"</p>
+              <span className="text-[25px] font-medium">Hardware Supplipes</span>
+              <p className="mt-[20px] mb-[30px] text-[18px] font-medium">"Optimize the use of space and natural light with our customizable interior glass fixtures"</p>
               <span className="text-[15px]">Model</span>
               <span className="mt-[20px] bg-dk-secondary w-[330px] text-[]15px pl-[18px] text-[white] italic font-semibold">Specifications</span>
             </div>
@@ -33,7 +33,7 @@ export default function Home() {
           <div className="w-[100%] lg:w-[50%] flex justify-center border-t-dk-main border-t-[20px] pt-[14px] lg:pt-0 lg:border-none">
             <div className="w-[90%] lg:w-[100%] h-[630px] relative">
               <Image
-                src="/product.png"
+                src="/services/hardware.jpg"
                 alt=""
                 layout="fill"
               />
@@ -46,14 +46,14 @@ export default function Home() {
           </div>
           <div className="w-[100%] lg:w-[33%] relative border-[8px] border-[white] ">
             <Image
-              src="/register.png"
+              src="/services/hardware1.jpg"
               alt=""
               layout="fill"
             />
           </div>
           <div className="lg:w-[33%] flex items-end">
             <div className="ml-[40px] mb-[50px]">
-              <Button text="Contact us" onClick={handleContactPopUp} />
+              <Button text="Contact us" onClick={handleContactPopUp}/>
             </div>
           </div>
         </div>
