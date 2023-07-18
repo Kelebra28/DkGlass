@@ -25,3 +25,92 @@
     )
     rgb(var(--background-start-rgb));
 } */
+
+
+                          /* hovers */
+/* navbar */
+.hover_header:hover {
+  color: #1081A9;
+}
+.hover_header::after {
+  content: '';
+  display: block;
+  height: 3px;
+  background-color: #60DBC5;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+.hover_header:hover::after {
+  transform: scaleX(1);
+}
+
+/* logo  */
+
+.logo {
+  width: 200px !important;
+  overflow: hidden;
+  transition-duration: 0.8s;
+  transition-property: transform;
+}
+.logo:hover {
+  transform: rotate(360deg);
+    /* -webkit-transform: rotate(360deg); */
+  animation: zoom-in-zoom-out-logo 3s ease infinite;
+}
+
+/* Button Carusel 1 */
+.button_hover:hover{
+  background-color: #60DBC5;
+  border-color: #16bb9a;
+}
+
+/* List services     */
+/* .hover-list,a:hover{
+  background-color: #1081A9;
+  width: 30%;
+  animation: zoom-in-zoom-out-carrusel 1s ease;
+} */
+.hover-item:hover{
+  background-color: #1081A9;
+  color: white;
+}
+
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
+/* carrusel */
+
+/* .carrusel_hover:hover{
+  height: 500px;
+} */
+
+
+/* animation  */
+
+@keyframes zoom-in-zoom-out-logo {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes zoom-in-zoom-out-carrusel {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(1.1, 1.1);
+  }
+}
+
+.react-multiple-carousel__arrow , .react-multiple-carousel__arrow--left {
+  z-index: 1 !important;
+}

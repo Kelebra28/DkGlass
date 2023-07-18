@@ -6,6 +6,7 @@ import Button from "./common/Button"
 import CarouselCard from "./common/CarouselCard";
 import WhatsAppLink from "./common/whatsApp";
 import Link from "next/link";
+import { CustomNextButton, CustomPrevButton} from '../components/common/CustomButtonCarrusel'
 
 const responsive = {
   superLargeDesktop: {
@@ -26,8 +27,11 @@ const responsive = {
     items: 1
   }
 };
-
+const customButtonStyles = {
+  zIndex: 1, // Ajusta el valor de z-index según tus necesidades
+};
 const Hero = ({ handleContactPopUp }) => (
+  
   <div>
     {/* <div className="flex flex-col items-end relative">
       <div className="w-40 bg-dk-bluelight h-22 lg:hidden" />
@@ -41,16 +45,21 @@ const Hero = ({ handleContactPopUp }) => (
       </div>
     </div> */}
 
-    <div className="flex mt-[100px]">
+    <div id="home" className="flex mt-[100px]">
       <div className="">
         <div className=" relative w-screen  lg:block lg:pr-[20px]">
-          <Carousel responsive={responsive}>
-
-            <div className="w-[736px] h-[450px] relative">
+          <Carousel
+           responsive={responsive}
+           autoPlay={true}
+           autoPlaySpeed={4000} 
+           infinite={true}
+           showDots={true}
+           >
+            <div className="w-[736px] h-[450px] relative carrusel_hover">
               <div className="absolute z-30 top-[50%] w-screen  flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]  ">
-                <span className="text-[30px] font-semibold text-[white]">Custom Glass</span>
+                <span className="text-[30px] text-center font-semibold text-[white]">Custom Glass</span>
                 <Link href="/principal/custom">
-                  <Button text="See more" color="white" />
+                  <Button  className="button_hover" text="See more" color="white" />
                 </Link>
               </div>
               <Image
@@ -63,7 +72,7 @@ const Hero = ({ handleContactPopUp }) => (
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
                 <span className="text-[30px] font-semibold text-center text-[white]">Commercial Service</span>
                 <Link href="/principal/comercial">
-                  <Button text="See more" color="white" />
+                  <Button className="button_hover" text="See more" color="white" />
                 </Link>
               </div>
               <Image
@@ -74,9 +83,9 @@ const Hero = ({ handleContactPopUp }) => (
             </div>
             <div className="w-[736px] h-[450px] relative">
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
-                <span className="text-[30px] font-semibold text-[white]">Mirror</span>
+                <span className="text-[30px] text-center font-semibold text-[white]">Mirror</span>
                 <Link href="/principal/mirror">
-                  <Button text="See more" color="white" />
+                  <Button  className="button_hover" text="See more" color="white" />
                 </Link>
               </div>
               <Image
@@ -87,9 +96,9 @@ const Hero = ({ handleContactPopUp }) => (
             </div>
             <div className="w-[736px] h-[450px] relative">
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
-                <span className="text-[30px] font-semibold text-[white]">Bathrooms</span>
+                <span className="text-[30px] text-center font-semibold text-[white]">Bathrooms</span>
                 <Link href="/principal/bathrooms">
-                  <Button text="See more" color="white" />
+                  <Button  className="button_hover" text="See more" color="white" />
                 </Link>
               </div>
               <Image
@@ -102,7 +111,7 @@ const Hero = ({ handleContactPopUp }) => (
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
                 <span className="text-[30px] text-center font-semibold text-[white]">Shower Glass Doors & Supplies</span>
                 <Link href="/principal/showerglassdoor">
-                  <Button text="See more" color="white" />
+                  <Button  className="button_hover" text="See more" color="white" />
                 </Link>
               </div>
               <Image
@@ -115,7 +124,7 @@ const Hero = ({ handleContactPopUp }) => (
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
                 <span className="text-[30px] text-center font-semibold text-[white]">Sliding Glass Shower Doors</span>
                 <Link href="/principal/slidingglassshowerdoors">
-                  <Button text="See more" color="white" />
+                  <Button  className="button_hover" text="See more" color="white" />
                 </Link>
               </div>
               <Image
@@ -128,7 +137,7 @@ const Hero = ({ handleContactPopUp }) => (
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
                 <span className="text-[30px] text-center font-semibold text-[white]">Stairs</span>
                 <Link href="/principal/stairs">
-                  <Button text="See more" color="white" />
+                  <Button  className="button_hover" text="See more" color="white" />
                 </Link>
               </div>
               <Image
@@ -159,7 +168,7 @@ const Hero = ({ handleContactPopUp }) => (
             />
           </div> */}
           <div className="w-4/12 flex  justify-center items-center relative flex-col">
-            <Button onClick={handleContactPopUp} text="Contact us" background="blue" border="none" color="white" />
+            <Button className="animate-bounce" onClick={handleContactPopUp} text="Contact us" background="blue" border="none" color="white" />
             <div className="flex mt-[50px]">
               <Link href="tel:+52 55 1204 0419">
                 <div className="flex items-center  cursor-pointer">

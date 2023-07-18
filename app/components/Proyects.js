@@ -40,7 +40,13 @@ const Proyects = () => (
       </div>
     </div>
     <div className="lg:hidden">
-      <Carousel responsive={responsive}>
+      <Carousel 
+        responsive={responsive}
+        autoPlay={true}
+        autoPlaySpeed={2000} 
+        infinite={true}
+        autoPlayDirection="rtl"
+        >
         <CarouselCard2 title="Store Front & Entrances" img="/comercial/comercial1.jpeg" text=""/>
           <CarouselCard2 title="Exterior & Interior Glass" img="/comercial/comercial2.jpg" text=""/>
           <CarouselCard2 title="Interior Office Partitions" img="/comercial/comercail3.jpg" text=""/>
@@ -49,7 +55,13 @@ const Proyects = () => (
       </Carousel>
     </div>
     <div className="lg:w-[70%] hidden lg:block">
-      <Carousel responsive={responsive}>
+      <Carousel 
+        responsive={responsive}
+        autoPlay={true}
+        autoPlaySpeed={2000} 
+        infinite={true}
+        autoPlayDirection="rtl"
+      >
         <CarouselCard text="Sliding Glass Shower Doors" img="/residencial/residencial8.jpeg"/>
         <CarouselCard text="Semi-Frameled Glass Shower Doors" img="/residencial/residelcia7.jpeg" />
         <CarouselCard text="Custom Glass  Shower Doors" img="/residencial/recidencial9.jpeg" />
