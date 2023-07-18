@@ -24,7 +24,7 @@ const Home = () => {
     {
       contactPopActive && <EmailPopUp handleContactPopUp={handleContactPopUp}/>
     }
-      <Header />
+      <Header handleContactPopUp={handleContactPopUp} />
       <Hero handleContactPopUp={handleContactPopUp}/>
       <div className="lg:hidden">
         <Register handleContactPopUp={handleContactPopUp} />
