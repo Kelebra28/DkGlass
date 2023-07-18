@@ -8,7 +8,6 @@ import Button from "./common/Button"
 const EmailPopUp = ({ handleContactPopUp }) => {
 
   const form = useRef();
-  const test = 'Funciona'
 
   const sendEmail = (e) => {
 

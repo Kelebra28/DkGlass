@@ -6,16 +6,16 @@ const Services = ({handleContactPopUp}) => (
       <span className=" text-[36px]"> Services</span>
     </div>
     <div className="pt-[90px] pl-[70px] flex flex-col">
-      <Link href="/page1" className="mb-[25px]">
+      <Link href="/services/wholesaler" className="mb-[25px]">
         <span className="cursor-pointer font-medium text-dk-main text-[20px] mb-[25px]">{`> Wholesaler`}</span>
       </Link>
-      <Link href="/template" className="mb-[25px]">
+      <Link href="/services/floatglass" className="mb-[25px]">
         <span className="cursor-pointer font-medium text-dk-main text-[20px] mb-[25px]">{`> Float Glass`}</span>
       </Link>
-      <Link href="/template" className="mb-[25px]">
+      <Link href="/services/tempereglass" className="mb-[25px]">
         <span className="cursor-pointer font-medium text-dk-main text-[20px] mb-[25px]">{`> Tempered Glass`}</span>
       </Link>
-      <Link href="/template" className="mb-[25px]">
+      <Link href="/services/hardware" className="mb-[25px]">
         <span className="cursor-pointer font-medium text-dk-main text-[20px] mb-[25px]">{`> Hardware Supplies `}</span>
       </Link>
       {/* <Link href="/template" className="mb-[25px]">

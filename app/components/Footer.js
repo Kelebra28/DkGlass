@@ -33,20 +33,20 @@ const Footer = () => (
       <span className="text-center opacity-[50%]">Live the live your <br /> want</span>
     </div> */}
     <div className="flex justify-center mt-[40px]">
-      <div className="w-[16px] h-[16px] relative">
+      <a href="https://www.facebook.com/profile.php?id=100087137256154" target="_blank" className="w-[16px] h-[16px] relative">
         <Image
           src="/icons/facebook-black.svg"
           alt="facebook"
           layout="fill"
         />
-      </div>
-      <div className="w-[16px] h-[16px] relative ml-[33px]">
+      </a>
+      <a href="https://www.instagram.com/_dkglassshop/" className="w-[16px] h-[16px] relative ml-[33px]">
         <Image
           src="/icons/instagram-black.svg"
           alt="instagram"
           layout="fill"
         />
-      </div>
+      </a>
     </div>
   </div>
 )
