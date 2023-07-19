@@ -1,10 +1,12 @@
 'use client'
+import { useState } from "react"
 import Header from "../components/common/header"
 import Image from "next/image"
 import Footer from "../components/Footer"
+import EmailPopUp from "../components/EmailPopUp"
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
-import CarouselCard from "../components/common/CarouselCard"
+import CarouselSimpleCard from "../components/common/CarouselSimpleCard"
 
 const responsive = {
   superLargeDesktop: {
@@ -28,11 +30,19 @@ const responsive = {
 
 
 const AboutUs = () => {
+  const [contactPopActive, setContactPopActive] = useState(false)
+  const handleContactPopUp = () => {
+    setContactPopActive(!contactPopActive)
+  }
   return (
+    <>
+     {
+      contactPopActive  && <EmailPopUp handleContactPopUp={handleContactPopUp}/>
+    }
     <div>
-      <Header />
+      <Header handleContactPopUp={handleContactPopUp} />
       <div className="relative mt-[120px]">
-        {/* <div className="w-[52px] h-[100%] bg-dk-secondary absolute top-0 left-0 z-[-1] lg:w-[80px]" /> */}
+        <div className="w-[52px] h-[100%] bg-dk-secondary absolute top-0 left-0 z-[-1] lg:w-[80px]" />
         <div className="flex flex-col lg:flex-row items-center">
           <div className="w-[90%] lg:w-[40%] h-[325px] flex relative">
             <Image
@@ -49,34 +59,25 @@ const AboutUs = () => {
 
           </div>
         </div>
-        <div className="mt-[40px] mb-[40px] pl-[30px] w-screen lg:mt-[100px] lg:pl-[300px]">
-          <div className="border-l-4 border-dk-secondary h-[62px] items-center mt-[60px] pl-[21px] mb-[50px] hidden lg:flex">
-            <span className="text-dk-main text-[28px]">Products</span>
-          </div>
-          <Carousel responsive={responsive}>
-            <div className="mx-[10px]">
-            <CarouselCard text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, quibusdam expedita! Nisi minus blanditiis, eos quos ratione veniam, maiores dignissimos reiciendis possimus animi eveniet tenetur. Minus voluptate error temporibus mollitia!" img="/residencial/residencial10.jpg" />
-            </div>
-            <div className="mx-[10px]">
-            <CarouselCard text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, quibusdam expedita! Nisi minus blanditiis, eos quos ratione veniam, maiores dignissimos reiciendis possimus animi eveniet tenetur. Minus voluptate error temporibus mollitia!" img="/residencial/residencial11.jpg" />
-            </div>
-            <div className="mx-[10px]">
-            <CarouselCard text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, quibusdam expedita! Nisi minus blanditiis, eos quos ratione veniam, maiores dignissimos reiciendis possimus animi eveniet tenetur. Minus voluptate error temporibus mollitia!" img="/residencial/residencial12.jpg" />
-            </div>
-            <div className="mx-[10px]">
-            <CarouselCard text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, quibusdam expedita! Nisi minus blanditiis, eos quos ratione veniam, maiores dignissimos reiciendis possimus animi eveniet tenetur. Minus voluptate error temporibus mollitia!" img="/residencial/residencial13.jpg" />
-            </div>
-            <div className="mx-[10px]">
-            <CarouselCard text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, quibusdam expedita! Nisi minus blanditiis, eos quos ratione veniam, maiores dignissimos reiciendis possimus animi eveniet tenetur. Minus voluptate error temporibus mollitia!" img="/residencial/residencial14.jpg" />
-            </div>
-            <div className="mx-[10px]">
-            <CarouselCard text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, quibusdam expedita! Nisi minus blanditiis, eos quos ratione veniam, maiores dignissimos reiciendis possimus animi eveniet tenetur. Minus voluptate error temporibus mollitia!" img="/residencial/residencial15.jpg" />
-            </div>
+        <div className="flex justify-end mt-[100px]">
+          <div className="mt-[40px] mb-[40px] w-[80%] lg:block hidden">
+          <Carousel 
+            responsive={responsive}
+            autoPlay={true}
+            autoPlaySpeed={2000} 
+            infinite={true}
+          >
+            <CarouselSimpleCard title="Store Front & Entrances" img="/comercial/comercial1.jpeg" text="" />
+            <CarouselSimpleCard title="Exterior & Interior Glass" img="/comercial/comercial2.jpg" text="" />
+            <CarouselSimpleCard title="Interior Office Partitions" img="/comercial/comercail3.jpg" text="" />
+            <CarouselSimpleCard title="Door Repair & Replacement" img="/comercial/comercial3.jpg" text="" />
           </Carousel>
+          </div>
         </div>
         <Footer />
       </div>
     </div>
+    </>
   )
 }
 

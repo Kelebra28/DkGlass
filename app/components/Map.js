@@ -1,22 +1,48 @@
 import GoogleMapReact from 'google-map-react'
+import Image from 'next/image';
 
 const  Marker = () => {
   return (
     <div
+    style={{
+      position: 'relative',
+      display: 'inline-flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      backgroundColor: '#fff',
+      borderRadius: '50%',
+      width: '40px',
+      height: '40px',
+      boxShadow: '0 2px 6px rgba(0, 0, 0, 0.3)',
+      cursor: 'pointer',
+    }}
+  >
+    <div
       style={{
-        color: 'white',
-        background: 'red',
-        padding: '5px 5px',
-        display: 'inline-flex',
-        textAlign: 'center',
+        position: 'relative',
+        backgroundColor: 'red',
+        borderRadius: '50%',
+        width: '24px',
+        height: '24px',
+        display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        borderRadius: '50%',
-        transform: 'translate(-50%, -50%)'
+        boxShadow: '0 2px 6px rgba(0, 0, 0, 0.3)',
       }}
     >
-      DK Glass
+      <div
+        style={{
+          position: 'relative',
+          backgroundColor: '#fff',
+          borderRadius: '50%',
+          width: '12px',
+          height: '12px',
+        }}
+      />
+      <span style={{ fontWeight: 'bold', textAlign: 'center' }}>DK Glass</span>
     </div>
+  </div>
+  
   );
     }
 
