@@ -11,19 +11,19 @@ const Footer = () => (
         />
       </div>
       <div className="flex lg:flex flex-col pb-[25px] lg:flex-row  lg:justify-between lg:px-[300px]">
-        <Link href="/">
+        <Link className='hover_header' href="/">
           <span className="my-[11px] text-[13px] font-semibold">Home</span>
         </Link>
-        <Link href="/nosotros">
+        <Link className='hover_header' href="/nosotros">
           <span className="my-[11px] text-[13px] font-semibold">About Us</span>
         </Link>
-        <Link href="#services">
+        <Link className='hover_header' href="#services">
           <span className="my-[11px] text-[13px] font-semibold"> Services</span>
         </Link>
-        <Link href="#products">
+        <Link className='hover_header' href="#products">
           <span className="my-[11px] text-[13px] font-semibold">Products</span>
         </Link>
-        <Link href="#contact">
+        <Link className='hover_header' href="#contact">
           <span className="my-[11px] text-[13px] font-semibold">Contact us</span>
         </Link>
       </div>
