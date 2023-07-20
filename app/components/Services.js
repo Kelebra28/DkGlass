@@ -34,8 +34,8 @@ const Services = ({handleContactPopUp}) => (
         <span className="cursor-pointer font-medium text-dk-main text-[20px] mb-[25px]">{`>Temperados de vidrio`}</span>
       </Link> */}
     </div>
-    <div className=" flex justify-center mb-[50px]">
-      <Button text="Contact us" onClick={handleContactPopUp} />
+    <div className="flex justify-center mb-[50px]">
+      <Button className="hover_contat2" text="Contact us" onClick={handleContactPopUp} />
     </div>
   </div>
 )

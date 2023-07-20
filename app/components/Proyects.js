@@ -45,7 +45,7 @@ const Proyects = () => (
         autoPlay={true}
         autoPlaySpeed={2000} 
         infinite={true}
-        autoPlayDirection="rtl"
+        rtl={true}
         >
         <CarouselCard2 title="Store Front & Entrances" img="/comercial/comercial1.jpeg" text=""/>
           <CarouselCard2 title="Exterior & Interior Glass" img="/comercial/comercial2.jpg" text=""/>
@@ -60,7 +60,7 @@ const Proyects = () => (
         autoPlay={true}
         autoPlaySpeed={2000} 
         infinite={true}
-        autoPlayDirection="rtl"
+        rtl={true}
       >
         <CarouselCard text="Sliding Glass Shower Doors" img="/residencial/residencial8.jpeg"/>
         <CarouselCard text="Semi-Frameled Glass Shower Doors" img="/residencial/residelcia7.jpeg" />
