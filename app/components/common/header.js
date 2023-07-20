@@ -17,6 +17,7 @@ const Header = ({ handleContactPopUp }) => {
       <div className="flex justify-center lg:w-4/12 w-12/12  lg:justify-start">
         <div onClick={handleClickMenu} className="w-[29px] h-[54px] absolute left-[20px] lg:relative lg:left-0 lg:mr-[30px] cursor-pointer">
           <Image
+          className="loggo"
             src="/icons/menu.svg"
             alt="Logo"
             layout="fill"
@@ -35,20 +36,20 @@ const Header = ({ handleContactPopUp }) => {
       </div>
       <div className="hidden lg:flex  w-8/12 pt-[20px]">
         <Link className='hover_header' href='/#home'>
-          <span className="text-[13px] px-[10px] font-semibold  mx-[25px] cursor-pointer">Home</span>
+          <span className="text-[17px] px-[10px] font-semibold  mx-[25px] cursor-pointer">Home</span>
         </Link>
         <Link className='hover_header' href="/nosotros">
-          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">About Us</span>
+          <span className="text-[17px] px-[10px] font-semibold mx-[25px] cursor-pointer">About Us</span>
         </Link>
         <Link className='hover_header smooth-scroll' href='#services' scroll={false}>
-          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer"> Services</span>
+          <span className="text-[17px] px-[10px] font-semibold mx-[25px] cursor-pointer"> Services</span>
         </Link>
         <Link className='hover_header smooth-scroll' href='#residencial' scroll={false}>
-          <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Products</span>
+          <span className="text-[17px] px-[10px] font-semibold mx-[25px] cursor-pointer">Products</span>
         </Link>
         <div className='animate-bounce'>
           <div className='hover_header' onClick={handleContactPopUp}>
-            <span className="text-[13px] px-[10px] font-semibold mx-[25px] cursor-pointer">Contact us</span>
+            <span className="text-[17px] px-[10px] font-semibold mx-[25px] cursor-pointer">Contact us</span>
           </div>
         </div>
       </div>

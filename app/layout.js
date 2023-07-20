@@ -1,7 +1,7 @@
 import './globals.css'
-import { Raleway} from 'next/font/google'
+import { Cinzel } from 'next/font/google'
 
-const inter = Raleway({ subsets: ['latin'], weight : '700' })
+const inter = Cinzel({ subsets: ['latin'], weight: "400"})
 
 export const metadata = {
   title: 'Dk Glass & Velasco',
