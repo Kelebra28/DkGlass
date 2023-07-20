@@ -1,7 +1,7 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Raleway} from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Raleway({ subsets: ['latin'], weight : '700' })
 
 export const metadata = {
   title: 'Dk Glass & Velasco',
