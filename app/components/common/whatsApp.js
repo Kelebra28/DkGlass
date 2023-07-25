@@ -13,7 +13,7 @@ const WhatsAppLink = () => {
   return (
     <a className="text-[15px] font-semibold" href="#" onClick={handleClick}>
         <Image
-        src="/whatsapp.png"
+        src="/icons/whastsapp.png"
         alt="Portada"
         layout="fill"
         /> 
