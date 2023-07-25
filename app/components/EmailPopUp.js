@@ -36,9 +36,9 @@ const EmailPopUp = ({ handleContactPopUp }) => {
         </div>
         <div className="h-[100%] overflow-auto">
           <div className="flex justify-center">
-            <div className="w-[70%] lg:w-[213px] h-[54px] relative mb-[20px] lg:mb-[54px] lg:mx-auto">
+            <div className="w-[100%] lg:w-[213px] h-[90px] relative mb-[20px] lg:mb-[54px] lg:mx-auto">
               <Image
-                src="/logo.svg"
+                src="/logo-full.svg"
                 alt="Portada"
                 layout="fill"
               />

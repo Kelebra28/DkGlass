@@ -168,12 +168,13 @@ const Hero = ({ handleContactPopUp }) => (
             />
           </div> */}
           <div className="w-4/12 flex  justify-center items-center relative flex-col">
-            <Button className="hover_contat" onClick={handleContactPopUp} text="Contact us" background="blue" border="none" color="white" />
+            <Button className="hover_contat" onClick={handleContactPopUp} text="Contact us" background="blue" border="2px border-[#243c5a]" color="white" />
             <div className="flex mt-[50px]">
               <Link href="tel:+52 55 1204 0419">
                 <div className="flex items-center  cursor-pointer">
                   <div className="w-[16px] h-[16px] relative">
                     <Image
+                      className="icon1"
                       src="/icons/phone.svg"
                       alt="Portada"
                       layout="fill"
