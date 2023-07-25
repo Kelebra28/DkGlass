@@ -98,6 +98,10 @@
   height: 500px;
 } */
 
+.animation-contact:hover{
+  animation:  zoom-in-zoom-out-carrusel 3s ease ;
+}
+
 
 /* animation  */
 
