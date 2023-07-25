@@ -1,5 +1,7 @@
 'use client'
 import Carousel from "react-multi-carousel";
+import PhoneInTalkRoundedIcon from '@mui/icons-material/PhoneInTalkRounded';
+import ForwardToInboxSharpIcon from '@mui/icons-material/ForwardToInboxSharp';
 import "react-multi-carousel/lib/styles.css";
 import Image from "next/image"
 import Button from "./common/Button"
@@ -171,31 +173,26 @@ const Hero = ({ handleContactPopUp }) => (
             <Button className="hover_contat" onClick={handleContactPopUp} text="Contact us" background="blue" border="2px border-[#243c5a]" color="white" />
             <div className="flex mt-[50px]">
               <Link href="tel:+52 55 1204 0419">
-                <div className="flex items-center  cursor-pointer">
-                  <div className="w-[16px] h-[16px] relative">
-                    <Image
-                      className="icon1"
-                      src="/icons/phone.svg"
-                      alt="Portada"
-                      layout="fill"
-                    />
+                <div className="flex items-center  cursor-pointer animation-contact">
+                  <div className="w-[16px] h-[16px] relative b">
+                    <span className="text-[#60DBC5]">
+                      <PhoneInTalkRoundedIcon/>
+                    </span>
                   </div>
                   <span className="text-[12px] font-semibold ml-[10px]">(832) 740-4977</span>
                 </div>
               </Link>
               <Link href={`mailto:dkglassvelasco@gmail.com`}>
-                <div className="flex items-center ml-[55px] cursor-pointer">
+                <div className="flex items-center ml-[55px] cursor-pointer animation-contact">
                   <div className="w-[23px] h-[23px] relative">
-                    <Image
-                      src="/icons/email.svg"
-                      alt="Portada"
-                      layout="fill"
-                    />
+                    <span className="text-[#1081A9]">
+                      <ForwardToInboxSharpIcon/>
+                    </span>
                   </div>
                   <span className="text-[12px] font-semibold ml-[10px]">{`dkglassvelasco@gmail.com`}</span>
                 </div>
               </Link>
-              <div className="flex items-center ml-[55px] cursor-pointer">
+              <div className="flex items-center ml-[55px] cursor-pointer animation-contact">
                 <div className="w-[23px] h-[23px] relative">
                   <WhatsAppLink />
                 </div>
