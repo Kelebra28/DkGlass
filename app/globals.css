@@ -26,7 +26,12 @@
     rgb(var(--background-start-rgb));
 } */
 
-
+.logoAbout{
+   background-image: url('../public/logoAbour.svg');
+   background-repeat: no-repeat;
+   background-position: right 0% top 0%;
+   background-size: 90% 50%; 
+}
                           /* hovers */
 /* navbar */
 .hover_header:hover {

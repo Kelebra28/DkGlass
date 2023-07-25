@@ -51,11 +51,11 @@ const AboutUs = () => {
               layout="fill"
             />
           </div>
-          <div className="lg:w-[50%] flex flex-col pl-[20%] lg:pl-[40px] mb-[31px] lg:mb-[0] mt-[80px]">
+          <div className="lg:w-[50%] flex flex-col pl-[20%] lg:pl-[40px] mb-[31px] lg:mb-[0] mt-[80px] logoAbout">
             <div className="border-l-4 border-dk-secondary h-[62px] flex items-center mt-[60px] pl-[21px]">
               <span className="text-dk-main text-[36px] leading-[28px]">About Us</span>
             </div>
-            <p className="w-[80%] lg:w-[800px] mt-[55px] text-[14px] text-[#6B6B6B]">Our company offers comprehensive design and installation solutions for custom work for commercial and residential clients. We design, create and install all kinds of products with safety and sustainability top of mind. We offer wholesale sales with competitive prices. As strategic expansion planning, our company has a presence in other territories such as Houston, Odessa and Kentucky. trust your next new construction or renovation project to Dk glass & Velasco and let us crystallize your dreams</p>
+            <p className="w-[80%] lg:w-[800px] mt-[20px] text-[18px] font-black text-[#000000]">Our company offers comprehensive design and installation solutions for custom work for commercial and residential clients. We design, create and install all kinds of products with safety and sustainability top of mind. We offer wholesale sales with competitive prices. As strategic expansion planning, our company has a presence in other territories such as Houston, Odessa and Kentucky. trust your next new construction or renovation project to Dk glass & Velasco and let us crystallize your dreams</p>
 
           </div>
         </div>
