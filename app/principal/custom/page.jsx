@@ -25,8 +25,8 @@ export default function Home() {
             <div className="hidden lg:block h-[29px] bg-dk-main" />
             <div className="px-[30px] lg:px-[80px] mt-[20px] flex flex-col">
               <span className="text-[25px] font-medium">Custom Glass</span>
-              <p className="mt-[20px] mb-[30px] text-[18px] font-medium">"Optimize the use of space and natural light with our customizable interior glass fixtures"</p>
-              <span className="text-[15px]">Model</span>
+              <p className="mt-[20px] mb-[30px] text-[18px] font-medium">Custom cut glass manufactured to fit your needs and delivered to your doorstep. Choose between different shapes, thicknesses and glass types.</p>
+              <span className="text-[15px]"></span>
               <span className="mt-[20px] bg-dk-secondary w-[330px] text-[]15px pl-[18px] text-[white] italic font-semibold">Specifications</span>
             </div>
           </div>

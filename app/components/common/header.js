@@ -41,10 +41,10 @@ const Header = ({ handleContactPopUp }) => {
         <Link className='hover_header' href="/nosotros">
           <span className="text-[17px] px-[10px] font-semibold mx-[25px] cursor-pointer">About Us</span>
         </Link>
-        <Link className='hover_header smooth-scroll' href='#services' scroll={false}>
+        <Link className='hover_header smooth-scroll' href='#residencial' scroll={false}>
           <span className="text-[17px] px-[10px] font-semibold mx-[25px] cursor-pointer"> Services</span>
         </Link>
-        <Link className='hover_header smooth-scroll' href='#residencial' scroll={false}>
+        <Link className='hover_header smooth-scroll' href='#services' scroll={false}>
           <span className="text-[17px] px-[10px] font-semibold mx-[25px] cursor-pointer">Products</span>
         </Link>
         <div className='animate-bounce'>

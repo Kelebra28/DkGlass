@@ -39,7 +39,7 @@ const SideBar = ({ handleClickMenu }) => (
             <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Residencial</span>
           </Link>
           <Link href="#industrial">
-            <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Comercial</span>
+            <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Commercial</span>
           </Link>
           <Link href="#services">
             <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Services</span>
