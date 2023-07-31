@@ -36,7 +36,7 @@ const Products = () => (
     </div>
     <div className="lg:flex lg:flex-col lg:ml-[100px] overflow-hidden">
       <div className="border-l-4 border-dk-main h-[52px] flex items-center mt-[40px] ml-[57px] pl-[21px] lg:ml-[17px]">
-        <span className="text-dk-main text-[36px]">Comercial</span>
+        <span className="text-dk-main text-[36px]">Commercial</span>
       </div>
       <p className="mt-[41px] ml-[89px] lg:hidden">Shower Glass Doors & Supplies & sliding glass shower doors </p>
 
