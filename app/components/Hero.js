@@ -78,7 +78,7 @@ const Hero = ({ handleContactPopUp }) => (
                 </Link>
               </div>
               <Image
-                src="/residencial/residelcia1.jpg"
+                src="/comercial/comercial6.jpg"
                 alt="carousel2"
                 layout="fill"
               />
@@ -111,7 +111,7 @@ const Hero = ({ handleContactPopUp }) => (
             </div>
             <div className="w-[736px] h-[450px] relative">
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
-                <span className="text-[30px] text-center font-semibold text-[white]">Shower Glass Doors & Supplies</span>
+                <span className="text-[30px] text-center font-semibold text-[white]">Shower/Sliding Glass Doors & Supplies</span>
                 <Link href="/principal/showerglassdoor">
                   <Button  className="button_hover" text="See more" color="white" />
                 </Link>
@@ -122,7 +122,7 @@ const Hero = ({ handleContactPopUp }) => (
                 layout="fill"
               />
             </div>
-            <div className="w-[736px] h-[450px] relative">
+            {/* <div className="w-[736px] h-[450px] relative">
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
                 <span className="text-[30px] text-center font-semibold text-[white]">Sliding Glass Shower Doors</span>
                 <Link href="/principal/slidingglassshowerdoors">
@@ -134,10 +134,10 @@ const Hero = ({ handleContactPopUp }) => (
                 alt="carousel7"
                 layout="fill"
               />
-            </div>
+            </div> */}
             <div className="w-[736px] h-[450px] relative">
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
-                <span className="text-[30px] text-center font-semibold text-[white]">Stairs</span>
+                <span className="text-[30px] text-center font-semibold text-[white]">Glass Railing</span>
                 <Link href="/principal/stairs">
                   <Button  className="button_hover" text="See more" color="white" />
                 </Link>

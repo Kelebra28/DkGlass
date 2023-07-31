@@ -25,7 +25,10 @@ export default function Home() {
             <div className="hidden lg:block h-[29px] bg-dk-main" />
             <div className="px-[30px] lg:px-[80px] mt-[20px] flex flex-col">
               <span className="text-[25px] font-medium">Commercial Service</span>
-              <p className="mt-[20px] mb-[30px] text-[18px] font-medium">"Optimize the use of space and natural light with our customizable interior glass fixtures"</p>
+              <p className="mt-[20px] mb-[30px] text-[18px] font-medium">DK GLASS & VELASCO is your best option to call for all of your commercial glass and storefront needs.</p>
+              <p className="mt-[20px] mb-[30px] text-[18px] font-medium">We specialize in New Commercial Storefronts and Windows, and Custom Commercial Glass for Retail, Hospitality, Gym’s, Restaurants, Medical and Educational customers.</p>
+              <p className="mt-[20px] mb-[30px] text-[18px] font-medium">We love to build long-term relationships based on customer satisfaction and the highest service standards. With years of expertise and tools to perform the job as customer request.</p>
+              <p className="mt-[20px] mb-[30px] text-[18px] font-medium">Our well-trained and highly skilled technicians are always ready and willing to work on every single project.</p>
               <span className="text-[15px]">Store Front & Entrances</span>
               <span className="mt-[20px] bg-dk-secondary w-[330px] text-[]15px pl-[18px] text-[white] italic font-semibold">Specifications</span>
             </div>

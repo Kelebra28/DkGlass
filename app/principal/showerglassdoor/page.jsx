@@ -25,9 +25,16 @@ export default function Home() {
             <div className="hidden lg:block h-[29px] bg-dk-main" />
             <div className="px-[30px] lg:px-[80px] mt-[20px] flex flex-col">
               <span className="text-[25px] font-medium">Shower Glass Doors & Supplies</span>
-              <p className="mt-[20px] mb-[30px] text-[18px] font-medium">"Optimize the use of space and natural light with our customizable interior glass fixtures"</p>
-              <span className="text-[15px]">Model</span>
+              <p className="mt-[20px] mb-[30px] text-[18px] font-medium">Shower doors are panels of glass designed to keep water from splashing and spraying all over the bathroom. Along with preventing slips and falls on wet floors, they add a certain elegance and finish to your bathroom that a shower curtain usually can’t equal.</p>
+              <p className="mt-[20px] mb-[30px] text-[18px] font-medium">The Finest & Elegant Shower Doors Available: Designed, manufactured, shipped and installed by The Best Technicians in Texas.</p>
+              {/* <span className="text-[15px]">Model</span> */}
               <span className="mt-[20px] bg-dk-secondary w-[330px] text-[]15px pl-[18px] text-[white] italic font-semibold">Specifications</span>
+              <ul className="mb-[20px]">
+                <li className="mt-[20px]">- Custom shower enclosures</li>
+                <li>- Shower door design</li>
+                <li>- Frameless shower doors</li>
+                <li>- Tub and shower door replacement</li>
+              </ul>
             </div>
           </div>
           <div className="w-[100%] lg:w-[50%] flex justify-center border-t-dk-main border-t-[20px] pt-[14px] lg:pt-0 lg:border-none">

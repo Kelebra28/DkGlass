@@ -1,7 +1,7 @@
 import Button from "./common/Button"
 import Link from "next/link"
 const Services = ({handleContactPopUp}) => (
-  <div id="services" className="lg:ml-[100px]">
+  <div id="services" className="lg:ml-[100px servicesLogo">
     <div className="border-l-4 border-dk-secondary h-[52px] flex items-center mt-[40px] ml-[57px] pl-[21px] lg:ml-[17px]">
       <span className=" text-[36px]">Services</span>
     </div>

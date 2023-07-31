@@ -25,7 +25,7 @@ export default function Home() {
             <div className="hidden lg:block h-[29px] bg-dk-main" />
             <div className="px-[30px] lg:px-[80px] mt-[20px] flex flex-col">
               <span className="text-[25px] font-medium">Mirror</span>
-              <p className="mt-[20px] mb-[30px] text-[18px] font-medium">"Optimize the use of space and natural light with our customizable interior glass fixtures"</p>
+              <p className="mt-[20px] mb-[30px] text-[18px] font-medium">All your needs of frameless mirrors can be customized: the shape, size, edges. That means you get exactly what you want. We use 1/4” thick high-quality mirror sheets that can be custom-cut and offer installation hardware using mirror clips and mirror channel bars.</p>
               <span className="text-[15px]">Model</span>
               <span className="mt-[20px] bg-dk-secondary w-[330px] text-[]15px pl-[18px] text-[white] italic font-semibold">Specifications</span>
             </div>

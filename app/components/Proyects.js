@@ -35,7 +35,7 @@ const Proyects = () => (
       <p className="w-[180px] ml-[100px] text-[11px] mt-[41px] hidden lg:flex ">Shower Glass Doors & Supplies & sliding glass shower doors 
          </p>
       <div className="lg:hidden">
-        <h3 className="text-[36px]">Comercial</h3>
+        <h3 className="text-[36px]">Commercial</h3>
         <div className="border-b-4 border-dk-secondary w-[92px] mt-[15px]" />
       </div>
     </div>
