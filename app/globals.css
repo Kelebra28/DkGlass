@@ -27,11 +27,20 @@
 } */
 
 .logoAbout{
-   background-image: url('../public/logoAbour.svg');
+   background-image: url('../public/logoFondo.svg');
    background-repeat: no-repeat;
    background-position: right 0% top 0%;
    background-size: 90% 50%; 
 }
+
+.servicesLogo{
+  background-image: url('../public/logoAbour.svg');
+  background-repeat: no-repeat;
+  background-position: right 0% top 60%;
+  background-size: 90% 50%; 
+}
+
+
                           /* hovers */
 /* navbar */
 .hover_header:hover {
@@ -100,6 +109,32 @@
 
 .animation-contact:hover{
   animation:  zoom-in-zoom-out-carrusel 3s ease ;
+}
+
+/* 
+.whyChose{
+  background-color: #60DBC5;
+} */
+
+.footer{
+  background-color: #1081A9;
+  color: white;
+}
+
+
+.hover_footer:hover {
+  color: #c8c8c8;
+}
+.hover_footer::after {
+  content: '';
+  display: block;
+  height: 3px;
+  background-color: #60DBC5;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+.hover_footer:hover::after {
+  transform: scaleX(1);
 }
 
 
