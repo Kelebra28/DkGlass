@@ -1,7 +1,7 @@
 import Image from "next/image"
 const CarouselSimpleCard = ({title, img, text}) => (
-  <div className="flex flex-col shadow-inner mx-[10px]">
-    <div className="h-[237px] relative">
+  <div className="flex flex-col shadow-inner carrusel mx-[10px]">
+    <div className="h-[260px] relative">
       <Image
         src={img}
         alt=""

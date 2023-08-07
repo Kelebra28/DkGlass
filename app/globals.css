@@ -26,12 +26,25 @@
     rgb(var(--background-start-rgb));
 } */
 
-.logoAbout{
+/* .logoAbout{
    background-image: url('../public/logoFondo.svg');
    background-repeat: no-repeat;
    background-position: right 0% top 0%;
    background-size: 90% 50%; 
+} */
+
+.logoRepeate{
+  /* border: 3px solid; */
+  background-image: url('../public/logoFondo.svg');
+  background-repeat: repeat;
+  background-size: 15% 15%; 
+  z-index: -1;
 }
+
+.img_team{
+  border-radius: 0 0 20px 0;
+}
+
 
 .servicesLogo{
   background-image: url('../public/logoAbour.svg');
@@ -138,6 +151,15 @@
 }
 
 
+
+.carrusel{
+  background-color: white;
+}
+
+.animationIcon{
+  animation: spin-pause 14s linear infinite;
+}
+
 /* animation  */
 
 @keyframes zoom-in-zoom-out-logo {
@@ -163,6 +185,41 @@
     transform: scale(1.1, 1.1);
   }
 }
+
+@keyframes pulse {
+  0%, 100% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.1);
+  }
+}
+
+
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-pause {
+  0%, 100% {
+      transform: rotate(0deg);
+  }
+  50% {
+      transform: rotate(360deg);
+  }
+  55%, 100% {
+      animation-timing-function: steps(1, end);
+  }
+}
+
+
+
+
 
 .react-multiple-carousel__arrow , .react-multiple-carousel__arrow--left {
   z-index: 1 !important;
