@@ -44,7 +44,7 @@ export default function Home() {
           <div className="lg:w-[33%] lg:bg-dk-bg-gray flex justify-end p-[45px] box-border">
             <p className="text-[15px] lg:w-[70%] ">Any glass work you need.</p>
           </div>
-          <div className="w-[100%] lg:w-[33%] relative border-[8px] border-[white] ">
+          <div className="w-[100%] lg:w-[23%] relative border-[8px] border-[white] ">
             <Image
               src="/custom/custom1.jpeg"
               alt=""
