@@ -8,7 +8,7 @@ import Button from "./common/Button"
 import CarouselCard from "./common/CarouselCard";
 import WhatsAppLink from "./common/whatsApp";
 import Link from "next/link";
-import { CustomNextButton, CustomPrevButton} from '../components/common/CustomButtonCarrusel'
+import { CustomNextButton, CustomPrevButton } from '../components/common/CustomButtonCarrusel'
 
 const responsive = {
   superLargeDesktop: {
@@ -33,7 +33,7 @@ const customButtonStyles = {
   zIndex: 1, // Ajusta el valor de z-index según tus necesidades
 };
 const Hero = ({ handleContactPopUp }) => (
-  
+
   <div>
     {/* <div className="flex flex-col items-end relative">
       <div className="w-40 bg-dk-bluelight h-22 lg:hidden" />
@@ -51,17 +51,17 @@ const Hero = ({ handleContactPopUp }) => (
       <div className="">
         <div className=" relative w-screen  lg:block lg:pr-[20px]">
           <Carousel
-           responsive={responsive}
-           autoPlay={true}
-           autoPlaySpeed={4000} 
-           infinite={true}
-           showDots={true}
-           >
+            responsive={responsive}
+            autoPlay={true}
+            autoPlaySpeed={4000}
+            infinite={true}
+            showDots={true}
+          >
             <div className="w-[736px] h-[450px] relative carrusel_hover">
               <div className="absolute z-30 top-[50%] w-screen  flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]  ">
                 <span className="text-[30px] text-center font-semibold text-[white]">Custom Glass</span>
                 <Link href="/principal/custom">
-                  <Button  className="button_hover" text="See more" color="white" />
+                  <Button className="button_hover" text="See more" color="white" />
                 </Link>
               </div>
               <Image
@@ -85,9 +85,9 @@ const Hero = ({ handleContactPopUp }) => (
             </div>
             <div className="w-[736px] h-[450px] relative">
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
-                <span className="text-[30px] text-center font-semibold text-[white]">Mirror</span>
+                <span className="text-[30px] text-center font-semibold text-[white]">Mirrors</span>
                 <Link href="/principal/mirror">
-                  <Button  className="button_hover" text="See more" color="white" />
+                  <Button className="button_hover" text="See more" color="white" />
                 </Link>
               </div>
               <Image
@@ -98,9 +98,9 @@ const Hero = ({ handleContactPopUp }) => (
             </div>
             <div className="w-[736px] h-[450px] relative">
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
-                <span className="text-[30px] text-center font-semibold text-[white]">Bathrooms</span>
+                <span className="text-[30px] text-center font-semibold text-[white]">Harware & Supplies</span>
                 <Link href="/principal/bathrooms">
-                  <Button  className="button_hover" text="See more" color="white" />
+                  <Button className="button_hover" text="See more" color="white" />
                 </Link>
               </div>
               <Image
@@ -111,9 +111,9 @@ const Hero = ({ handleContactPopUp }) => (
             </div>
             <div className="w-[736px] h-[450px] relative">
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
-                <span className="text-[30px] text-center font-semibold text-[white]">Shower/Sliding Glass Doors & Supplies</span>
+                <span className="text-[30px] text-center font-semibold text-[white]">Shower/Sliding Glass Doors</span>
                 <Link href="/principal/showerglassdoor">
-                  <Button  className="button_hover" text="See more" color="white" />
+                  <Button className="button_hover" text="See more" color="white" />
                 </Link>
               </div>
               <Image
@@ -139,7 +139,7 @@ const Hero = ({ handleContactPopUp }) => (
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
                 <span className="text-[30px] text-center font-semibold text-[white]">Glass Railing</span>
                 <Link href="/principal/stairs">
-                  <Button  className="button_hover" text="See more" color="white" />
+                  <Button className="button_hover" text="See more" color="white" />
                 </Link>
               </div>
               <Image
@@ -176,7 +176,7 @@ const Hero = ({ handleContactPopUp }) => (
                 <div className="flex items-center  cursor-pointer animation-contact">
                   <div className="w-[16px] h-[16px] relative b">
                     <span className="text-[#60DBC5]">
-                      <PhoneInTalkRoundedIcon/>
+                      <PhoneInTalkRoundedIcon />
                     </span>
                   </div>
                   <span className="text-[12px] font-semibold ml-[10px]">(832) 740-4977</span>
@@ -186,7 +186,7 @@ const Hero = ({ handleContactPopUp }) => (
                 <div className="flex items-center ml-[55px] cursor-pointer animation-contact">
                   <div className="w-[23px] h-[23px] relative">
                     <span className="text-[#1081A9]">
-                      <ForwardToInboxSharpIcon/>
+                      <ForwardToInboxSharpIcon />
                     </span>
                   </div>
                   <span className="text-[12px] font-semibold ml-[10px]">{`dkglassvelasco@gmail.com`}</span>
@@ -203,7 +203,13 @@ const Hero = ({ handleContactPopUp }) => (
       </div>
       <div className="w-[68px] box-border bg-[#1081A9] z-20 h-[100vh] absolute top-0 right-0 hidden lg:flex flex-col justify-between">
         <div className="pt-[100px] pl-[15px]">
-          <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
+          <div className="w-[30px] h-[30px] my-[20px] relative cursor-pointer">
+            <span class="relative left-2.5 flex h-3 w-3">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75">
+                <span className="bg-[#fffffF] rounded-full h-[5px] w-[5px]"></span>
+              </span>
+              <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+            </span>
             <a href="https://www.facebook.com/profile.php?id=100087137256154" target="_blank">
               <Image
                 src="/icons/facebook-white.svg"
@@ -226,7 +232,13 @@ const Hero = ({ handleContactPopUp }) => (
               layout="fill"
             />
           </div> */}
-          <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
+          <div className="w-[30px] h-[30px] my-[20px] relative cursor-pointer">
+          <span class="relative flex h-3 w-3">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75">
+                <span className="bg-[#fffffF] rounded-full h-[5px] w-[5px]"></span>
+              </span>
+              <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+            </span>
             <a target="_blank" href="https://www.instagram.com/_dkglassshop/">
               <Image
                 src="/icons/instagram-white.svg"
