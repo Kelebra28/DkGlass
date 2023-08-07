@@ -33,13 +33,114 @@
    background-size: 90% 50%; 
 } */
 
-.logoRepeate{
-  /* border: 3px solid; */
+/* .logoRepeate{
   background-image: url('../public/logoFondo.svg');
   background-repeat: repeat;
   background-size: 15% 15%; 
   z-index: -1;
+} */
+
+/* .background-image-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: 15% 15%; 
+} */
+
+/* .background-images-container{
+  
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
 }
+
+.background-image {
+  flex: 1 0 20%;
+  height: 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+
+/* .logoRepeat{
+  background-image: url('../public/logoFondo.svg');
+  bac
+  backgroundPosition: `${randomPositionX}% ${randomPositionY}%`,
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover',
+  width: '100%',
+  height: '100%',
+  position: 'fixed',
+  top: 0,
+  left: 0,
+  zIndex: -1,
+  margin: '5px solid'
+} */
+.random-images-container {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  width: 100vw;
+  height: 50vh;
+  overflow: hidden;
+  /* border: 4px solid red; */
+  /* z-index: 10 !important; */
+}
+
+.random-image {
+  position: absolute;
+  width: 30vw; /* Ancho de las imágenes aleatorias */
+  height: 15vh; /* Alto de las imágenes aleatorias */
+  background-size: cover;
+}
+
+.fixed-image {
+  position: fixed;
+  width: 30vw; /* Ancho de la imagen fija */
+  height: 15vh; /* Alto de la imagen fija */
+  background-size: cover;
+  top: 20%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.fixed-image1 {
+  position: fixed;
+  width: 30vw; /* Ancho de la imagen fija */
+  height: 15vh; /* Alto de la imagen fija */
+  background-size: cover;
+  top: 75%;
+  left: 19%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.fixed-image2 {
+  position: fixed;
+  width: 30vw; /* Ancho de la imagen fija */
+  height: 15vh; /* Alto de la imagen fija */
+  background-size: cover;
+  top: 60%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .img_team{
   border-radius: 0 0 20px 0;
