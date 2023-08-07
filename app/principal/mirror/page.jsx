@@ -24,10 +24,8 @@ export default function Home() {
           <div className="w-[100%] lg:w-[50%]  mb-[60px] lg:mb-0">
             <div className="hidden lg:block h-[29px] bg-dk-main" />
             <div className="px-[30px] lg:px-[80px] mt-[20px] flex flex-col">
-              <span className="text-[25px] font-medium">Mirror</span>
+              <span className="text-[25px] font-medium">Mirrors</span>
               <p className="mt-[20px] mb-[30px] text-[18px] font-medium">All your needs of frameless mirrors can be customized: the shape, size, edges. That means you get exactly what you want. We use 1/4” thick high-quality mirror sheets that can be custom-cut and offer installation hardware using mirror clips and mirror channel bars.</p>
-              <span className="text-[15px]">Model</span>
-              <span className="mt-[20px] bg-dk-secondary w-[330px] text-[]15px pl-[18px] text-[white] italic font-semibold">Specifications</span>
             </div>
           </div>
           <div className="w-[100%] lg:w-[50%] flex justify-center border-t-dk-main border-t-[20px] pt-[14px] lg:pt-0 lg:border-none">

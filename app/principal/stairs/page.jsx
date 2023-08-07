@@ -27,7 +27,7 @@ export default function Home() {
               <span className="text-[25px] font-medium">Custom Glass</span>
               <p className="mt-[20px] mb-[30px] text-[18px] font-medium">Add A Modern Accent To Your Staircase, Deck, Or Balcony With Our Glass Railing systems</p>
               {/* <span className="text-[15px]">Model</span> */}
-              <span className="mt-[20px] bg-dk-secondary w-[330px] text-[]15px pl-[18px] text-[white] italic font-semibold">Specifications</span>
+              {/* <span className="mt-[20px] bg-dk-secondary w-[330px] text-[]15px pl-[18px] text-[white] italic font-semibold">Specifications</span> */}
               <ul>
                 <li className="mt-[20px]">- Custom Designs.</li>
                 <li>- Great Quality.</li>

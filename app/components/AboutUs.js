@@ -16,11 +16,12 @@ const AboutUs = () => (
           <span className="text-dk-main text-[26px]">About Us</span>
         </div>
         <p className="mt-[40px] text-[14px] text-dk-darkgray">Our company offers comprehensive design and installation solutions for custom work for commercial and residential clients. We design, create and install all kinds of products with safety and sustainability top of mind. We offer wholesale sales with competitive prices. As strategic expansion planning, our company has a presence in other territories such as Houston, Odessa and Kentucky. trust your next new construction or renovation project to Dk glass & Velasco and let us crystallize your dreams</p>
-        <div className="w-[100%] h-[300px] relative hidden lg:flex">
+        <div className="w-[90%] h-[370px] relative hidden lg:flex">
           <Image
-            src="/about.png"
+            src="/team.jpg"
             alt="Portada"
             layout="fill"
+            className="img_team"
           />
         </div>
       </div>

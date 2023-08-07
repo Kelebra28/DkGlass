@@ -41,14 +41,15 @@ const AboutUs = () => {
     }
     <div>
       <Header handleContactPopUp={handleContactPopUp} />
-      <div className="relative mt-[120px]">
+      <div className="relative mt-[120px] logoRepeate">
         <div className="w-[52px] h-[100%] bg-dk-secondary absolute top-0 left-0 z-[-1] lg:w-[80px]" />
         <div className="flex flex-col lg:flex-row items-center">
-          <div className="w-[90%] lg:w-[40%] h-[325px] flex relative">
+          <div className="w-[90%] lg:w-[40%] h-[450px] flex relative img_team">
             <Image
-              src="/about.png"
+              src="/team.jpg"
               alt="Portada"
               layout="fill"
+              className="img_team"
             />
           </div>
           <div className="lg:w-[50%] flex flex-col pl-[20%] lg:pl-[40px] mb-[31px] lg:mb-[0] mt-[80px] logoAbout">
