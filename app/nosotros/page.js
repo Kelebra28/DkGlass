@@ -4,6 +4,7 @@ import Header from "../components/common/header"
 import Image from "next/image"
 import Footer from "../components/Footer"
 import EmailPopUp from "../components/EmailPopUp"
+import RandomImages from '../components/RandomBack'
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
 import CarouselSimpleCard from "../components/common/CarouselSimpleCard"
@@ -39,10 +40,11 @@ const AboutUs = () => {
      {
       contactPopActive  && <EmailPopUp handleContactPopUp={handleContactPopUp}/>
     }
-    <div>
+    <RandomImages zIndex={-1} />
+    <div className="logoRepeat">
       <Header handleContactPopUp={handleContactPopUp} />
-      <div className="relative mt-[120px] logoRepeate">
-        <div className="w-[52px] h-[100%] bg-dk-secondary absolute top-0 left-0 z-[-1] lg:w-[80px]" />
+      <div className="relative mt-[120px]">
+        <div className="w-[52px] h-[100%] bg-dk-secondary absolute top-0 left-0 z-[-1] lg:w-[80px]"> </div>
         <div className="flex flex-col lg:flex-row items-center">
           <div className="w-[90%] lg:w-[40%] h-[450px] flex relative img_team">
             <Image
@@ -68,10 +70,10 @@ const AboutUs = () => {
             autoPlaySpeed={2000} 
             infinite={true}
           >
-            <CarouselSimpleCard title="Store Front & Entrances" img="/comercial/comercial1.jpeg" text="" />
-            <CarouselSimpleCard title="Exterior & Interior Glass" img="/comercial/comercial2.jpg" text="" />
-            <CarouselSimpleCard title="Interior Office Partitions" img="/comercial/comercail3.jpg" text="" />
-            <CarouselSimpleCard title="Door Repair & Replacement" img="/comercial/comercial3.jpg" text="" />
+            <CarouselSimpleCard img="/comercial/comercial1.jpeg"  />
+            <CarouselSimpleCard img="/comercial/comercial2.jpg"  />
+            <CarouselSimpleCard img="/comercial/comercail3.jpg"  />
+            <CarouselSimpleCard img="/comercial/comercial3.jpg"  />
           </Carousel>
           </div>
         </div>

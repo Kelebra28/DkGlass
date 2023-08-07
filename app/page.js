@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import { NextSeo } from 'next-seo';
+// import Head from 'next/head'
+// import { NextSeo } from 'next-seo';
 import HomeLayout from './components/Home'
-import { metadata } from './layout';
+// import { metadata } from './layout';
 
 export default function Home() {
   return (
