@@ -30,13 +30,12 @@ export default function Home() {
               <p className="mt-[20px] mb-[30px] text-[18px] font-medium">We love to build long-term relationships based on customer satisfaction and the highest service standards. With years of expertise and tools to perform the job as customer request.</p>
               <p className="mt-[20px] mb-[30px] text-[18px] font-medium">Our well-trained and highly skilled technicians are always ready and willing to work on every single project.</p>
               <span className="text-[15px]">Store Front & Entrances</span>
-              <span className="mt-[20px] bg-dk-secondary w-[330px] text-[]15px pl-[18px] text-[white] italic font-semibold">Specifications</span>
             </div>
           </div>
           <div className="w-[100%] lg:w-[50%] flex justify-center border-t-dk-main border-t-[20px] pt-[14px] lg:pt-0 lg:border-none">
             <div className="w-[90%] lg:w-[100%] h-[630px] relative">
               <Image
-                src="/residencial/residelcia3.jpg"
+                src="/comercial/commercial7.jpg"
                 alt=""
                 layout="fill"
               />
@@ -47,9 +46,9 @@ export default function Home() {
           <div className="lg:w-[33%] lg:bg-dk-bg-gray flex justify-end p-[45px] box-border">
             <p className="text-[15px] lg:w-[70%] ">Any glass work you need.</p>
           </div>
-          <div className="w-[100%] lg:w-[33%] relative border-[8px] border-[white] ">
+          <div className="w-[100%] lg:w-[20%] relative border-[8px] border-[white] ">
             <Image
-              src="/residencial/residelcia5.jpeg"
+              src="/comercial/commercial8.jpg"
               alt=""
               layout="fill"
             />

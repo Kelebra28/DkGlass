@@ -47,7 +47,7 @@ const EmailPopUp = ({ handleContactPopUp }) => {
           <div className="maincontent  ml-[26px]">
             <div>
               <span className="text-[26px] font-semibold">Contact us</span>
-              <p className="text-[14px] text-[#707070]">Te aseguro que encontraremos la mejor opción para tus proyectos agregando elegancia y funcionalidad a tus espacios con nuestros accesorios</p>
+              <p className="text-[14px] text-[#707070]">I assure you that we will find the best option for your projects, adding elegance and functionality to your spaces with our accessories.</p>
             </div>
             <form action="" ref={form}>
               <div className="flex lg:justify-between flex-col lg:flex-row">
