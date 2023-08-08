@@ -48,6 +48,13 @@ const Footer = () => (
           layout="fill"
         />
       </a>
+      <a href="https://www.tiktok.com/@dkglass_velasco" className="w-[26px] h-[26px] relative ml-[33px]">
+        <Image
+          src="/icons/tik-tok-white.svg"
+          alt="instagram"
+          layout="fill"
+        />
+      </a>
     </div>
   </div>
 )

@@ -47,6 +47,21 @@ const SocialMedia = () => (
         />
         </a>
       </div>
+      <div className="w-[30px] h-[30px] my-[20px] relative cursor-pointer">
+          <span class="relative left-4 flex h-3 w-3">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75">
+                <span className="bg-[#fffffF] rounded-full h-[5px] w-[5px]"></span>
+              </span>
+              <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+            </span>
+            <a target="_blank" href="https://www.tiktok.com/@dkglass_velasco">
+              <Image
+                src="/icons/tik-tok-white.svg"
+                alt="Portada"
+                layout="fill"
+              />
+            </a>
+          </div>
       {/* <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
         <Image
           src="/icons/youtube-white.svg"
