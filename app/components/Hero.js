@@ -98,7 +98,7 @@ const Hero = ({ handleContactPopUp }) => (
             </div>
             <div className="w-[736px] h-[450px] relative">
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
-                <span className="text-[30px] text-center font-semibold text-[white]">Harware & Supplies</span>
+                <span className="text-[30px] text-center font-semibold text-[white]">Hardware & Supplies</span>
                 <Link href="/principal/bathrooms">
                   <Button className="button_hover" text="See more" color="white" />
                 </Link>
@@ -182,14 +182,14 @@ const Hero = ({ handleContactPopUp }) => (
                   <span className="text-[12px] font-semibold ml-[10px]">(832) 740-4977</span>
                 </div>
               </Link>
-              <Link href={`mailto:dkglassvelasco@gmail.com`}>
+              <Link href={`mailto:info@velascoglassmirrors.com`}>
                 <div className="flex items-center ml-[55px] cursor-pointer animation-contact">
                   <div className="w-[23px] h-[23px] relative">
                     <span className="text-[#1081A9]">
                       <ForwardToInboxSharpIcon />
                     </span>
                   </div>
-                  <span className="text-[12px] font-semibold ml-[10px]">{`dkglassvelasco@gmail.com`}</span>
+                  <span className="text-[12px] font-semibold ml-[10px]">{`info@velascoglassmirrors.com`}</span>
                 </div>
               </Link>
               <div className="flex items-center ml-[55px] cursor-pointer animation-contact">
