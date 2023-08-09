@@ -11,7 +11,7 @@ const AboutUs = () => (
           layout="fill"
         />
       </div>
-      <div className=" relative lg:w-[50%] mt-[60px] ml-[84px] lg:ml-[42px] lg:flex lg:flex-col lg:justify-between">
+      <div className=" relative lg:w-[50%] mt-[60px] ml-[84px] lg:ml-[42px] lg:flex lg:flex-col lg:justify-between abus">
         <div className="border-l-4 border-dk-main h-[52px] flex items-center pl-[21px]">
           <span className="text-dk-main text-[26px]">About Us</span>
         </div>

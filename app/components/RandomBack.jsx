@@ -131,6 +131,48 @@ const RandomImages = () => {
           backgroundImage: 'url(logoFondo.svg)', // Reemplaza 'ruta/de/la/imagen-fija.jpg' con la ruta de tu imagen fija
         }}
       />
+      <div
+        className="fixed-image3"
+        style={{
+          backgroundImage: 'url(logoFondo.svg)', // Reemplaza 'ruta/de/la/imagen-fija.jpg' con la ruta de tu imagen fija
+        }}
+      />
+      <div
+        className="fixed-image4"
+        style={{
+          backgroundImage: 'url(logoFondo.svg)', // Reemplaza 'ruta/de/la/imagen-fija.jpg' con la ruta de tu imagen fija
+        }}
+      />
+      <div
+        className="fixed-image5"
+        style={{
+          backgroundImage: 'url(logoFondo.svg)', // Reemplaza 'ruta/de/la/imagen-fija.jpg' con la ruta de tu imagen fija
+        }}
+      />
+       <div
+        className="fixed-image6"
+        style={{
+          backgroundImage: 'url(logoFondo.svg)', // Reemplaza 'ruta/de/la/imagen-fija.jpg' con la ruta de tu imagen fija
+        }}
+      />
+       <div
+        className="fixed-image7"
+        style={{
+          backgroundImage: 'url(logoFondo.svg)', // Reemplaza 'ruta/de/la/imagen-fija.jpg' con la ruta de tu imagen fija
+        }}
+      />
+       <div
+        className="fixed-image8"
+        style={{
+          backgroundImage: 'url(logoFondo.svg)', // Reemplaza 'ruta/de/la/imagen-fija.jpg' con la ruta de tu imagen fija
+        }}
+      />
+       <div
+        className="fixed-image9"
+        style={{
+          backgroundImage: 'url(logoFondo.svg)', // Reemplaza 'ruta/de/la/imagen-fija.jpg' con la ruta de tu imagen fija
+        }}
+      />
       {/* {randomImages.map((image, index) => (
         <div
           key={index}
