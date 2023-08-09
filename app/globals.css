@@ -93,43 +93,120 @@
 
 .random-image {
   position: absolute;
-  width: 30vw; /* Ancho de las imágenes aleatorias */
-  height: 15vh; /* Alto de las imágenes aleatorias */
+  width: 30vw; 
+  height: 15vh;
   background-size: cover;
+  z-index: -10;
 }
 
 .fixed-image {
   position: fixed;
-  width: 30vw; /* Ancho de la imagen fija */
-  height: 15vh; /* Alto de la imagen fija */
+  width: 15vw;
+  height: 7.5vh;
   background-size: cover;
-  top: 20%;
-  left: 55%;
+  top: 0%;
+  left: 80%;
   transform: translate(-50%, -50%);
-  z-index: -1;
+  z-index: -10;
 }
 
 .fixed-image1 {
   position: fixed;
-  width: 30vw; /* Ancho de la imagen fija */
-  height: 15vh; /* Alto de la imagen fija */
+  width: 15vw;
+  height: 7.5vh;
   background-size: cover;
-  top: 75%;
-  left: 19%;
+  top: 0%;
+  left: 20%;
   transform: translate(-50%, -50%);
   z-index: -1;
 }
 .fixed-image2 {
   position: fixed;
-  width: 30vw; /* Ancho de la imagen fija */
-  height: 15vh; /* Alto de la imagen fija */
+  width: 15vw;
+  height: 7.5vh;
   background-size: cover;
-  top: 60%;
-  left: 85%;
+  top: 20%;
+  left: 35%;
   transform: translate(-50%, -50%);
   z-index: -1;
 }
 
+.fixed-image3 {
+  position: fixed;
+  width: 15vw;
+  height: 7.5vh;
+  background-size: cover;
+  top: 20%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.fixed-image4 {
+  position: fixed;
+  width: 15vw;
+  height: 7.5vh;
+  background-size: cover;
+  top: 40%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.fixed-image5 {
+  position: fixed;
+  width: 15vw;
+  height: 7.5vh;
+  background-size: cover;
+  top: 40%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.fixed-image6 {
+  position: fixed;
+  width: 15vw;
+  height: 7.5vh;
+  background-size: cover;
+  top: 60%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.fixed-image7 {
+  position: fixed;
+  width: 15vw;
+  height: 7.5vh;
+  background-size: cover;
+  top: 60%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.fixed-image8 {
+  position: fixed;
+  width: 15vw;
+  height: 7.5vh;
+  background-size: cover;
+  top: 80%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.fixed-image9 {
+  position: fixed;
+  width: 15vw;
+  height: 7.5vh;
+  background-size: cover;
+  top: 80%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  z-index: -10;
+}
 
 
 
@@ -148,6 +225,8 @@
 
 
 .servicesLogo{
+  position: relative;
+  background-color: white;
   background-image: url('../public/logoAbour.svg');
   background-repeat: no-repeat;
   background-position: right 0% top 60%;
@@ -230,7 +309,26 @@
   background-color: #60DBC5;
 } */
 
+.chosse{
+  background-color: white;
+  position: relative;
+}
+
+.testimonial{
+  /* position: absolute; */
+  background-color: white;
+  position: relative;
+  
+}
+
+.abus{
+  background-color: white;
+  position: relative;
+}
+
 .footer{
+position: relative;
+  width: 100vw;
   background-color: #1081A9;
   color: white;
 }
