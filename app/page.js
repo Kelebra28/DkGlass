@@ -1,6 +1,7 @@
 // import Head from 'next/head'
 // import { NextSeo } from 'next-seo';
 import HomeLayout from './components/Home'
+import RandomImages from './components/RandomBack'
 // import { metadata } from './layout';
 
 export default function Home() {
@@ -22,7 +23,9 @@ export default function Home() {
     //       url: 'https://dk-glass.vercel.app',
     //     }}
     //   />
+    <>
+      <RandomImages />
       <HomeLayout />
-    // </>
+    </>
   )
 }
