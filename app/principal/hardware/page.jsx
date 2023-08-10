@@ -6,6 +6,7 @@ import Header from "../../components/common/header"
 import SocialMedia from "../../components/common/SocialMedia"
 import Footer from "../../components/Footer"
 import EmailPopUp from "../../components/EmailPopUp"
+import { Gallery } from "../../components/common/Galery"
 
 export default function Home() {
   const [contactPopActive, setContactPopActive] = useState(false)
@@ -24,20 +25,23 @@ export default function Home() {
           <div className="w-[100%] lg:w-[50%]  mb-[60px] lg:mb-0">
             <div className="hidden lg:block h-[29px] bg-dk-main" />
             <div className="px-[30px] lg:px-[80px] mt-[20px] flex flex-col">
-              <span className="text-[25px] font-medium">Bathrooms</span>
+              <span className="text-[25px] font-medium">Hardware & Supplies</span>
               <p className="mt-[20px] mb-[30px] text-[18px] font-medium">"Optimize the use of space and natural light with our customizable interior glass fixtures"</p>
             </div>
           </div>
-          <div className="w-[100%] lg:w-[50%] flex justify-center border-t-dk-main border-t-[20px] pt-[14px] lg:pt-0 lg:border-none">
+          <div className="w-[100%] lg:w-[80%] flex justify-center border-t-dk-main border-t-[20px] pt-[14px] lg:pt-0 lg:border-none">
             <div className="w-[90%] lg:w-[100%] h-[630px] relative">
-              <Image
+              {/* <Image
                 src="/carousel5.jpeg"
                 alt=""
                 layout="fill"
-              />
+              /> */}
+              <Gallery/>
             </div>
           </div>
         </div>
+        <div className="lg:w-[33%] flex items-end">
+          </div>
         <div className="flex h-[250px] lg:mt-[-80px] flex-col lg:flex-row">
           <div className="lg:w-[33%] lg:bg-dk-bg-gray flex justify-end p-[45px] box-border">
             <p className="text-[15px] lg:w-[70%] ">Any glass work you need.</p>
