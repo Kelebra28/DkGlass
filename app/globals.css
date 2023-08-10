@@ -232,6 +232,14 @@
   background-position: right 0% top 60%;
   background-size: 90% 50%; 
 }
+.galleryContainer{
+  position: relative;
+  background-color: white;
+  background-image: url('../public/logoAbour.svg');
+  background-repeat: no-repeat;
+  background-position: right 50% top 50%;
+  background-size: 60% 40%;
+}
 
 
                           /* hovers */
@@ -357,6 +365,11 @@ position: relative;
 
 .animationIcon{
   animation: spin-pause 14s linear infinite;
+}
+
+.galletItem:hover{
+  border: 2px solid #1081A9;
+  animation:  zoom-in-zoom-out-carrusel 2s ease ;
 }
 
 /* animation  */

@@ -99,7 +99,7 @@ const Hero = ({ handleContactPopUp }) => (
             <div className="w-[736px] h-[450px] relative">
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
                 <span className="text-[30px] text-center font-semibold text-[white]">Hardware & Supplies</span>
-                <Link href="/principal/bathrooms">
+                <Link href="/principal/hardware">
                   <Button className="button_hover" text="See more" color="white" />
                 </Link>
               </div>
