@@ -173,6 +173,24 @@ const RandomImages = () => {
           backgroundImage: 'url(logoFondo.svg)', // Reemplaza 'ruta/de/la/imagen-fija.jpg' con la ruta de tu imagen fija
         }}
       />
+        <div
+        className="fixed-image10"
+        style={{
+          backgroundImage: 'url(logoFondo.svg)', // Reemplaza 'ruta/de/la/imagen-fija.jpg' con la ruta de tu imagen fija
+        }}
+      />
+        <div
+        className="fixed-image11"
+        style={{
+          backgroundImage: 'url(logoFondo.svg)', // Reemplaza 'ruta/de/la/imagen-fija.jpg' con la ruta de tu imagen fija
+        }}
+      />
+        <div
+        className="fixed-image12"
+        style={{
+          backgroundImage: 'url(logoFondo.svg)', // Reemplaza 'ruta/de/la/imagen-fija.jpg' con la ruta de tu imagen fija
+        }}
+      />
       {/* {randomImages.map((image, index) => (
         <div
           key={index}
