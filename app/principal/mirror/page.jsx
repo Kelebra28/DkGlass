@@ -6,6 +6,8 @@ import Header from "../../components/common/header"
 import SocialMedia from "../../components/common/SocialMedia"
 import Footer from "../../components/Footer"
 import EmailPopUp from "../../components/EmailPopUp"
+import RandomImages from '../../components/RandomBack'
+
 
 export default function Home() {
   const [contactPopActive, setContactPopActive] = useState(false)
@@ -14,6 +16,7 @@ export default function Home() {
   }
   return (
     <div>
+      <RandomImages />
       <Header />
       {
         contactPopActive && <EmailPopUp handleContactPopUp={handleContactPopUp}/>
@@ -38,7 +41,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex h-[250px] lg:mt-[-80px] flex-col lg:flex-row">
+        <div className="flex h-[250px] lg:mt-[-80px] flex-col lg:flex-row relative">
           <div className="lg:w-[33%] lg:bg-dk-bg-gray flex justify-end p-[45px] box-border">
             <p className="text-[15px] lg:w-[70%] ">Any glass work you need.</p>
           </div>

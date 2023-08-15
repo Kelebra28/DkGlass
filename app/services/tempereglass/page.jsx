@@ -5,6 +5,7 @@ import Button from "../../components/common/Button"
 import Header from "../../components/common/header"
 import SocialMedia from "../../components/common/SocialMedia"
 import Footer from "../../components/Footer"
+import RandomImages from '../../components/RandomBack'
 import EmailPopUp from "../../components/EmailPopUp"
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
   }
   return (
     <div>
+      <RandomImages />
       <Header />
       {
         contactPopActive && <EmailPopUp handleContactPopUp={handleContactPopUp}/>
@@ -40,7 +42,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex lg:mt-[-80px] flex-col lg:flex-row">
+        <div className="flex lg:mt-[-80px] flex-col lg:flex-row relative">
           <div className="lg:w-[33%] lg:bg-dk-bg-gray flex justify-end p-[45px] box-border">
             <p className="text-[15px] lg:w-[70%] ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorp</p>
           </div>
