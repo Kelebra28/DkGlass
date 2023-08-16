@@ -52,22 +52,22 @@ const EmailPopUp = ({ handleContactPopUp }) => {
             <form action="" ref={form}>
               <div className="flex lg:justify-between flex-col lg:flex-row">
                 <div className="my-[10px] lg:my-[23px] flex flex-col lg:w-[47%]">
-                  <label htmlFor="" className="text-[14px]">Tu Nombre</label>
+                  <label htmlFor="" className="text-[14px]">Your Name</label>
                   <input name="user_name" placeholder="Nombre" className="pl-[12px] border border-dk-gray shadow h-[51px] rounded-lg" type="text" />
                 </div>
                 <div className="my-[10px] lg:my-[23px] flex flex-col lg:w-[47%]">
                   <label htmlFor="" className="text-[14px]">Email</label>
-                  <input name="user_email" placeholder="correo@email.com" className="border border-dk-gray pl-[12px] shadow h-[51px] rounded-lg" type="text" />
+                  <input name="user_email" placeholder="exaple@email.com" className="border border-dk-gray pl-[12px] shadow h-[51px] rounded-lg" type="text" />
                 </div>
               </div>
               <div>
                 <div className="my-[10px] lg:my-[23px] flex flex-col h-100px">
-                  <label htmlFor="" className="text-[14px]">Mensaje</label>
-                  <textarea name="message" placeholder="Tu mensaje" className="pt-[10px] pl-[12px] shadow h-[150px] border border-dk-gray rounded-lg" type="text" />
+                  <label htmlFor="" className="text-[14px]">Message</label>
+                  <textarea name="message" placeholder="Your message" className="pt-[10px] pl-[12px] shadow h-[150px] border border-dk-gray rounded-lg" type="text" />
                 </div>
               </div>
               <div className="flex justify-center mt-[40px]">
-                <Button text='Enviar mensaje' onClick={sendEmail} />
+                <Button text='Send message' onClick={sendEmail} />
               </div>
             </form>
           </div>
