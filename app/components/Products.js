@@ -71,7 +71,7 @@ const Products = () => (
             <CarouselCard text="Windows Glass Repair & Replacement" img="/residencial/residelcia5.jpeg" />
           </div>
           <div className="mx-[10px]">
-            <CarouselCard text="Costum Window" img="/residencial/window1.jpg" />
+            <CarouselCard text="Custom Windows" img="/residencial/window1.jpg" />
           </div>
           <div className="mx-[10px]">
             <CarouselCard text="Frame & Frameless Mirrors" img="/comercial/conercial5.jpg" />
