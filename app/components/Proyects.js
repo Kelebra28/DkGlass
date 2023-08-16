@@ -69,7 +69,7 @@ const Proyects = () => (
         <CarouselCard text="Splash panels" img="/residencial/residencial11.jpg" />
         <CarouselCard text="Shower Doors Hinges" img="/residencial/residencial12.jpg" />
         <CarouselCard text="Windows Glass Repair & Replacement" img="/residencial/residelcia5.jpeg" />
-        <CarouselCard text="Costum Window" img="/residencial/window1.jpg" />
+        <CarouselCard text="Custom Windows" img="/residencial/window1.jpg" />
         <CarouselCard text="Frame & Frameless Mirrors" img="/comercial/conercial5.jpg" />
       </Carousel>
     </div>

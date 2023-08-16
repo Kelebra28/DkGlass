@@ -57,7 +57,7 @@ const SideBar = ({ handleClickMenu }) => (
           <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Titulo</span>
         </section> */}
         <div className="flex flex-col mt-[87px]">
-          <Link href="tel:+52 55 1204 0419">
+          <Link href="tel:(832) 740-4977">
             <div className="flex items-center">
               <div className="w-[16px] h-[16px] relative">
                 <Image
@@ -66,10 +66,10 @@ const SideBar = ({ handleClickMenu }) => (
                   layout="fill"
                 />
               </div>
-              <span className="text-[12px] font-semibold ml-[10px]">+52 55 1204 0419</span>
+              <span className="text-[12px] font-semibold ml-[10px]">(832) 740-4977</span>
             </div>
           </Link>
-          <Link href={`mailto:dkglassvelasco@gmail.com`}>
+          <Link href={`mailto:info@velascoglassmirrors.com`}>
             <div className="flex items-center mt-[12px]">
               <div className="w-[23px] h-[23px] relative">
                 <Image
@@ -78,7 +78,7 @@ const SideBar = ({ handleClickMenu }) => (
                   layout="fill"
                 />
               </div>
-              <span className="text-[12px] font-semibold ml-[10px]">dkglassvelasco@gmail.com</span>
+              <span className="text-[12px] font-semibold ml-[10px]">info@velascoglassmirrors.com</span>
             </div>
           </Link>
         </div>
