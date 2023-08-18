@@ -32,11 +32,23 @@ const Proyects = () => (
       <div className="border-l-4 border-dk-secondary h-[52px] items-center mt-[40px] ml-[57px] pl-[21px] hidden lg:flex">
         <span className="text-dk-main text-[36px]">Residencial</span>
       </div>
-      <p className="w-[180px] ml-[100px] text-[11px] mt-[41px] hidden lg:flex ">Shower Glass Doors & Supplies & sliding glass shower doors 
-         </p>
+      <ul>
+        <li className="w-[180px] ml-[100px] text-[15px] mt-[41px] hidden lg:flex ">Patio Door</li>
+        <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex ">Patio Enclosure</li>
+        <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex ">Sliding Glass Door</li>
+        <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex ">Shower Glass Door</li>
+        <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex ">Mirrors</li>
+        <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex ">Railing stair system</li>
+      </ul>
+    
       <div className="lg:hidden">
         <h3 className="text-[36px]">Commercial</h3>
         <div className="border-b-4 border-dk-secondary w-[92px] mt-[15px]" />
+        <ul>
+        <li className="w-[180px] ml-[100px] text-[15px] mt-[41px] hidden lg:flex ">Storefront</li>
+        <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex ">Impact Storefront</li>
+        <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex ">Office Partition</li>
+      </ul>
       </div>
     </div>
     <div className="lg:hidden">

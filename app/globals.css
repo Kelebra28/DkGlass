@@ -242,9 +242,23 @@
 }
 
 
+.map-direction-container{
+  width: 300px !important;
+}
 
+.map-direction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 1vh;
+  right: 10vw;
+  font-size: small;
+  border-radius: 80px;
+  background-color: rgb(255, 255, 255);
+  width: 320px;
+  height: 30px;
 
-
+}
 
 
 
