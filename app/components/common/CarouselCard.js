@@ -8,7 +8,7 @@ const CarouselCard = ({ text, img }) => (
         layout="fill"
       />
     </div>
-    <p className="text-[11px] mt-[13px] px-[30px]">{text}</p>
+    <p className="text-[15px] mt-[13px] px-[30px]">{text}</p>
     <div className="w-[136px] h-[36px] bg-dk-main self-end mt-[18px]" />
   </div>
 )

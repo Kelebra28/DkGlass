@@ -38,7 +38,11 @@ const Products = () => (
       <div className="border-l-4 border-dk-main h-[52px] flex items-center mt-[40px] ml-[57px] pl-[21px] lg:ml-[17px]">
         <span className="text-dk-main text-[36px]">Commercial</span>
       </div>
-      <p className="mt-[41px] ml-[89px] lg:hidden">Shower Glass Doors & Supplies & sliding glass shower doors </p>
+      <ul>
+        <li className="w-[180px] ml-[55px] text-[15px] mt-[41px] hidden lg:flex ">Storefront</li>
+        <li className="w-[180px] ml-[55px] text-[15px] mt-[10px] hidden lg:flex ">Impact Storefront</li>
+        <li className="w-[180px] ml-[55px] text-[15px] mt-[10px] hidden lg:flex ">Office Partition</li>
+      </ul>
 
       <div className="mt-[40px] mb-[40px] pl-[30px] w-screen lg:hidden">
         <Carousel
