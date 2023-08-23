@@ -18,7 +18,7 @@ export default function Home() {
       <RandomImages />
       <Header />
       {
-        contactPopActive && <EmailPopUp handleContactPopUp={handleContactPopUp}/>
+        contactPopActive && <EmailPopUp handleContactPopUp={handleContactPopUp} />
       }
       <SocialMedia />
       <div className=" mt-[90px]">
@@ -27,7 +27,20 @@ export default function Home() {
             <div className="hidden lg:block h-[29px] bg-dk-main" />
             <div className="px-[30px] lg:px-[80px] mt-[20px] flex flex-col">
               <span className="text-[25px] font-medium">Tempere Glass</span>
-              <p className="mt-[20px] mb-[30px] text-[18px] font-medium">"Optimize the use of space and natural light with our customizable interior glass fixtures"</p>
+              <p className="mt-[20px] mb-[30px] text-[18px] font-medium">Tempered glass is one of the most common glass types used in
+                architecture due to its thermal properties, safety, and durability.</p>
+                <p className="mt-[20px] mb-[30px] text-[18px] font-medium">Tempered glass is the process of heating annealed glass, using a special furnace, to an even and uniform temperature of about 700c</p>
+                <p className="mt-[20px] mb-[30px] text-[18px] font-medium">Once the glass is heated
+                up, it is removed from the furnace and rapidly cooled down. This puts the
+                glass in a state of compression while the core of the glass stays withintension.</p>
+                <div className="w-[100%] h-[400px] relative mb-[100px]">
+                <Image
+                src="/services/tempered6.jpg"
+                alt=""
+                layout="fill"
+              />
+                </div>
+
               {/* <span className="text-[15px]">Model</span>
               <span className="mt-[20px] bg-dk-secondary w-[330px] text-[]15px pl-[18px] text-[white] italic font-semibold">Specifications</span> */}
             </div>
@@ -35,7 +48,7 @@ export default function Home() {
           <div className="w-[100%] lg:w-[50%] flex justify-center border-t-dk-main border-t-[20px] pt-[14px] lg:pt-0 lg:border-none">
             <div className="w-[90%] lg:w-[100%] h-[630px] relative">
               <Image
-                src="/services/tempereglass1.jpg"
+                src="/services/template7.jpeg"
                 alt=""
                 layout="fill"
               />
@@ -44,18 +57,18 @@ export default function Home() {
         </div>
         <div className="flex lg:mt-[-80px] flex-col lg:flex-row relative">
           <div className="lg:w-[33%] lg:bg-dk-bg-gray flex justify-end p-[45px] box-border">
-            <p className="text-[15px] lg:w-[70%] ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorp</p>
+            <p className="text-[15px] lg:w-[70%] ">Any glass work you need.</p>
           </div>
-          <div className="w-[100%] lg:w-[33%] relative border-[8px] border-[white] ">
+          <div className="w-[100%] lg:w-[23%] h-[200px] relative border-[8px] border-[white] ">
             <Image
-              src="/services/tempereglaass2.jpg"
+              src="/services/tempered5.jpg"
               alt=""
               layout="fill"
             />
           </div>
           <div className="lg:w-[33%] flex items-end">
             <div className="ml-[40px] mb-[50px]">
-              <Button text="Contact us" onClick={handleContactPopUp}/>
+              <Button text="Contact us" onClick={handleContactPopUp} />
             </div>
           </div>
         </div>
