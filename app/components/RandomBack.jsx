@@ -112,7 +112,7 @@ const RandomImages = () => {
 //   }, []);
 
   return (
-    <div className="random-images-container">
+    <div className="random-images-container hidden md:block">
       <div
         className="fixed-image"
         style={{

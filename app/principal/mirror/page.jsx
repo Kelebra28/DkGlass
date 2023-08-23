@@ -34,7 +34,7 @@ export default function Home() {
           <div className="w-[100%] lg:w-[50%] flex justify-center border-t-dk-main border-t-[20px] pt-[14px] lg:pt-0 lg:border-none">
             <div className="w-[90%] lg:w-[100%] h-[630px] relative">
               <Image
-                src="/carousel5.jpeg"
+                src="/mirror/mirror3.jpg"
                 alt=""
                 layout="fill"
               />
@@ -47,7 +47,7 @@ export default function Home() {
           </div>
           <div className="w-[100%] lg:w-[23%] relative border-[8px] border-[white] ">
             <Image
-              src="/mirror/mirror1.jpg"
+              src="/mirror/mirror2.jpg"
               alt=""
               layout="fill"
             />
