@@ -53,7 +53,7 @@ const EmailPopUp = ({ handleContactPopUp }) => {
               <div className="flex lg:justify-between flex-col lg:flex-row">
                 <div className="my-[10px] lg:my-[23px] flex flex-col lg:w-[47%]">
                   <label htmlFor="" className="text-[14px]">Your Name</label>
-                  <input name="user_name" placeholder="Nombre" className="pl-[12px] border border-dk-gray shadow h-[51px] rounded-lg" type="text" />
+                  <input name="user_name" placeholder="Name" className="pl-[12px] border border-dk-gray shadow h-[51px] rounded-lg" type="text" />
                 </div>
                 <div className="my-[10px] lg:my-[23px] flex flex-col lg:w-[47%]">
                   <label htmlFor="" className="text-[14px]">Email</label>
