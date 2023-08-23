@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 const WhyUs = () => (
-  <div className="flex mb-[100px] whyChose hidden md:block">
+  <div className="flex mb-[100px] whyChose hidden md:flex">
     <div className="w-[100%] lg:w-[50%]  flex justify-between">
       {/* <div className="w-[20%] h-[152px] relative">
         <Image
