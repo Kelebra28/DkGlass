@@ -39,8 +39,9 @@ const  Marker = () => {
           width: '12px',
           height: '12px',
         }}
-      />
-      <a href='https://www.google.com/maps/place/11955+FM+529,+Houston,+TX+77084,+USA/@29.8791644,-95.63306,17z/data=!3m1!4b1!4m5!3m4!1s0x8640d0c7bae408c9:0x8b57ad4d8988c30c!8m2!3d29.8791644!4d-95.63306?entry=ttu' target='_blank' style={{ fontWeight: 'bold', textAlign: 'center' }}>DK Glass</a>
+        className='marketmap'
+        />
+      <a  href='https://www.google.com/maps/place/11955+FM+529,+Houston,+TX+77084,+USA/@29.8791644,-95.63306,17z/data=!3m1!4b1!4m5!3m4!1s0x8640d0c7bae408c9:0x8b57ad4d8988c30c!8m2!3d29.8791644!4d-95.63306?entry=ttu' target='_blank' style={{ fontWeight: 'bold', textAlign: 'center' }}>DK Glass</a>
     </div>
   </div>
   <div className='map-direction-container'>
@@ -76,8 +77,8 @@ const Map = () => {
           />
         </GoogleMapReact>
       </div>
+        <a className='hidden md:block' href="https://www.google.com/maps/place/11955+FM+529,+Houston,+TX+77084,+USA/@29.8791644,-95.63306,17z/data=!3m1!4b1!4m5!3m4!1s0x8640d0c7bae408c9:0x8b57ad4d8988c30c!8m2!3d29.8791644!4d-95.63306?entry=ttu">11955 A Farm to Market 529 Rd Houston Tx 77041</a>
         <div className='bg-dk-secondary h-[40px]' />
-        <a href="https://www.google.com/maps/place/11955+FM+529,+Houston,+TX+77084,+USA/@29.8791644,-95.63306,17z/data=!3m1!4b1!4m5!3m4!1s0x8640d0c7bae408c9:0x8b57ad4d8988c30c!8m2!3d29.8791644!4d-95.63306?entry=ttu">11955 A Farm to Market 529 Rd Houston Tx 77041</a>
     </div>
   )
 }

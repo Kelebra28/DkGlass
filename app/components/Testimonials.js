@@ -34,7 +34,7 @@ const Testimonials = () => (
     </div>
     <div className="w-12/12 lg:w-8/12 mb-[100px]">
       <div className="border-l-4 border-dk-main mt-[41px] h-[52px] ml-[54px] flex items-center pl-[21px]">
-        <span className="text-[21px]">Testimonials from satisfied customers</span>
+        <span className="text-[21px] text-center textBig">Testimonials from satisfied customers</span>
       </div>
       <div>
         <Carousel 
