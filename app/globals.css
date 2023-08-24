@@ -489,3 +489,29 @@ position: relative;
 .react-multiple-carousel__arrow , .react-multiple-carousel__arrow--left {
   z-index: 1 !important;
 }
+
+
+/* movil mediaquerry */
+
+@media screen and (max-width: 768px) {
+  .servicesLogo {
+    position: relative;
+    background-color: white;
+    background-image: url('../public/logoAbour.svg');
+    background-repeat: no-repeat;
+    background-position: right 50% top 8%;
+    background-size: 70% 35%; 
+  }
+
+  .map-direction {
+    right: 50%;
+  }
+
+  .textBig{
+    width: 60vw;
+  }
+
+  .galleryContainer{
+    width: 100vw;
+  }
+}
