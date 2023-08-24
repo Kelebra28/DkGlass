@@ -2,7 +2,9 @@ import Image from "next/image"
 import Link from "next/link"
 const Footer = () => (
   <div className=" bg-dk-bg-gray pt-[64px] pb-[48px] footer">
-    <p className="text-center mb-[50px]">©2023 DK & Velasco Glass All Rights Reserved.</p>
+    <div className="flex justify-center">
+    <p className="text-center mb-[50px] textBig">©2023 DK & Velasco Glass All Rights Reserved.</p>
+    </div>
     <div className="pl-[70px] ">
       <div className="w-[213px] h-[54px] relative mb-[54px] lg:mx-auto">
         <Image
