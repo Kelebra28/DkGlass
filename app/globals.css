@@ -420,7 +420,16 @@ position: relative;
   animation: spin-pause 14s linear infinite;
 }
 
+.galletItem{
+  border: 2px solid #1081A9;
+}
+
 .galletItem:hover{
+  border: 2px solid #60DBC5;
+  animation:  zoom-in-zoom-out-carrusel 2s ease ;
+}
+
+.zoom:hover{
   border: 2px solid #1081A9;
   animation:  zoom-in-zoom-out-carrusel 2s ease ;
 }
