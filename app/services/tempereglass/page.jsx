@@ -26,7 +26,7 @@ export default function Home() {
           <div className="w-[100%] lg:w-[50%]  mb-[60px] lg:mb-0">
             <div className="hidden lg:block h-[29px] bg-dk-main" />
             <div className="px-[30px] lg:px-[80px] mt-[20px] flex flex-col">
-              <span className="text-[25px] font-medium">Tempere Glass</span>
+              <span className="text-[25px] font-medium">Tempered Glass</span>
               <p className="mt-[20px] mb-[30px] text-[18px] font-medium">Tempered glass is one of the most common glass types used in
                 architecture due to its thermal properties, safety, and durability.</p>
                 <p className="mt-[20px] mb-[30px] text-[18px] font-medium">Tempered glass is the process of heating annealed glass, using a special furnace, to an even and uniform temperature of about 700c</p>

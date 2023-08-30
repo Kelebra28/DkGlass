@@ -17,7 +17,6 @@ export default function Home() {
   }
   return (
     <div>
-      <RandomImages />
       <Header />
       {
         contactPopActive && <EmailPopUp handleContactPopUp={handleContactPopUp} />
@@ -48,23 +47,24 @@ export default function Home() {
           </div>
         </div>
         <div className="lg:w-[33%] flex items-end">
+        <div className="ml-[40px] mb-[50px]">
+              <Button text="Contact us" onClick={handleContactPopUp} />
+            </div>
         </div>
         <div className="flex h-[250px] lg:mt-[-80px] flex-col lg:flex-row relative">
-          <div className="lg:w-[33%] lg:bg-dk-bg-gray flex justify-end p-[45px] box-border">
+          {/* <div className="lg:w-[33%] lg:bg-dk-bg-gray flex justify-end p-[45px] box-border">
             <p className="text-[15px] lg:w-[70%] ">Any glass work you need.</p>
-          </div>
-          <div className="w-[100%] lg:w-[33%] relative border-[8px] border-[white] ">
+          </div> */}
+          {/* <div className="w-[100%] lg:w-[33%] relative border-[8px] border-[white] ">
             <Image
               src="/hardware/hardware12.jpg"
               alt=""
               layout="fill"
             />
-          </div>
-          <div className="lg:w-[33%] flex items-end relative bg-[#ffffff]">
-            <div className="ml-[40px] mb-[50px]">
-              <Button text="Contact us" onClick={handleContactPopUp} />
-            </div>
-          </div>
+          </div> */}
+          {/* <div className="lg:w-[100%] flex items-center relative bg-[#ffffff]">
+           
+          </div> */}
         </div>
         {/* <div className="h-[76px] bg-dk-gray flex justify-center lg:justify-end pt-[15px] pr-[80px]">
           <span className="text-[15px]">Términos y condiciones</span>

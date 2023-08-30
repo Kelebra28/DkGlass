@@ -46,7 +46,7 @@ const AboutUs = () => {
       <div className="relative mt-[120px]">
         <div className="w-[52px] h-[100%] bg-dk-secondary absolute top-0 left-0 z-[-1] lg:w-[80px]"> </div>
         <div className="flex flex-col lg:flex-row items-center">
-          <div className="w-[90%] lg:w-[40%] h-[450px] flex relative img_team">
+          <div className="w-[90%] lg:w-[40%] h-[450px] flex relative img_team zoom">
             <Image
               src="/team.jpg"
               alt="Portada"
