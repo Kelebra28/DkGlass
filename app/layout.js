@@ -5,7 +5,7 @@ import OGMetaTags from './components/common/metaData'
 const inter = Cinzel({ subsets: ['latin'], weight: "400" })
 
 export const metadata = {
-  title: 'Dk Glass & Velasco',
+  title: { default: "Dk Glass & Velasco", template: "%s | Dk Glass & Velasco" },
   description: 'What you imagine in glass',
   image: 'https://dk-glass.vercel.app/logo-full.svg',
 }
