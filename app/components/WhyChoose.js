@@ -10,7 +10,7 @@ const WhyUs = () => (
           layout="fill"
         />
       </div> */}
-      <div className="w-[70%] h-[520px] relative">
+      <div className="w-[70%] h-[520px] relative zoom">
         <Image
           src="/bath.png"
           alt="escalera"
