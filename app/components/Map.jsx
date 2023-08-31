@@ -41,12 +41,12 @@ const  Marker = () => {
         }}
         className='marketmap'
         />
-      <a  href='https://www.google.com/maps/place/11955+FM+529,+Houston,+TX+77084,+USA/@29.8791644,-95.63306,17z/data=!3m1!4b1!4m5!3m4!1s0x8640d0c7bae408c9:0x8b57ad4d8988c30c!8m2!3d29.8791644!4d-95.63306?entry=ttu' target='_blank' style={{ fontWeight: 'bold', textAlign: 'center' }}>DK Glass</a>
+      <a  href='https://www.google.com/maps/place/DK+Glass+%26+Velasco/@29.874316,-95.5957923,17z/data=!3m1!4b1!4m6!3m5!1s0x8640d1e6268e7287:0x4b3a9a82edd79ea3!8m2!3d29.8743117!4d-95.5911664!16s%2Fg%2F11tp9zjn41?entry=ttu' target='_blank' style={{ fontWeight: 'bold', textAlign: 'center' }}>DK Glass</a>
     </div>
   </div>
   <div className='map-direction-container'>
 
-  <a href='https://www.google.com/maps/place/11955+FM+529,+Houston,+TX+77084,+USA/@29.8791644,-95.63306,17z/data=!3m1!4b1!4m5!3m4!1s0x8640d0c7bae408c9:0x8b57ad4d8988c30c!8m2!3d29.8791644!4d-95.63306?entry=ttu' className='relative z-10 right-0 map-direction' target='_blank'>11955 A Farm to Market 529 Rd Houston Tx 77041</a>
+  <a href='https://www.google.com/maps/place/DK+Glass+%26+Velasco/@29.874316,-95.5957923,17z/data=!3m1!4b1!4m6!3m5!1s0x8640d1e6268e7287:0x4b3a9a82edd79ea3!8m2!3d29.8743117!4d-95.5911664!16s%2Fg%2F11tp9zjn41?entry=ttu' className='relative z-10 right-0 map-direction' target='_blank'>11955-A Farm to Market Rd 529, Houston, TX 77041</a>
   </div>
   </>
   
