@@ -15,7 +15,7 @@ const Services = ({handleContactPopUp}) => (
       <Link href="/services/tempereglass" className="mb-[25px] hover-list">
         <span className="cursor-pointer font-medium text-dk-main text-[20px] mb-[25px] hover-item">{`> Tempered Glass`}</span>
       </Link>
-      <Link href="/services/hardware" className="mb-[25px] hover-list">
+      <Link href="/principal/hardware" className="mb-[25px] hover-list">
         <span className="cursor-pointer font-medium text-dk-main text-[20px] mb-[25px] hover-item">{`> Hardware Supplies `}</span>
       </Link>
       {/* <Link href="/template" className="mb-[25px] hover-list">
