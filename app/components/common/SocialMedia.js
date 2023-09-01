@@ -14,7 +14,7 @@ const SocialMedia = () => (
         <Image
           src="/icons/facebook-white.svg"
           alt="Portada"
-          layout="fill"
+         fill
         />
         </a>
       </div>
@@ -22,14 +22,14 @@ const SocialMedia = () => (
         <Image
           src="/icons/LinkedIn-white.svg"
           alt="Portada"
-          layout="fill"
+         
         />
       </div> */}
       {/* <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
         <Image
           src="/icons/twiter-white.svg"
           alt="Portada"
-          layout="fill"
+         
         />
       </div> */}
       <div className="w-[30px] h-[30px] my-[20px] relative cursor-pointer">
@@ -43,7 +43,7 @@ const SocialMedia = () => (
         <Image
           src="/icons/instagram-white.svg"
           alt="Portada"
-          layout="fill"
+         fill
         />
         </a>
       </div>
@@ -58,7 +58,7 @@ const SocialMedia = () => (
               <Image
                 src="/icons/tik-tok-white.svg"
                 alt="Portada"
-                layout="fill"
+                fill
               />
             </a>
           </div>
@@ -66,7 +66,7 @@ const SocialMedia = () => (
         <Image
           src="/icons/youtube-white.svg"
           alt="Portada"
-          layout="fill"
+         
         />
       </div> */}
     </div>
@@ -75,7 +75,7 @@ const SocialMedia = () => (
         <Image
           src="/icons/message-white.svg"
           alt="Portada"
-          layout="fill"
+         
         />
       </div>
     </div> */}

@@ -50,7 +50,7 @@ const AboutUs = () => {
             <Image
               src="/team.jpg"
               alt="Portada"
-              layout="fill"
+              fill
               className="img_team"
             />
           </div>

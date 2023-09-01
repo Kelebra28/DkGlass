@@ -13,7 +13,7 @@ export const Gallery = () => {
                             className="galleryPhoto"
                             src="/hardware/hardware0.png"
                             alt=""
-                            layout="fill"
+                            fill
                         />
                     </div>
                     <div className="galletItem" >
@@ -21,7 +21,7 @@ export const Gallery = () => {
                             className="galleryPhoto"
                             src="/hardware/hardware1.png"
                             alt=""
-                            layout="fill"
+                           fill
                         />
                     </div>
                     <div className="galletItem" >
@@ -29,7 +29,7 @@ export const Gallery = () => {
                             className="galleryPhoto"
                             src="/hardware/hardware2.png"
                             alt=""
-                            layout="fill"
+                            fill
                         />
                     </div>
                     <div className="galletItem" >
@@ -37,7 +37,7 @@ export const Gallery = () => {
                             className="galleryPhoto"
                             src="/hardware/hardware3.png"
                             alt=""
-                            layout="fill"
+                            fill
                         />
                     </div>
                     <div className="galletItem" >
@@ -45,7 +45,7 @@ export const Gallery = () => {
                             className="galleryPhoto"
                             src="/hardware/hardware4.png"
                             alt=""
-                            layout="fill"
+                            fill
                         />
                     </div>
                     <div className="galletItem" >
@@ -53,7 +53,7 @@ export const Gallery = () => {
                             className="galleryPhoto"
                             src="/hardware/hardware5.png"
                             alt=""
-                            layout="fill"
+                            fill
                         />
                     </div>
                     <div className="galletItem" >
@@ -61,7 +61,7 @@ export const Gallery = () => {
                             className="galleryPhoto"
                             src="/hardware/hardware6.png"
                             alt=""
-                            layout="fill"
+                           
                         />
                     </div>
                     <div className="galletItem" >
@@ -69,7 +69,7 @@ export const Gallery = () => {
                             className="galleryPhoto"
                             src="/hardware/hardware7.png"
                             alt=""
-                            layout="fill"
+                            fill
                         />
                     </div>
                     <div className="galletItem" >
@@ -77,7 +77,7 @@ export const Gallery = () => {
                             className="galleryPhoto"
                             src="/hardware/hardware8.png"
                             alt=""
-                            layout="fill"
+                            fill
                         />
                     </div>
                     <div className="galletItem" >
@@ -85,7 +85,7 @@ export const Gallery = () => {
                             className="galleryPhoto"
                             src="/hardware/hardware9.png"
                             alt=""
-                            layout="fill"
+                           
                         />
                     </div>
                     <div className="galletItem" >
@@ -93,7 +93,7 @@ export const Gallery = () => {
                             className="galleryPhoto"
                             src="/hardware/hardware10.png"
                             alt=""
-                            layout="fill"
+                            fill
                         />
                     </div>
                     <div className="galletItem" >
@@ -101,7 +101,7 @@ export const Gallery = () => {
                             className="galleryPhoto"
                             src="/hardware/hardware11.png"
                             alt=""
-                            layout="fill"
+                            fill
                         />
                     </div>
                 </div>

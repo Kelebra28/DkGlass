@@ -10,7 +10,7 @@ const Footer = () => (
         <Image
           src="/logoBlanco.svg"
           alt="Portada"
-          layout="fill"
+          fill
         />
       </div>
       <div className="flex lg:flex flex-col pb-[25px] lg:flex-row  lg:justify-between lg:px-[300px]">
@@ -40,21 +40,21 @@ const Footer = () => (
         <Image
           src="/icons/facebook-white.svg"
           alt="facebook"
-          layout="fill"
+          fill
         />
       </a>
       <a href="https://www.instagram.com/_dkglassshop/" className="w-[26px] h-[26px] relative ml-[33px]">
         <Image
           src="/icons/instagram-white.svg"
           alt="instagram"
-          layout="fill"
+          fill
         />
       </a>
       <a href="https://www.tiktok.com/@dkglass_velasco" className="w-[26px] h-[26px] relative ml-[33px]">
         <Image
           src="/icons/tik-tok-white.svg"
           alt="instagram"
-          layout="fill"
+         fill
         />
       </a>
     </div>

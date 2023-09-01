@@ -38,7 +38,7 @@ export default function Home() {
               <Image
                 src="/services/wholesaler3.jpg"
                 alt=""
-                layout="fill"
+                fill
               />
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function Home() {
             <Image
               src="/services/wholesaler2.jpg"
               alt=""
-              layout="fill"
+              fill
             />
           </div>
           <div className="lg:w-[33%] flex items-end">

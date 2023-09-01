@@ -5,7 +5,7 @@ const CarouselCard = ({ text, img }) => (
       <Image
         src={img}
         alt=""
-        layout="fill"
+        fill
       />
     </div>
     <p className="text-[15px] mt-[13px] px-[30px]">{text}</p>
