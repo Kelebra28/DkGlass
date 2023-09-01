@@ -17,78 +17,6 @@
     url('/https://fonts.gstatic.com/s/cinzeldecorative/v14/daaHSScvJGqLYhG8nNt8KPPswUAPniZQa9lESTc.woff') format('woff');
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-} */
-
-/* body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
-
-/* .logoAbout{
-   background-image: url('../public/logoFondo.svg');
-   background-repeat: no-repeat;
-   background-position: right 0% top 0%;
-   background-size: 90% 50%; 
-} */
-
-/* .logoRepeate{
-  background-image: url('../public/logoFondo.svg');
-  background-repeat: repeat;
-  background-size: 15% 15%; 
-  z-index: -1;
-} */
-
-/* .background-image-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background-size: 15% 15%; 
-} */
-
-/* .background-images-container{
-  
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  height: 100%;
-}
-
-.background-image {
-  flex: 1 0 20%;
-  height: 20%;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
-
-/* .logoRepeat{
-  background-image: url('../public/logoFondo.svg');
-  bac
-  backgroundPosition: `${randomPositionX}% ${randomPositionY}%`,
-  backgroundRepeat: 'no-repeat',
-  backgroundSize: 'cover',
-  width: '100%',
-  height: '100%',
-  position: 'fixed',
-  top: 0,
-  left: 0,
-  zIndex: -1,
-  margin: '5px solid'
-} */
 .random-images-container {
   position: fixed;
   top: 50%;
@@ -96,8 +24,6 @@
   width: 100vw;
   height: 50vh;
   overflow: hidden;
-  /* border: 4px solid red; */
-  /* z-index: 10 !important; */
 }
 
 .random-image {
@@ -336,7 +262,6 @@
 
 .logo:hover {
   transform: rotate(360deg);
-  /* -webkit-transform: rotate(360deg); */
   animation: zoom-in-zoom-out-logo 3s ease infinite;
 }
 
@@ -350,7 +275,6 @@
   background-color: white;
   color: #065BE7;
   border: 2px solid #065BE7;
-  /* border-color: #1081A9; */
 }
 
 .hover_contat2:hover {
@@ -359,11 +283,6 @@
 }
 
 /* List services     */
-/* .hover-list,a:hover{
-  background-color: #1081A9;
-  width: 30%;
-  animation: zoom-in-zoom-out-carrusel 1s ease;
-} */
 .hover-item:hover {
   background-color: #1081A9;
   color: white;
@@ -375,18 +294,11 @@
 
 /* carrusel */
 
-/* .carrusel_hover:hover{
-  height: 500px;
-} */
 
 .animation-contact:hover {
   animation: zoom-in-zoom-out-carrusel 3s ease;
 }
 
-/* 
-.whyChose{
-  background-color: #60DBC5;
-} */
 
 .chosse {
   background-color: white;
