@@ -33,9 +33,6 @@ const Footer = () => (
       </div>
     </div>
     <div className="mx-[5px] border border-dk-secondary lg:mx-[60px]" />
-    {/* <div className="flex justify-center mt-[17px]">
-      <span className="text-center opacity-[50%]">Live the live your <br /> want</span>
-    </div> */}
     <div className="flex justify-center mt-[40px]">
       <a
         href="https://www.facebook.com/profile.php?id=100087137256154"

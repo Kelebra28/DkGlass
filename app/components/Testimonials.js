@@ -5,7 +5,6 @@ import CarouselCard from "../components/common/CarouselCard"
 
 const responsive = {
   superLargeDesktop: {
-    // the naming can be any, depends on you.
     breakpoint: { max: 4000, min: 3000 },
     items: 3
   },
@@ -104,14 +103,6 @@ const Testimonials = () => (
               </p>
             </a>
           </div>
-          {/* <div className="w-[220px] relative mx-[40px]">
-            <div className="">
-              <span className="text-[15px] font-semibold">Title</span>
-              <p className="mt-[20px] text-[14px] text-[#6B6B6B]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptates repudiandae esse veritatis eligendi, a earum assumenda sunt dolorem nihil animi, quae reprehenderit harum. Iure cupiditate ratione necessitatibus culpa labore.
-              </p>
-            </div>
-          </div> */}
         </Carousel>
       </div>
     </div>
