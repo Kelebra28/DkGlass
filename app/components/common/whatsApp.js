@@ -15,7 +15,7 @@ const WhatsAppLink = () => {
         <Image
         src="/icons/whastsapp.png"
         alt="Portada"
-        layout="fill"
+        fill
         /> 
         <p className="pl-8">WhatsApp</p>          
     </a>

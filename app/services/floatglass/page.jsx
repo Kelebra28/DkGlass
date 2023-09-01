@@ -46,7 +46,7 @@ export default function Home() {
               <Image
                 src="/services/floatglass3.jpg"
                 alt=""
-                layout="fill"
+                fill
               />
             </div>
           </div>
@@ -59,7 +59,7 @@ export default function Home() {
             <Image
               src="/services/floatglass2.jpg"
               alt=""
-              layout="fill"
+              fill
             />
           </div>
           <div className="lg:w-[33%] flex items-end">

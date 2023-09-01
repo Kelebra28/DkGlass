@@ -1,4 +1,4 @@
-import Image from "next/image"
+import LazyImage from "./common/LazyImages"
 
 const WhyUs = () => (
   <div className="flex mb-[100px] whyChose hidden md:flex">
@@ -7,15 +7,16 @@ const WhyUs = () => (
         <Image
           src="/proyect2.png"
           alt="escalera"
-          layout="fill"
+         
         />
       </div> */}
       <div className="w-[70%] h-[520px] relative zoom">
-        <Image
+        <LazyImage src="/bath.png" alt="dk glass bath" />
+        {/* <Image
           src="/bath.png"
           alt="escalera"
-          layout="fill"
-        />
+         
+        /> */}
       </div>
     </div>
     <div className="w-[50%] border-l-[60px] border-l-dk-secondary p-[26px] pr-[76px] hidden lg:block chosse">

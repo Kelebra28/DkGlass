@@ -44,7 +44,7 @@ export default function Home() {
               <Image
                 src="/carousel1.jpg"
                 alt=""
-                layout="fill"
+                fill
               />
             </div>
           </div>
@@ -57,7 +57,7 @@ export default function Home() {
             <Image
               src="/residencial/stairs.jpg"
               alt=""
-              layout="fill"
+              fill
             />
           </div>
           <div className="lg:w-[33%] flex items-end">

@@ -6,7 +6,7 @@ const CarouselCard2 = ({ text, img, title }) => (
       <Image
         src={img}
         alt="escalera"
-        layout="fill"
+        fill
       />
     </div>
     <div className="pt-8 px-[22px] pb-[28px] border-b-4 border-b-dk-secondary">

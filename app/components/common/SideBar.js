@@ -8,7 +8,7 @@ const SideBar = ({ handleClickMenu }) => (
           <Image
             src="/icons/close-white.svg"
             alt="Logo"
-            layout="fill"
+            fill
           />
         </div>
         <div className="w-[100%] flex justify-center mt-[18px]">
@@ -16,7 +16,7 @@ const SideBar = ({ handleClickMenu }) => (
             <Image
               src="/logo-white.svg"
               alt="menu icon"
-              layout="fill"
+              fill
             />
           </div>
         </div>
@@ -63,7 +63,7 @@ const SideBar = ({ handleClickMenu }) => (
                 <Image
                   src="/icons/phone.svg"
                   alt="Portada"
-                  layout="fill"
+                  fill
                 />
               </div>
               <span className="text-[12px] font-semibold ml-[10px]">(832) 740-4977</span>
@@ -75,7 +75,7 @@ const SideBar = ({ handleClickMenu }) => (
                 <Image
                   src="/icons/email.svg"
                   alt="Portada"
-                  layout="fill"
+                  fill
                 />
               </div>
               <span className="text-[12px] font-semibold ml-[10px]">info@velascoglassmirrors.com</span>
