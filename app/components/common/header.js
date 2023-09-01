@@ -20,7 +20,7 @@ const Header = ({ handleContactPopUp }) => {
           className="loggo"
             src="/icons/menu.svg"
             alt="Logo"
-            layout="fill"
+           fill
           />
         </div>
         <Link href="/">
@@ -29,7 +29,7 @@ const Header = ({ handleContactPopUp }) => {
               className='logo'
               src="/logo-full.svg"
               alt="menu icon"
-              layout="fill"
+              fill
             />
           </div>
         </Link>

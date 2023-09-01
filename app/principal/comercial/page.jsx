@@ -39,7 +39,7 @@ export default function Home() {
               <Image
                 src="/comercial/commercial7.jpg"
                 alt=""
-                layout="fill"
+                fill
               />
             </div>
           </div>
@@ -52,7 +52,7 @@ export default function Home() {
             <Image
               src="/comercial/commercial8.jpg"
               alt=""
-              layout="fill"
+              fill
             />
           </div>
           <div className="lg:w-[33%] flex items-end relative">

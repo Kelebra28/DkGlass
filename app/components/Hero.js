@@ -42,7 +42,7 @@ const Hero = ({ handleContactPopUp }) => (
         <Image
           src="/hero.png"
           alt="Portada"
-          layout="fill"
+         
         />
       </div>
     </div> */}
@@ -67,7 +67,7 @@ const Hero = ({ handleContactPopUp }) => (
               <Image
                 src="/carousel4.jpg"
                 alt="carousel4"
-                layout="fill"
+                fill 
               />
             </div>
             <div className="w-[736px] h-[450px] relative">
@@ -80,7 +80,7 @@ const Hero = ({ handleContactPopUp }) => (
               <Image
                 src="/comercial/comercial6.jpg"
                 alt="carousel2"
-                layout="fill"
+                fill
               />
             </div>
             <div className="w-[736px] h-[450px] relative">
@@ -93,7 +93,7 @@ const Hero = ({ handleContactPopUp }) => (
               <Image
                 src="/carousel3.jpg"
                 alt="carousel3"
-                layout="fill"
+                fill
               />
             </div>
             <div className="w-[736px] h-[450px] relative">
@@ -106,7 +106,7 @@ const Hero = ({ handleContactPopUp }) => (
               <Image
                 src="/carousel5.jpeg"
                 alt="carousel5"
-                layout="fill"
+                fill
               />
             </div>
             <div className="w-[736px] h-[450px] relative">
@@ -119,7 +119,7 @@ const Hero = ({ handleContactPopUp }) => (
               <Image
                 src="/carousel6.jpg"
                 alt="carousel6"
-                layout="fill"
+                fill
               />
             </div>
             {/* <div className="w-[736px] h-[450px] relative">
@@ -132,7 +132,7 @@ const Hero = ({ handleContactPopUp }) => (
               <Image
                 src="/carousel7.jpeg"
                 alt="carousel7"
-                layout="fill"
+               
               />
             </div> */}
             <div className="w-[736px] h-[450px] relative">
@@ -145,7 +145,7 @@ const Hero = ({ handleContactPopUp }) => (
               <Image
                 src="/carousel1.jpg"
                 alt="carousel1"
-                layout="fill"
+                fill
               />
             </div>
 
@@ -166,7 +166,7 @@ const Hero = ({ handleContactPopUp }) => (
             <Image
               src="/hero.png"
               alt="Portada"
-              layout="fill"
+             
             />
           </div> */}
           <div className="w-4/12 flex  justify-center items-center relative flex-col">
@@ -214,7 +214,7 @@ const Hero = ({ handleContactPopUp }) => (
               <Image
                 src="/icons/facebook-white.svg"
                 alt="Portada"
-                layout="fill"
+                fill
               />
             </a>
           </div>
@@ -222,14 +222,14 @@ const Hero = ({ handleContactPopUp }) => (
             <Image
               src="/icons/LinkedIn-white.svg"
               alt="Portada"
-              layout="fill"
+             
             />
           </div> */}
           {/* <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
             <Image
               src="/icons/twiter-white.svg"
               alt="Portada"
-              layout="fill"
+             
             />
           </div> */}
           <div className="w-[30px] h-[30px] my-[20px] relative cursor-pointer">
@@ -243,7 +243,7 @@ const Hero = ({ handleContactPopUp }) => (
               <Image
                 src="/icons/instagram-white.svg"
                 alt="Portada"
-                layout="fill"
+                fill
               />
             </a>
           </div>
@@ -258,7 +258,7 @@ const Hero = ({ handleContactPopUp }) => (
               <Image
                 src="/icons/tik-tok-white.svg"
                 alt="Portada"
-                layout="fill"
+                fill
               />
             </a>
           </div>
@@ -266,7 +266,7 @@ const Hero = ({ handleContactPopUp }) => (
             <Image
               src="/icons/youtube-white.svg"
               alt="Portada"
-              layout="fill"
+             
             />
           </div> */}
         </div>
@@ -275,7 +275,7 @@ const Hero = ({ handleContactPopUp }) => (
             <Image
               src="/icons/message-white.svg"
               alt="Portada"
-              layout="fill"
+             
             />
           </div>
         </div> */}

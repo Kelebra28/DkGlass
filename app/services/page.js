@@ -35,7 +35,7 @@ export default function Home() {
               <Image
                 src="/product.png"
                 alt=""
-                layout="fill"
+                fill
               />
             </div>
           </div>
@@ -48,7 +48,7 @@ export default function Home() {
             <Image
               src="/register.png"
               alt=""
-              layout="fill"
+              fill
             />
           </div>
           <div className="lg:w-[33%] flex items-end">

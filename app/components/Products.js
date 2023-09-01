@@ -31,7 +31,7 @@ const Products = () => (
       <Image
         src="/hero.png"
         alt="Portada"
-        layout="fill"
+        fill
       />
     </div>
     <div className="lg:flex lg:flex-col lg:ml-[100px] overflow-hidden">
