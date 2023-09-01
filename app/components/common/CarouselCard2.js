@@ -1,13 +1,9 @@
-import Image from "next/image"
+import LazyImage from "./LazyImages";
 
 const CarouselCard2 = ({ text, img, title }) => (
   <div className=" mx-[38px] mt-[67px]">
     <div className="h-[240px] relative">
-      <Image
-        src={img}
-        alt="escalera"
-        fill
-      />
+      <LazyImage src={img} alt={text} />
     </div>
     <div className="pt-8 px-[22px] pb-[28px] border-b-4 border-b-dk-secondary">
       <span className="text-[24px]">{title}</span>
@@ -18,6 +14,6 @@ const CarouselCard2 = ({ text, img, title }) => (
       </div>
     </div>
   </div>
-)
+);
 
-export default CarouselCard2
+export default CarouselCard2;

@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
+const withFonts = require('next-fonts');
+
 const nextConfig = {
     async headers() {
         return [
           {
-            source: '/favicon.ico',
+            source: '/favicon.png',
             headers: [
               {
                 key: 'Cache-Control',
@@ -15,7 +17,7 @@ const nextConfig = {
       },
 }
 
-module.exports = nextConfig
+module.exports = withFonts(nextConfig)
 
 // module.exports = {
 //     // ...otras configuraciones...

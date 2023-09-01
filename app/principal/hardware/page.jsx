@@ -1,13 +1,13 @@
 'use client'
 import { useState } from "react"
-import Image from "next/image"
+// import LazyImage from "../../components/common/LazyImages";
 import Button from "../../components/common/Button"
 import Header from "../../components/common/header"
 import SocialMedia from "../../components/common/SocialMedia"
 import Footer from "../../components/Footer"
 import EmailPopUp from "../../components/EmailPopUp"
 import { Gallery } from "../../components/common/Galery"
-import RandomImages from '../../components/RandomBack'
+// import RandomImages from '../../components/RandomBack'
 
 
 export default function Home() {
@@ -37,10 +37,9 @@ export default function Home() {
           </div>
           <div className="w-[100%] lg:w-[80%] flex justify-center border-t-dk-main border-t-[20px] pt-[14px] lg:pt-0 lg:border-none">
             <div className="w-[90%] lg:w-[100%] h-[630px] relative">
-              {/* <Image
+              {/* <LazyImage
                 src="/carousel5.jpeg"
-                alt=""
-               
+                alt="Dk glass carousel5"
               /> */}
               <Gallery />
             </div>
@@ -56,10 +55,9 @@ export default function Home() {
             <p className="text-[15px] lg:w-[70%] ">Any glass work you need.</p>
           </div> */}
           {/* <div className="w-[100%] lg:w-[33%] relative border-[8px] border-[white] ">
-            <Image
+            <LazyImage
               src="/hardware/hardware12.jpg"
-              alt=""
-             
+              alt="Dk glass hardware12"
             />
           </div> */}
           {/* <div className="lg:w-[100%] flex items-center relative bg-[#ffffff]">
