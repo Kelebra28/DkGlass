@@ -31,8 +31,6 @@ export default function Home() {
                 Add A Modern Accent To Your Staircase, Deck, Or Balcony With Our
                 Glass Railing systems
               </p>
-              {/* <span className="text-[15px]">Model</span> */}
-              {/* <span className="mt-[20px] bg-dk-secondary w-[330px] text-[]15px pl-[18px] text-[white] italic font-semibold">Specifications</span> */}
               <ul>
                 <li className="mt-[20px]">- Custom Designs.</li>
                 <li>- Great Quality.</li>
@@ -60,9 +58,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* <div className="h-[76px] bg-dk-gray flex justify-center lg:justify-end pt-[15px] pr-[80px]">
-          <span className="text-[15px]">Términos y condiciones</span>
-        </div> */}
         <Footer />
       </div>
     </div>

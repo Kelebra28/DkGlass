@@ -34,17 +34,6 @@ const customButtonStyles = {
 };
 const Hero = ({ handleContactPopUp }) => (
   <div>
-    {/* <div className="flex flex-col items-end relative">
-      <div className="w-40 bg-dk-bluelight h-22 lg:hidden" />
-      <div className="w-40 bg-dk-secondary h-120 lg:hidden" />
-      <div className="absolute left-10 right-0 h-20 top-[7.625rem] h-[26.75rem] rounded-ss-[60px] overflow-hidden lg:hidden">
-                <LazyImage
-          src="/hero.png"
-          alt="Dk glass Hero"
-        />
-      </div>
-    </div> */}
-
     <div id="home" className="flex mt-[100px]">
       <div className="">
         <div className=" relative w-screen  lg:block lg:pr-[20px]">
@@ -140,19 +129,6 @@ const Hero = ({ handleContactPopUp }) => (
                 alt="Dk glass Shower/Sliding Glass Doors"
               />
             </div>
-            {/* <div className="w-[736px] h-[450px] relative">
-              <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
-                <span className="text-[30px] text-center font-semibold text-[white]">Sliding Glass Shower Doors</span>
-                <Link href="/principal/slidingglassshowerdoors">
-                  <Button  className="button_hover" text="See more information" color="white" />
-                </Link>
-              </div>
-                      <LazyImage
-          src="/carousel7.jpeg"
-          alt="Dk glass"
-        />
-             
-            </div> */}
             <div className="w-[736px] h-[450px] relative">
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
                 <span className="text-[30px] text-center font-semibold text-[white]">
@@ -174,21 +150,8 @@ const Hero = ({ handleContactPopUp }) => (
           <p className="mt-[19px] text-lg font-semibold lg:text-[28px]">
             Dream it , Crystallize it!
           </p>
-          {/* <p className="text-dk-darkgray mt-3 mb-[77px] lg:mb-[80px] text-[11px] lg:text-[15px] lg:mt-[12px]">Te acompañamos en cada módulo te garantizamos una opción a tu medida</p> */}
-          {/* <span id="contact" className="hidden lg:inline-block border-b-dk-secondary text-[23px] font-semibold border-b-2 mb-[67px]">Explora Nuestra variedad de ideas</span> */}
         </div>
         <div className="hidden lg:flex justify-center">
-          {/* <div className="w-4/12 bg-dk-bg-gray flex justify-end py-[46px]">
-            <div className="flex flex-col mr-[35px] items-center">
-              <p className="text-[15px] w-[280px] pb-[10px]">Desarrollamos Products únicos basado en tendencias actuales a las que en el futuro no pasaran ese atractivo visual que imponen de inicio.</p>
-            </div>
-          </div>
-          <div className="w-4/12 flex justify-center items-center relative" >
-            <LazyImage
-          src="/hero.png"
-          alt="Dk glass Hero"
-        />
-          </div> */}
           <div className="w-4/12 flex  justify-center items-center relative flex-col">
             <Button
               className="hover_contat"
@@ -249,18 +212,6 @@ const Hero = ({ handleContactPopUp }) => (
               />
             </a>
           </div>
-          {/* <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
-            <LazyImage
-                src="LinkedIn-white.svg"
-                alt="Dk glass Icon LinkedIn"
-              />
-          </div> */}
-          {/* <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
-            <LazyImage
-                src="/icons/twiter-white.svg"
-                alt="Dk glass Icon twiter"
-              />
-          </div> */}
           <div className="w-[30px] h-[30px] my-[20px] relative cursor-pointer">
             <span className="relative flex h-3 w-3">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75">
@@ -289,21 +240,7 @@ const Hero = ({ handleContactPopUp }) => (
               />
             </a>
           </div>
-          {/* <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
-            <LazyImage
-                src="/icons/youtube-white.svg"
-                alt="Dk glass Icon youtube"
-              />
-          </div> */}
         </div>
-        {/* <div className="bg-dk-secondary mb-[250px] w-[67px] h-[67px] rounded-lg relative flex justify-center items-center cursor-pointer">
-          <div className="w-[40px] h-[40px] relative">
-            <LazyImage
-                src="/icons/message-white.svg"
-                alt="Dk glass Icon message"
-              />
-          </div>
-        </div> */}
       </div>
     </div>
   </div>
