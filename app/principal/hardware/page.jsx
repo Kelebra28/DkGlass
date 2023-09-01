@@ -37,10 +37,6 @@ export default function Home() {
           </div>
           <div className="w-[100%] lg:w-[80%] flex justify-center border-t-dk-main border-t-[20px] pt-[14px] lg:pt-0 lg:border-none">
             <div className="w-[90%] lg:w-[100%] h-[630px] relative">
-              {/* <LazyImage
-                src="/carousel5.jpeg"
-                alt="Dk glass carousel5"
-              /> */}
               <Gallery />
             </div>
           </div>
@@ -51,22 +47,7 @@ export default function Home() {
             </div>
         </div>
         <div className="flex h-[250px] lg:mt-[-80px] flex-col lg:flex-row relative">
-          {/* <div className="lg:w-[33%] lg:bg-dk-bg-gray flex justify-end p-[45px] box-border">
-            <p className="text-[15px] lg:w-[70%] ">Any glass work you need.</p>
-          </div> */}
-          {/* <div className="w-[100%] lg:w-[33%] relative border-[8px] border-[white] ">
-            <LazyImage
-              src="/hardware/hardware12.jpg"
-              alt="Dk glass hardware12"
-            />
-          </div> */}
-          {/* <div className="lg:w-[100%] flex items-center relative bg-[#ffffff]">
-           
-          </div> */}
         </div>
-        {/* <div className="h-[76px] bg-dk-gray flex justify-center lg:justify-end pt-[15px] pr-[80px]">
-          <span className="text-[15px]">Términos y condiciones</span>
-        </div> */}
         <Footer />
       </div>
     </div>

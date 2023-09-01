@@ -3,12 +3,6 @@ import LazyImage from "./common/LazyImages";
 const WhyUs = () => (
   <div className="flex mb-[100px] whyChose hidden md:flex">
     <div className="w-[100%] lg:w-[50%]  flex justify-between">
-      {/* <div className="w-[20%] h-[152px] relative">
-        <LazyImage
-          src="/proyect2.png"
-          alt="Dk glass residencial glass"
-        />
-      </div> */}
       <div className="w-[70%] h-[520px] relative zoom">
         <LazyImage src="/bath.png" alt="dk glass bath" />
       </div>
