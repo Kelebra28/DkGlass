@@ -43,10 +43,10 @@ export const metadata = {
   category: "glass",
   images: [
     {
-      url: "/favicon.png",
-      width: 200, // Ancho de la imagen
-      height: 200, // Alto de la imagen
-      alt: "Dk Glass & Velasco",
+      url: '/favicon.ico',
+      width: 200, 
+      height: 200,
+      alt: 'Dk Glass & Velasco',
     },
   ],
   openGraph: {
