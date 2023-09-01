@@ -30,7 +30,7 @@ const EmailPopUp = ({ handleContactPopUp }) => {
             <Image
               src="/icons/close.svg"
               alt="Logo"
-              layout="fill"
+             fill
             />
           </div>
         </div>
@@ -40,7 +40,7 @@ const EmailPopUp = ({ handleContactPopUp }) => {
               <Image
                 src="/logo-full.svg"
                 alt="Portada"
-                layout="fill"
+                fill
               />
             </div>
           </div>

@@ -40,7 +40,7 @@ export default function Home() {
               {/* <Image
                 src="/carousel5.jpeg"
                 alt=""
-                layout="fill"
+               
               /> */}
               <Gallery />
             </div>
@@ -59,7 +59,7 @@ export default function Home() {
             <Image
               src="/hardware/hardware12.jpg"
               alt=""
-              layout="fill"
+             
             />
           </div> */}
           {/* <div className="lg:w-[100%] flex items-center relative bg-[#ffffff]">
