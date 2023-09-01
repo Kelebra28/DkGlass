@@ -32,8 +32,6 @@ export default function Home() {
                 your doorstep. Choose between different shapes, thicknesses and
                 glass types.
               </p>
-              {/* <span className="text-[15px]"></span>
-              <span className="mt-[20px] bg-dk-secondary w-[330px] text-[]15px pl-[18px] text-[white] italic font-semibold">Specifications</span> */}
             </div>
           </div>
           <div className="w-[100%] lg:w-[50%] flex justify-center border-t-dk-main border-t-[20px] pt-[14px] lg:pt-0 lg:border-none">
@@ -55,9 +53,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* <div className="h-[76px] bg-dk-gray flex justify-center lg:justify-end pt-[15px] pr-[80px]">
-          <span className="text-[15px]">Términos y condiciones</span>
-        </div> */}
         <Footer />
       </div>
     </div>

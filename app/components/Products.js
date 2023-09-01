@@ -143,7 +143,6 @@ const Products = () => (
             img="/comercial/comercial4.jpg"
             text=""
           />
-          {/* <CarouselSimpleCard title="" img="" text=""/> */}
         </Carousel>
       </div>
     </div>

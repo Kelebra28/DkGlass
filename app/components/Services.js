@@ -18,21 +18,6 @@ const Services = ({handleContactPopUp}) => (
       <Link href="/principal/hardware" className="mb-[25px] hover-list">
         <span className="cursor-pointer font-medium text-dk-main text-[20px] mb-[25px] hover-item">{`> Hardware Supplies `}</span>
       </Link>
-      {/* <Link href="/template" className="mb-[25px] hover-list">
-        <span className="cursor-pointer font-medium text-dk-main text-[20px] mb-[25px]">{`>Temperados de vidrio`}</span>
-      </Link>
-      <Link href="/template" className="mb-[25px] hover-list">
-        <span className="cursor-pointer font-medium text-dk-main text-[20px] mb-[25px]">{`>Temperados de vidrio`}</span>
-      </Link>
-      <Link href="/template" className="mb-[25px] hover-list">
-        <span className="cursor-pointer font-medium text-dk-main text-[20px] mb-[25px]">{`>Temperados de vidrio`}</span>
-      </Link>
-      <Link href="/template" className="mb-[25px] hover-list">
-        <span className="cursor-pointer font-medium text-dk-main text-[20px] mb-[25px]">{`>Temperados de vidrio`}</span>
-      </Link>
-      <Link href="/template" className="mb-[25px] hover-list">
-        <span className="cursor-pointer font-medium text-dk-main text-[20px] mb-[25px]">{`>Temperados de vidrio`}</span>
-      </Link> */}
     </div>
     <div className="flex justify-center mb-[50px]">
       <Button className="hover_contat2" text="Contact us" onClick={handleContactPopUp} />
