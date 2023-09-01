@@ -1,6 +1,8 @@
 
 'use client'
-import Image from "next/image"
+
+import LazyImage from "./LazyImages";
+
 export const Gallery = () => {
 
     return (
@@ -9,99 +11,87 @@ export const Gallery = () => {
             <div className="w-[80%] h-[80%] overflow-auto">
                 <div className="h-[1000px] w-full flex flex-wrap content-around justify-around scroll-smooth">
                     <div className="galletItem" >
-                        <Image
+                        <LazyImage
                             className="galleryPhoto"
                             src="/hardware/hardware0.png"
-                            alt=""
-                            fill
+                            alt="Dk glass Hardware"
                         />
                     </div>
                     <div className="galletItem" >
-                        <Image
+                        <LazyImage
                             className="galleryPhoto"
                             src="/hardware/hardware1.png"
-                            alt=""
-                           fill
+                            alt="Dk glass Hardware"
                         />
                     </div>
                     <div className="galletItem" >
-                        <Image
+                        <LazyImage
                             className="galleryPhoto"
                             src="/hardware/hardware2.png"
-                            alt=""
-                            fill
+                            alt="Dk glass Hardware"
                         />
                     </div>
                     <div className="galletItem" >
-                        <Image
+                        <LazyImage
                             className="galleryPhoto"
                             src="/hardware/hardware3.png"
-                            alt=""
-                            fill
+                            alt="Dk glass Hardware"
                         />
                     </div>
                     <div className="galletItem" >
-                        <Image
+                        <LazyImage
                             className="galleryPhoto"
                             src="/hardware/hardware4.png"
-                            alt=""
-                            fill
+                            alt="Dk glass Hardware"
                         />
                     </div>
                     <div className="galletItem" >
-                        <Image
+                        <LazyImage
                             className="galleryPhoto"
                             src="/hardware/hardware5.png"
-                            alt=""
-                            fill
+                            alt="Dk glass Hardware"
                         />
                     </div>
                     <div className="galletItem" >
-                        <Image
+                        <LazyImage
                             className="galleryPhoto"
                             src="/hardware/hardware6.png"
-                            alt=""
-                           
+                            alt="Dk glass Hardware"
                         />
                     </div>
                     <div className="galletItem" >
-                        <Image
+                        <LazyImage
                             className="galleryPhoto"
                             src="/hardware/hardware7.png"
-                            alt=""
-                            fill
+                            alt="Dk glass Hardware"
                         />
                     </div>
                     <div className="galletItem" >
-                        <Image
+                        <LazyImage
                             className="galleryPhoto"
                             src="/hardware/hardware8.png"
-                            alt=""
-                            fill
+                            alt="Dk glass Hardware"
                         />
                     </div>
                     <div className="galletItem" >
-                        <Image
+                        <LazyImage
                             className="galleryPhoto"
                             src="/hardware/hardware9.png"
-                            alt=""
-                           
+                            alt="Dk glass Hardware"
                         />
                     </div>
                     <div className="galletItem" >
-                        <Image
+                        <LazyImage
                             className="galleryPhoto"
                             src="/hardware/hardware10.png"
-                            alt=""
-                            fill
+                            alt="Dk glass Hardware"
                         />
                     </div>
                     <div className="galletItem" >
-                        <Image
+                        <LazyImage
                             className="galleryPhoto"
                             src="/hardware/hardware11.png"
-                            alt=""
-                            fill
+                            alt="Dk glass Hardware"
                         />
                     </div>
                 </div>

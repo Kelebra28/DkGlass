@@ -1,22 +1,21 @@
-import Image from "next/image"
+import LazyImage from "./LazyImages";
 import Link from "next/link"
+
 const SideBar = ({ handleClickMenu }) => (
   <div className="fixed top-0 left-0 right-0 bottom-0 z-50">
     <div className="bg-[white] absolute top-0 bottom-0 left-0 lg:right-[70%] right-[20%]">
       <header className="bg-dk-main relative flex flex-col items-end pb-[54px] border-b-dk-secondary border-b-[10px] pt-[12px] pr-[10px]">
         <div onClick={handleClickMenu} className="w-[22px] h-[22px] relative cursor-pointer">
-          <Image
+          <LazyImage
             src="/icons/close-white.svg"
-            alt="Logo"
-            fill
+            alt="Dk glass Icon Close"
           />
         </div>
         <div className="w-[100%] flex justify-center mt-[18px]">
           <div className="w-[263px] h-[54px] relative ">
-            <Image
+            <LazyImage
               src="/logo-white.svg"
-              alt="menu icon"
-              fill
+              alt="Dk glass Icon Logo"
             />
           </div>
         </div>
@@ -60,10 +59,9 @@ const SideBar = ({ handleClickMenu }) => (
           <Link href="tel:(832) 740-4977">
             <div className="flex items-center">
               <div className="w-[16px] h-[16px] relative">
-                <Image
+                <LazyImage
                   src="/icons/phone.svg"
-                  alt="Portada"
-                  fill
+                  alt="Dk glass Icon phone"
                 />
               </div>
               <span className="text-[12px] font-semibold ml-[10px]">(832) 740-4977</span>
@@ -72,10 +70,9 @@ const SideBar = ({ handleClickMenu }) => (
           <Link href={`mailto:info@velascoglassmirrors.com`}>
             <div className="flex items-center mt-[12px]">
               <div className="w-[23px] h-[23px] relative">
-                <Image
+                <LazyImage
                   src="/icons/email.svg"
-                  alt="Portada"
-                  fill
+                  alt="Dk glass Icon Email"
                 />
               </div>
               <span className="text-[12px] font-semibold ml-[10px]">info@velascoglassmirrors.com</span>

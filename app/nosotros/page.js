@@ -1,7 +1,7 @@
 'use client'
 import { useState } from "react"
 import Header from "../components/common/header"
-import Image from "next/image"
+import LazyImage from "../components/common/LazyImages";
 import Footer from "../components/Footer"
 import EmailPopUp from "../components/EmailPopUp"
 import RandomImages from '../components/RandomBack'
@@ -47,10 +47,9 @@ const AboutUs = () => {
         <div className="w-[52px] h-[100%] bg-dk-secondary absolute top-0 left-0 z-[-1] lg:w-[80px]"> </div>
         <div className="flex flex-col lg:flex-row items-center">
           <div className="w-[90%] lg:w-[40%] h-[450px] flex relative img_team zoom">
-            <Image
+            <LazyImage
               src="/team.jpg"
-              alt="Portada"
-              fill
+              alt="Dk glass team"
               className="img_team"
             />
           </div>
