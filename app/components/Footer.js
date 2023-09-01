@@ -1,33 +1,34 @@
-import Image from "next/image"
-import Link from "next/link"
+import LazyImage from "./common/LazyImages";
+import Link from "next/link";
+
 const Footer = () => (
   <div className=" bg-dk-bg-gray pt-[64px] pb-[48px] footer">
     <div className="flex justify-center">
-    <p className="text-center mb-[50px] textBig">©2023 DK & Velasco Glass All Rights Reserved.</p>
+      <p className="text-center mb-[50px] textBig">
+        ©2023 DK & Velasco Glass All Rights Reserved.
+      </p>
     </div>
     <div className="pl-[70px] ">
       <div className="w-[213px] h-[54px] relative mb-[54px] lg:mx-auto">
-        <Image
-          src="/logoBlanco.svg"
-          alt="Portada"
-          fill
-        />
+        <LazyImage src="/logoBlanco.svg" alt="Dk glass Logo Blanco" />
       </div>
       <div className="flex lg:flex flex-col pb-[25px] lg:flex-row  lg:justify-between lg:px-[300px]">
-        <Link className='hover_footer' href="/">
+        <Link className="hover_footer" href="/">
           <span className="my-[11px] text-[17px] font-semibold">Home</span>
         </Link>
-        <Link className='hover_footer' href="/nosotros">
+        <Link className="hover_footer" href="/nosotros">
           <span className="my-[11px] text-[17px] font-semibold">About Us</span>
         </Link>
-        <Link className='hover_footer' href="#services">
+        <Link className="hover_footer" href="#services">
           <span className="my-[11px] text-[17px] font-semibold"> Services</span>
         </Link>
-        <Link className='hover_footer' href="#products">
+        <Link className="hover_footer" href="#products">
           <span className="my-[11px] text-[17px] font-semibold">Products</span>
         </Link>
-        <Link className='hover_footer' href="#contact">
-          <span className="my-[11px] text-[17px] font-semibold">Contact us</span>
+        <Link className="hover_footer" href="#contact">
+          <span className="my-[11px] text-[17px] font-semibold">
+            Contact us
+          </span>
         </Link>
       </div>
     </div>
@@ -36,29 +37,33 @@ const Footer = () => (
       <span className="text-center opacity-[50%]">Live the live your <br /> want</span>
     </div> */}
     <div className="flex justify-center mt-[40px]">
-      <a href="https://www.facebook.com/profile.php?id=100087137256154" target="_blank" className="w-[26px] h-[26px] relative">
-        <Image
+      <a
+        href="https://www.facebook.com/profile.php?id=100087137256154"
+        target="_blank"
+        className="w-[26px] h-[26px] relative"
+      >
+        <LazyImage
           src="/icons/facebook-white.svg"
-          alt="facebook"
-          fill
+          alt="dk glass icon facebook"
         />
       </a>
-      <a href="https://www.instagram.com/_dkglassshop/" className="w-[26px] h-[26px] relative ml-[33px]">
-        <Image
+      <a
+        href="https://www.instagram.com/_dkglassshop/"
+        className="w-[26px] h-[26px] relative ml-[33px]"
+      >
+        <LazyImage
           src="/icons/instagram-white.svg"
-          alt="instagram"
-          fill
+          alt="dk glass icon instagram"
         />
       </a>
-      <a href="https://www.tiktok.com/@dkglass_velasco" className="w-[26px] h-[26px] relative ml-[33px]">
-        <Image
-          src="/icons/tik-tok-white.svg"
-          alt="instagram"
-         fill
-        />
+      <a
+        href="https://www.tiktok.com/@dkglass_velasco"
+        className="w-[26px] h-[26px] relative ml-[33px]"
+      >
+        <LazyImage src="/icons/tik-tok-white.svg" alt="dk glass icon tik-tok" />
       </a>
     </div>
   </div>
-)
+);
 
-export default Footer
+export default Footer;

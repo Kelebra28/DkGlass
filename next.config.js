@@ -1,21 +1,33 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    async headers() {
-        return [
-          {
-            source: '/favicon.ico',
-            headers: [
-              {
-                key: 'Cache-Control',
-                value: 'public, max-age=86400',
-              },
-            ],
-          },
-        ];
-      },
-}
+const withFonts = require("next-fonts");
 
-module.exports = nextConfig
+const nextConfig = {
+  async headers() {
+    return [
+      {
+        source: "/favicon.png",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=86400",
+          },
+        ],
+      },
+    ];
+  },
+  images: {
+    remotePatters: [
+      {
+        protocol: "https",
+        hostname: "www.dkglassvelasco.com",
+        post: "",
+        pathname: "/public/**",
+      },
+    ],
+  },
+};
+
+module.exports = withFonts(nextConfig);
 
 // module.exports = {
 //     // ...otras configuraciones...
