@@ -1,25 +1,23 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import LazyImage from "./LazyImages";
 
 const WhatsAppLink = () => {
-  const phoneNumber = '+1 (832) 580-0383'; 
-  const message = '¡Hi!';
+  const phoneNumber = "+1 (832) 580-0383";
+  const message = "¡Hi!";
 
   const handleClick = () => {
-    const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
-    window.open(url, '_blank');
+    const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(url, "_blank");
   };
 
   return (
     <a className="text-[15px] font-semibold" href="#" onClick={handleClick}>
-        <Image
-        src="/icons/whastsapp.png"
-        alt="Portada"
-        fill
-        /> 
-        <p className="pl-8">WhatsApp</p>          
+      <LazyImage src="/icons/whastsapp.png" alt="Dk glass Icon whastsapp" />
+      <p className="pl-8">WhatsApp</p>
     </a>
   );
-}
+};
 
 export default WhatsAppLink;

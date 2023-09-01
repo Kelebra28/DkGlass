@@ -1,6 +1,6 @@
 'use client'
 import { useState } from "react"
-import Image from "next/image"
+import LazyImage from "../components/common/LazyImages";
 import Button from "../components/common/Button"
 import Header from "../components/common/header"
 import SocialMedia from "../components/common/SocialMedia"
@@ -32,10 +32,9 @@ export default function Home() {
           </div>
           <div className="w-[100%] lg:w-[50%] flex justify-center border-t-dk-main border-t-[20px] pt-[14px] lg:pt-0 lg:border-none">
             <div className="w-[90%] lg:w-[100%] h-[630px] relative">
-              <Image
+              <LazyImage
                 src="/product.png"
-                alt=""
-                fill
+                alt="Dk glass product"
               />
             </div>
           </div>
@@ -45,10 +44,9 @@ export default function Home() {
             <p className="text-[15px] lg:w-[70%] ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorp</p>
           </div>
           <div className="w-[100%] lg:w-[33%] relative border-[8px] border-[white] ">
-            <Image
+            <LazyImage
               src="/register.png"
-              alt=""
-              fill
+              alt="Dk glass register"
             />
           </div>
           <div className="lg:w-[33%] flex items-end">

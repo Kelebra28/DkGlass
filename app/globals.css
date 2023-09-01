@@ -8,6 +8,15 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-display: swap;
+  /* Use "swap" to ensure text remains visible during font load */
+  src: local('Cinzel'), url('https://fonts.gstatic.com/s/cinzeldecorative/v14/daaHSScvJGqLYhG8nNt8KPPswUAPniZQa9lESTE.woff2') format('woff2'),
+    url('/https://fonts.gstatic.com/s/cinzeldecorative/v14/daaHSScvJGqLYhG8nNt8KPPswUAPniZQa9lESTc.woff') format('woff');
+}
+
 /* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -93,7 +102,7 @@
 
 .random-image {
   position: absolute;
-  width: 30vw; 
+  width: 30vw;
   height: 15vh;
   background-size: cover;
   z-index: -10;
@@ -120,6 +129,7 @@
   transform: translate(-50%, -50%);
   z-index: -1;
 }
+
 .fixed-image2 {
   position: fixed;
   width: 15vw;
@@ -242,7 +252,7 @@
 }
 
 
-.map-direction-container{
+.map-direction-container {
   width: 300px !important;
 }
 
@@ -266,20 +276,21 @@
 
 
 
-.img_team{
+.img_team {
   border-radius: 0 0 20px 0;
 }
 
 
-.servicesLogo{
+.servicesLogo {
   position: relative;
   background-color: white;
   background-image: url('../public/logoAbour.svg');
   background-repeat: no-repeat;
   background-position: right 0% top 60%;
-  background-size: 90% 50%; 
+  background-size: 90% 50%;
 }
-.galleryContainer{
+
+.galleryContainer {
   position: relative;
   background-color: white;
   background-image: url('../public/logoAbour.svg');
@@ -295,11 +306,12 @@
 }
 
 
-                          /* hovers */
+/* hovers */
 /* navbar */
 .hover_header:hover {
   color: #1081A9;
 }
+
 .hover_header::after {
   content: '';
   display: block;
@@ -308,6 +320,7 @@
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
+
 .hover_header:hover::after {
   transform: scaleX(1);
 }
@@ -320,34 +333,38 @@
   transition-duration: 0.8s;
   transition-property: transform;
 }
+
 .logo:hover {
   transform: rotate(360deg);
-    /* -webkit-transform: rotate(360deg); */
+  /* -webkit-transform: rotate(360deg); */
   animation: zoom-in-zoom-out-logo 3s ease infinite;
 }
 
 /* Button Carusel 1 */
-.button_hover:hover{
+.button_hover:hover {
   background-color: #60DBC5;
   border-color: #16bb9a;
 }
-.hover_contat:hover{
+
+.hover_contat:hover {
   background-color: white;
   color: #065BE7;
   border: 2px solid #065BE7;
   /* border-color: #1081A9; */
 }
-.hover_contat2:hover{
+
+.hover_contat2:hover {
   background-color: #60DBC5;
   color: white;
 }
+
 /* List services     */
 /* .hover-list,a:hover{
   background-color: #1081A9;
   width: 30%;
   animation: zoom-in-zoom-out-carrusel 1s ease;
 } */
-.hover-item:hover{
+.hover-item:hover {
   background-color: #1081A9;
   color: white;
 }
@@ -355,14 +372,15 @@
 .smooth-scroll {
   scroll-behavior: smooth;
 }
+
 /* carrusel */
 
 /* .carrusel_hover:hover{
   height: 500px;
 } */
 
-.animation-contact:hover{
-  animation:  zoom-in-zoom-out-carrusel 3s ease ;
+.animation-contact:hover {
+  animation: zoom-in-zoom-out-carrusel 3s ease;
 }
 
 /* 
@@ -370,25 +388,25 @@
   background-color: #60DBC5;
 } */
 
-.chosse{
+.chosse {
   background-color: white;
   position: relative;
 }
 
-.testimonial{
+.testimonial {
   /* position: absolute; */
   background-color: white;
   position: relative;
-  
+
 }
 
-.abus{
+.abus {
   background-color: white;
   position: relative;
 }
 
-.footer{
-position: relative;
+.footer {
+  position: relative;
   width: 100vw;
   background-color: #1081A9;
   color: white;
@@ -398,6 +416,7 @@ position: relative;
 .hover_footer:hover {
   color: #c8c8c8;
 }
+
 .hover_footer::after {
   content: '';
   display: block;
@@ -406,32 +425,33 @@ position: relative;
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
+
 .hover_footer:hover::after {
   transform: scaleX(1);
 }
 
 
 
-.carrusel{
+.carrusel {
   background-color: white;
 }
 
-.animationIcon{
+.animationIcon {
   animation: spin-pause 14s linear infinite;
 }
 
-.galletItem{
+.galletItem {
   border: 2px solid #1081A9;
 }
 
-.galletItem:hover{
+.galletItem:hover {
   border: 2px solid #60DBC5;
-  animation:  zoom-in-zoom-out-carrusel 2s ease ;
+  animation: zoom-in-zoom-out-carrusel 2s ease;
 }
 
-.zoom:hover{
+.zoom:hover {
   border: 2px solid #1081A9;
-  animation:  zoom-in-zoom-out-carrusel 2s ease ;
+  animation: zoom-in-zoom-out-carrusel 2s ease;
 }
 
 /* animation  */
@@ -440,9 +460,11 @@ position: relative;
   0% {
     transform: scale(1, 1);
   }
+
   50% {
     transform: scale(1.1, 1.1);
   }
+
   100% {
     transform: scale(1, 1);
   }
@@ -452,42 +474,53 @@ position: relative;
   0% {
     transform: scale(1, 1);
   }
+
   50% {
     transform: scale(1.1, 1.1);
   }
+
   100% {
     transform: scale(1.1, 1.1);
   }
 }
 
 @keyframes pulse {
-  0%, 100% {
-      transform: scale(1);
+
+  0%,
+  100% {
+    transform: scale(1);
   }
+
   50% {
-      transform: scale(1.1);
+    transform: scale(1.1);
   }
 }
 
 
 @keyframes spin {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
+
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 @keyframes spin-pause {
-  0%, 100% {
-      transform: rotate(0deg);
+
+  0%,
+  100% {
+    transform: rotate(0deg);
   }
+
   50% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
-  55%, 100% {
-      animation-timing-function: steps(1, end);
+
+  55%,
+  100% {
+    animation-timing-function: steps(1, end);
   }
 }
 
@@ -495,7 +528,8 @@ position: relative;
 
 
 
-.react-multiple-carousel__arrow , .react-multiple-carousel__arrow--left {
+.react-multiple-carousel__arrow,
+.react-multiple-carousel__arrow--left {
   z-index: 1 !important;
 }
 
@@ -509,18 +543,18 @@ position: relative;
     background-image: url('../public/logoAbour.svg');
     background-repeat: no-repeat;
     background-position: right 50% top 8%;
-    background-size: 70% 35%; 
+    background-size: 70% 35%;
   }
 
   .map-direction {
     right: 50%;
   }
 
-  .textBig{
+  .textBig {
     width: 60vw;
   }
 
-  .galleryContainer{
+  .galleryContainer {
     width: 100vw;
   }
 }

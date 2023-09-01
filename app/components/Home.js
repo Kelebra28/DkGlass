@@ -1,7 +1,7 @@
 'use client'
 import { useState } from "react"
 import AboutUs from "./AboutUs"
-import AnualSales from "./AnualSales"
+// import AnualSales from "./AnualSales"
 import Hero from "./Hero"
 import Products from "./Products"
 import Proyects from "./Proyects"

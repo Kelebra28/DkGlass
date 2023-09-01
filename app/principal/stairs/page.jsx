@@ -1,26 +1,25 @@
-'use client'
-import { useState } from "react"
-import Image from "next/image"
-import Button from "../../components/common/Button"
-import Header from "../../components/common/header"
-import SocialMedia from "../../components/common/SocialMedia"
-import Footer from "../../components/Footer"
-import EmailPopUp from "../../components/EmailPopUp"
-import RandomImages from '../../components/RandomBack'
-
+"use client";
+import { useState } from "react";
+import LazyImage from "../../components/common/LazyImages";
+import Button from "../../components/common/Button";
+import Header from "../../components/common/header";
+import SocialMedia from "../../components/common/SocialMedia";
+import Footer from "../../components/Footer";
+import EmailPopUp from "../../components/EmailPopUp";
+import RandomImages from "../../components/RandomBack";
 
 export default function Home() {
-  const [contactPopActive, setContactPopActive] = useState(false)
+  const [contactPopActive, setContactPopActive] = useState(false);
   const handleContactPopUp = () => {
-    setContactPopActive(!contactPopActive)
-  }
+    setContactPopActive(!contactPopActive);
+  };
   return (
     <div>
       <RandomImages />
       <Header />
-      {
-        contactPopActive && <EmailPopUp handleContactPopUp={handleContactPopUp}/>
-      }
+      {contactPopActive && (
+        <EmailPopUp handleContactPopUp={handleContactPopUp} />
+      )}
       <SocialMedia />
       <div className=" mt-[90px]">
         <div className="flex flex-col-reverse lg:flex-row">
@@ -28,7 +27,10 @@ export default function Home() {
             <div className="hidden lg:block h-[29px] bg-dk-main" />
             <div className="px-[30px] lg:px-[80px] mt-[20px] flex flex-col">
               <span className="text-[25px] font-medium">Custom Glass</span>
-              <p className="mt-[20px] mb-[30px] text-[18px] font-medium">Add A Modern Accent To Your Staircase, Deck, Or Balcony With Our Glass Railing systems</p>
+              <p className="mt-[20px] mb-[30px] text-[18px] font-medium">
+                Add A Modern Accent To Your Staircase, Deck, Or Balcony With Our
+                Glass Railing systems
+              </p>
               {/* <span className="text-[15px]">Model</span> */}
               {/* <span className="mt-[20px] bg-dk-secondary w-[330px] text-[]15px pl-[18px] text-[white] italic font-semibold">Specifications</span> */}
               <ul>
@@ -41,11 +43,7 @@ export default function Home() {
           </div>
           <div className="w-[100%] lg:w-[50%] flex justify-center border-t-dk-main border-t-[20px] pt-[14px] lg:pt-0 lg:border-none">
             <div className="w-[90%] lg:w-[100%] h-[630px] relative">
-              <Image
-                src="/carousel1.jpg"
-                alt=""
-                fill
-              />
+              <LazyImage src="/carousel1.jpg" alt="Dk glass carousel1" />
             </div>
           </div>
         </div>
@@ -54,15 +52,11 @@ export default function Home() {
             <p className="text-[15px] lg:w-[70%] ">Any glass work you need.</p>
           </div>
           <div className="w-[100%] lg:w-[20%] relative border-[8px] border-[white] ">
-            <Image
-              src="/residencial/stairs.jpg"
-              alt=""
-              fill
-            />
+            <LazyImage src="/residencial/stairs.jpg" alt="Dk glass stairs" />
           </div>
           <div className="lg:w-[33%] flex items-end">
             <div className="ml-[40px] mb-[50px]">
-              <Button text="Contact us" onClick={handleContactPopUp}/>
+              <Button text="Contact us" onClick={handleContactPopUp} />
             </div>
           </div>
         </div>
@@ -72,5 +66,5 @@ export default function Home() {
         <Footer />
       </div>
     </div>
-  )
+  );
 }
