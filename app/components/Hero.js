@@ -61,7 +61,7 @@ const Hero = ({ handleContactPopUp }) => (
               <div className="absolute z-30 top-[50%] w-screen  flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]  ">
                 <span className="text-[30px] text-center font-semibold text-[white]">Custom Glass</span>
                 <Link href="/principal/custom">
-                  <Button className="button_hover" text="More" color="white" />
+                  <Button className="button_hover" text="See more information" color="white" />
                 </Link>
               </div>
               <Image
@@ -74,7 +74,7 @@ const Hero = ({ handleContactPopUp }) => (
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
                 <span className="text-[30px] font-semibold text-center text-[white]">Commercial Service</span>
                 <Link href="/principal/comercial">
-                  <Button className="button_hover" text="More" color="white" />
+                  <Button className="button_hover" text="See more information" color="white" />
                 </Link>
               </div>
               <Image
@@ -87,7 +87,7 @@ const Hero = ({ handleContactPopUp }) => (
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
                 <span className="text-[30px] text-center font-semibold text-[white]">Mirrors</span>
                 <Link href="/principal/mirror">
-                  <Button className="button_hover" text="More" color="white" />
+                  <Button className="button_hover" text="See more information" color="white" />
                 </Link>
               </div>
               <Image
@@ -100,7 +100,7 @@ const Hero = ({ handleContactPopUp }) => (
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
                 <span className="text-[30px] text-center font-semibold text-[white]">Hardware & Supplies</span>
                 <Link href="/principal/hardware">
-                  <Button className="button_hover" text="More" color="white" />
+                  <Button className="button_hover" text="See more information" color="white" />
                 </Link>
               </div>
               <Image
@@ -113,7 +113,7 @@ const Hero = ({ handleContactPopUp }) => (
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
                 <span className="text-[30px] text-center font-semibold text-[white]">Shower/Sliding Glass Doors</span>
                 <Link href="/principal/showerglassdoor">
-                  <Button className="button_hover" text="More" color="white" />
+                  <Button className="button_hover" text="See more information" color="white" />
                 </Link>
               </div>
               <Image
@@ -126,7 +126,7 @@ const Hero = ({ handleContactPopUp }) => (
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
                 <span className="text-[30px] text-center font-semibold text-[white]">Sliding Glass Shower Doors</span>
                 <Link href="/principal/slidingglassshowerdoors">
-                  <Button  className="button_hover" text="More" color="white" />
+                  <Button  className="button_hover" text="See more information" color="white" />
                 </Link>
               </div>
               <Image
@@ -139,7 +139,7 @@ const Hero = ({ handleContactPopUp }) => (
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
                 <span className="text-[30px] text-center font-semibold text-[white]">Glass Railing</span>
                 <Link href="/principal/stairs">
-                  <Button className="button_hover" text="More" color="white" />
+                  <Button className="button_hover" text="See more information" color="white" />
                 </Link>
               </div>
               <Image
