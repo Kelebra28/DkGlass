@@ -7,7 +7,7 @@ const inter = Cinzel({ subsets: ['latin'], weight: "400" })
 export const metadata = {
   metadataBase: new URL('https://www.dkglassvelasco.com'),
   title: 'Dk Glass & Velasco',
-  description: 'What you imagine in glass',
+  description: 'What you imagine in glass 2.5',
   image: 'https://dk-glass.vercel.app/logo-full.svg',
   generator: 'Next.js',
   applicationName: 'DK Glass & Velasco',
