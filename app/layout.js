@@ -1,18 +1,24 @@
 import "./globals.css";
 import { Cinzel } from "next/font/google";
+import { Metadata } from "next";
 import OGMetaTags from "./components/common/metaData";
 
 const inter = Cinzel({ subsets: ["latin"], weight: "400" });
 
-export const metadata = {
+export const metadata =  {
   metadataBase: new URL("https://www.dkglassvelasco.com"),
   title: "Dk Glass & Velasco",
   description: "What you imagine in glass",
   image: "/favicon.png",
+  // icons: {
+  //   icon: '',
+  // },
   generator: "Next.js",
   applicationName: "DK Glass & Velasco",
   referrer: "origin-when-cross-origin",
   keywords: [
+    "DK glass & Velasco",
+    "Glass services",
     "dk glass",
     "velasco",
     "velasco glass",
@@ -31,8 +37,8 @@ export const metadata = {
     "Office Partition",
     "Tempered glass",
     "velasco",
-    "Huston",
-    "huston",
+    "Huston glass",
+    "huston glass",
     "Hustom",
     "hustom",
     "templered glass us",
