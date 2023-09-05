@@ -42,13 +42,18 @@ export default function Home() {
                 rapidly cooled down. This puts the glass in a state of
                 compression while the core of the glass stays withintension.
               </p>
-              <div className="w-[100%] h-[400px] relative mb-[100px]">
-                <LazyImage
-                  src="/services/tempered6.jpg"
+              <div className="w-[100%] h-[40vh] relative mb-16 flex flex ">
+              <div className="w-[30%] h-[40vh] relative">
+              <LazyImage
+                  src="/services/templered_glass.png"
                   alt="Dk glass services"
                 />
               </div>
-
+              <div className="w-[60%]">
+                  <p className=" font-bold relative mt-[20px] mb-[30px] text-[22px]">Templered Glass</p>
+                  <p className="relative mt-[20px] mb-[30px] text-[15px]">Shaftters complety under higth levels of impact energy, and few pieces ramain in the frame.</p>
+              </div>
+              </div>
             </div>
           </div>
           <div className="w-[100%] lg:w-[50%] flex justify-center border-t-dk-main border-t-[20px] pt-[14px] lg:pt-0 lg:border-none">
