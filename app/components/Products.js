@@ -63,7 +63,7 @@ const Products = () => (
           </div>
           <div className="mx-[10px]">
             <CarouselCard
-              text="Semi-Frameled Glass Shower Doors"
+              text="Semi-Frameled Glass"
               img="/residencial/residelcia7.jpeg"
             />
           </div>
