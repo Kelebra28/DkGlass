@@ -1,7 +1,7 @@
 'use client'
 import { useState } from "react"
 import Header from "../components/common/header"
-import LazyImage from "../components/common/LazyImages";
+import ZoomableImage from "../components/common/ZoomImg";
 import Footer from "../components/Footer"
 import EmailPopUp from "../components/EmailPopUp"
 import RandomImages from '../components/RandomBack'
@@ -46,12 +46,13 @@ const AboutUs = () => {
       <div className="relative mt-[120px]">
         <div className="w-[52px] h-[100%] bg-dk-secondary absolute top-0 left-0 z-[-1] lg:w-[80px]"> </div>
         <div className="flex flex-col lg:flex-row items-center">
-          <div className="w-[90%] lg:w-[40%] h-[450px] flex relative img_team zoom">
-            <LazyImage
+          <div className="w-[90%] lg:w-[40%] h-[450px] flex relative img_team">
+            {/* <LazyImage
               src="/team.jpg"
               alt="Dk glass team"
               className="img_team"
-            />
+            /> */}
+            <ZoomableImage src='/team.jpg' alt='Dk glass team' zoom={200}/>
           </div>
           <div className="lg:w-[50%] flex flex-col pl-[20%] lg:pl-[40px] mb-[31px] lg:mb-[0] mt-[80px] logoAbout">
             <div className="border-l-4 border-dk-secondary h-[62px] flex items-center mt-[60px] pl-[21px]">
@@ -62,7 +63,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="flex justify-end mt-[100px]">
-          <div className="mt-[40px] mb-[40px] w-[80%] lg:block hidden">
+          {/* <div className="mt-[40px] mb-[40px] w-[80%] lg:block hidden">
           <Carousel 
             responsive={responsive}
             autoPlay={true}
@@ -74,7 +75,7 @@ const AboutUs = () => {
             <CarouselSimpleCard img="/comercial/comercail3.jpg"  />
             <CarouselSimpleCard img="/comercial/comercial3.jpg"  />
           </Carousel>
-          </div>
+          </div> */}
         </div>
         <Footer />
       </div>
