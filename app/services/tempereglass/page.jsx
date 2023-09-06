@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import LazyImage from "../../components/common/LazyImages";
+import ZoomableImg from "../../components/common/ZoomImg";
 import Button from "../../components/common/Button";
 import Header from "../../components/common/header";
 import SocialMedia from "../../components/common/SocialMedia";
@@ -58,7 +59,8 @@ export default function Home() {
           </div>
           <div className="w-[100%] lg:w-[50%] flex justify-center border-t-dk-main border-t-[20px] pt-[14px] lg:pt-0 lg:border-none">
             <div className="w-[90%] lg:w-[100%] h-[630px] relative">
-              <LazyImage
+              <ZoomableImg
+              className='templereglasss'
                 src="/services/template7.jpeg"
                 alt="Dk glass services"
               />
@@ -70,7 +72,7 @@ export default function Home() {
             <p className="text-[15px] lg:w-[70%] ">Any glass work you need.</p>
           </div>
           <div className="w-[100%] lg:w-[23%] h-[200px] relative border-[8px] border-[white] ">
-            <LazyImage src="/services/tempered5.jpg" alt="Dk glass services" />
+            <ZoomableImg src="/services/tempered5.jpg" alt="Dk glass services" />
           </div>
           <div className="lg:w-[33%] flex items-end">
             <div className="ml-[40px] mb-[50px]">
