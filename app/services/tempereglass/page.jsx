@@ -50,7 +50,7 @@ export default function Home() {
                 />
               </div>
               <div className="w-[60%]">
-                  <p className=" font-bold relative mt-[20px] mb-[30px] text-[22px]">Templered Glass</p>
+                  <p className=" font-bold relative mt-[20px] mb-[30px] text-[22px]">Tempered Glass</p>
                   <p className="relative mt-[20px] mb-[30px] text-[15px]">Shaftters complety under higth levels of impact energy, and few pieces ramain in the frame.</p>
               </div>
               </div>
