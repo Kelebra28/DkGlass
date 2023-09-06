@@ -34,7 +34,7 @@ const Header = ({ handleContactPopUp }) => {
         </Link>
       </div>
       <div className="hidden lg:flex  w-8/12 pt-[20px]">
-        <Link className="hover_header" href="/#home">
+        <Link className="hover_header" href="/">
           <span className="text-[17px] px-[10px] font-semibold  mx-[25px] cursor-pointer">
             Home
           </span>
