@@ -119,7 +119,7 @@ const Proyects = () => (
           img="/residencial/residencial8.jpeg"
         />
         <CarouselCard
-          text="Semi-Frameled Glass Shower Doors"
+          text="Semi-Frameled Glass"
           img="/residencial/residelcia7.jpeg"
         />
         <CarouselCard
