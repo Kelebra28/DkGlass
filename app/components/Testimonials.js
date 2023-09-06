@@ -1,4 +1,4 @@
-import LazyImage from "./common/LazyImages";
+import ZoomableImg from "./common/ZoomImg";
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
 import CarouselCard from "../components/common/CarouselCard"
@@ -24,8 +24,8 @@ const responsive = {
 
 const Testimonials = () => (
   <div className="pb-[40px] flex flex-col lg:flex-row-reverse testimonial">
-    <div className="h-[395px] hidden lg:block relative lg:w-4/12 w-12/12 zoom">
-      <LazyImage src="/residencial/residelcia4.jpg" alt="dk glass testimonial"/>
+    <div className="h-[395px] hidden lg:block relative lg:w-4/12 w-12/12">
+      <ZoomableImg src="/residencial/residelcia4.jpg" alt="dk glass testimonial" className='"h-[395px] hidden lg:block lg:w-4/12 w-12/12' zoom={150}/>
     </div>
     <div className="w-12/12 lg:w-8/12 mb-[100px]">
       <div className="border-l-4 border-dk-main mt-[41px] h-[52px] ml-[54px] flex items-center pl-[21px]">
