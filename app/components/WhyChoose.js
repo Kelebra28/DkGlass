@@ -1,10 +1,10 @@
-import LazyImage from "./common/LazyImages";
+import ZoomableImg from "./common/ZoomImg";
 
 const WhyUs = () => (
   <div className="flex mb-[100px] whyChose hidden md:flex">
     <div className="w-[100%] lg:w-[50%]  flex justify-between">
-      <div className="w-[70%] h-[520px] relative zoom">
-        <LazyImage src="/bath.png" alt="dk glass bath" />
+      <div className="w-[70%] h-[520px] relative">
+        <ZoomableImg src="/bath.png" alt="dk glass bath" zoom={150}  />
       </div>
     </div>
     <div className="w-[50%] border-l-[60px] border-l-dk-secondary p-[26px] pr-[76px] hidden lg:block chosse">
