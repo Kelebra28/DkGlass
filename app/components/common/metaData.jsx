@@ -22,7 +22,7 @@ const OGMetaTags = () => {
       <meta
         property="og:image"
         itemprop="image"
-        content="https://www.dkglassvelasco.com/favicon.png"
+        content="https://www.dkglassvelasco.com/team.png"
       />
       {/* Meta Fabook meatdata */}
       <meta name="twitter:title" content="Dk Glass & Velasco" />
@@ -32,11 +32,11 @@ const OGMetaTags = () => {
       />
       <meta
         name="twitter:image"
-        content="https://www.dkglassvelasco.com/logo-full.svg"
+        content="https://www.dkglassvelasco.com/team.png"
       />
       <link
         itemprop="thumbnailUrl"
-        href="https://www.dkglassvelasco.com/favicon.png"
+        href="https://www.dkglassvelasco.com/team.png"
       />
       <link rel="preload" as="font" />
       <link rel="icon" href="/favicon.png?" type="image/png" />
