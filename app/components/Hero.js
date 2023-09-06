@@ -107,7 +107,7 @@ const Hero = ({ handleContactPopUp }) => (
                 </Link>
               </div>
               <LazyImage
-                src="/carousel5.jpeg"
+                src="/showerdoor-hardware.jpg"
                 alt="Dk glass Hardware & Supplies"
               />
             </div>
