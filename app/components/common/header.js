@@ -39,7 +39,7 @@ const Header = ({ handleContactPopUp }) => {
             Home
           </span>
         </Link>
-        <Link className="hover_header" href="/nosotros">
+        <Link className="hover_header" href="/about-us">
           <span className="text-[17px] px-[10px] font-semibold mx-[25px] cursor-pointer">
             About Us
           </span>
