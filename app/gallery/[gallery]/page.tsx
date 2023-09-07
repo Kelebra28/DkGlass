@@ -1,16 +1,20 @@
 'use client'
 import { useState } from "react"
+import { useRouter, useParams } from "next/navigation";
 import Button from "../../components/common/Button";
 import Header from "../../components/common/header";
 import SocialMedia from "../../components/common/SocialMedia";
 import EmailPopUp from "../../components/EmailPopUp";
-import CarouselImagesZoom from "./components/CarouselImagesZoom";
+import CarouselGallery from "./components/CarouselGallery";
 
 export default function GalleryPage({ galleryTitle, galleryDescription }) {
     const [contactPopActive, setContactPopActive] = useState(false)
     const handleContactPopUp = () => {
         setContactPopActive(!contactPopActive)
     }
+    const router = useRouter();
+    const urlParams = useParams();
+
     return (
         <>
             <Header handleContactPopUp={handleContactPopUp} />
@@ -21,8 +25,10 @@ export default function GalleryPage({ galleryTitle, galleryDescription }) {
             <div className=" mt-[90px] max-h-max">
                 <div className="flex flex-col-reverse lg:flex-row">
                     <div className="w-[100%] lg:w-[60%] flex justify-center border-t-dk-main border-t-[20px] pt-[14px] lg:pt-0 lg:border-none">
-                        <div className="w-[90%]  h-[630px] lg:h-[100%] relative">
-                            <CarouselImagesZoom />
+                        <div className="w-[90%]  h-[630px] md:h-[100%] relative">
+
+                            <CarouselGallery />
+
                         </div>
                     </div>
                     <div className="w-[100%] lg:w-[40%]  h-[100%] mb-[60px] lg:mb-0">
