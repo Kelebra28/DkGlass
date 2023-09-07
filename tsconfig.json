@@ -28,7 +28,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "app/components/common/ZoomImg.tsx"  ],
+, "app/components/common/ZoomImg.tsx", "app/gallery/[gallery]/components/CarouselImagesZoom.jsx"  ],
   "exclude": [
     "node_modules"
   ]
