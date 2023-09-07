@@ -323,11 +323,6 @@
   color: white;
 }
 
-
-.hover_footer:hover {
-  color: #c8c8c8;
-}
-
 .hover_footer::after {
   content: '';
   display: block;
