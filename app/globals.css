@@ -226,7 +226,6 @@
 }
 
 .galleryPhoto {
-  position: static !important;
   width: 200px !important;
   height: 200px !important;
 }
@@ -324,11 +323,6 @@
   color: white;
 }
 
-
-.hover_footer:hover {
-  color: #c8c8c8;
-}
-
 .hover_footer::after {
   content: '';
   display: block;
@@ -358,7 +352,7 @@
 
 .galletItem:hover {
   border: 2px solid #60DBC5;
-  animation: zoom-in-zoom-out-carrusel 2s ease;
+  /* animation: zoom-in-zoom-out-carrusel 2s ease; */
 }
 
 .zoom:hover {
@@ -474,4 +468,8 @@
 
 .lcOxyP {
   background-color: transparent !important;
+}
+
+.templereglasss{
+  width: 100% !important;
 }
