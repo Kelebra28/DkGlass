@@ -50,7 +50,6 @@ const Header = ({ handleContactPopUp }) => {
           scroll={false}
         >
           <span className="text-[17px] px-[10px] font-semibold mx-[25px] cursor-pointer">
-            {" "}
             Services
           </span>
         </Link>
