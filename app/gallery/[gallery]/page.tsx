@@ -1,12 +1,9 @@
 'use client'
 import { useState } from "react"
-import LazyImage from "../../components/common/LazyImages";
 import Button from "../../components/common/Button";
 import Header from "../../components/common/header";
 import SocialMedia from "../../components/common/SocialMedia";
-import Footer from "../../components/Footer";
 import EmailPopUp from "../../components/EmailPopUp";
-import RandomImages from "../../components/RandomBack";
 import CarouselImagesZoom from "./components/CarouselImagesZoom";
 
 export default function GalleryPage({ galleryTitle, galleryDescription }) {
@@ -15,8 +12,7 @@ export default function GalleryPage({ galleryTitle, galleryDescription }) {
         setContactPopActive(!contactPopActive)
     }
     return (
-        <div className="max-h-fit">
-            <RandomImages />
+        <>
             <Header handleContactPopUp={handleContactPopUp} />
             {
                 contactPopActive && <EmailPopUp handleContactPopUp={handleContactPopUp} />
@@ -26,12 +22,7 @@ export default function GalleryPage({ galleryTitle, galleryDescription }) {
                 <div className="flex flex-col-reverse lg:flex-row">
                     <div className="w-[100%] lg:w-[60%] flex justify-center border-t-dk-main border-t-[20px] pt-[14px] lg:pt-0 lg:border-none">
                         <div className="w-[90%]  h-[630px] lg:h-[100%] relative">
-                            {/* <LazyImage
-                                src="/mirror/mirror3.jpg"
-                                alt="Dk glass mirror3"
-                            /> */}
                             <CarouselImagesZoom />
-
                         </div>
                     </div>
                     <div className="w-[100%] lg:w-[40%]  h-[100%] mb-[60px] lg:mb-0">
@@ -45,8 +36,7 @@ export default function GalleryPage({ galleryTitle, galleryDescription }) {
                         </div>
                     </div>
                 </div>
-                <Footer />
             </div>
-        </div>
+        </>
     )
 }
