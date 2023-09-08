@@ -4,6 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa"
 import Image from "next/image";
+import ZoomableImg from "../../../components/common/ZoomImg";
 
 import {
     Storefront,
@@ -114,12 +115,10 @@ function CarouselGallery(props: { gallery: string }) {
 
                 {galleryData.map((img, indx) => (
                     <div key={indx} >
-                        <Image
+                        <ZoomableImg
                             src={img.url}
                             alt={img.alt}
-                            width={500}
-                            height={500}
-
+                            zoom={180}
                         />
                         {/* <img src={img.url} alt={img.alt} /> */}
                     </div>))}
