@@ -4,6 +4,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import CarouselCard from "./common/CarouselCard";
 import CarouselCard2 from "./common/CarouselCard2";
+import Link from "next/link";
 
 const responsive = {
   superLargeDesktop: {
@@ -36,22 +37,22 @@ const Proyects = () => (
       </div>
       <ul>
         <li className="w-[180px] ml-[100px] text-[15px] mt-[41px] hidden lg:flex ">
-          Patio Door
+          <Link href="/gallery/patio-door">Patio Door</Link>
         </li>
         <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex ">
-          Patio Enclosure
+          <Link href="/gallery/patio-enclosure"> Patio Enclosure</Link>
         </li>
         <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex ">
-          Sliding Glass Door
+          <Link href="/gallery/sliding-glass"> Sliding Glass Door</Link>
         </li>
         <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex ">
-          Shower Glass Door
+          <Link href="/galleryshower-glass">Shower Glass Door</Link>
         </li>
         <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex ">
-          Mirrors
+          <Link href="/gallery/mirrors"> Mirrors</Link>
         </li>
         <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex ">
-          Railing stair system
+          <Link href="/gallery/railing-stair">Railing stair system</Link>
         </li>
       </ul>
 
@@ -60,13 +61,13 @@ const Proyects = () => (
         <div className="border-b-4 border-dk-secondary w-[92px] mt-[15px]" />
         <ul>
           <li className="w-[180px] ml-[100px] text-[15px] mt-[41px] hidden lg:flex ">
-            Storefront
+          <Link href="/gallery/store-front"> Storefront</Link>
           </li>
           <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex ">
-            Impact Storefront
+          <Link href="/gallery/impact-store-front"> Impact Storefront</Link>
           </li>
           <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex ">
-            Office Partition
+          <Link href="/gallery/office-partition"> Office Partition</Link>
           </li>
         </ul>
       </div>
