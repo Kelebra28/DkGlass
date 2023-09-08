@@ -19,14 +19,14 @@ import {
     RailingStair,
 } from "../../../data/galleryDataRecidencial";
 
-const CarouselGallery: React.FC = (gallery) => {
+function CarouselGallery(props: { gallery: string }) {
     const [galleryData, setGalleryData] = useState(Storefront);
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
         setLoading(true);
 
-        switch (gallery) {
+        switch (props.gallery) {
             case 'store-front': {
                 setGalleryData(Storefront);
                 break;
@@ -69,7 +69,7 @@ const CarouselGallery: React.FC = (gallery) => {
             }
         }
         setLoading(false);
-    }, [gallery]);
+    }, [props.gallery]);
     return (
         <>{loading ? (
             <div className="text-center text-blue-400">Loading...</div>
