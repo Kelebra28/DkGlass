@@ -4,6 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import CarouselCard from "./common/CarouselCard";
 import CarouselSimpleCard from "./common/CarouselSimpleCard";
 import LazyImage from "./common/LazyImages";
+import Link from "next/link";
 
 const responsive = {
   superLargeDesktop: {
@@ -36,13 +37,13 @@ const Products = () => (
       </div>
       <ul>
         <li className="w-[180px] ml-[55px] text-[15px] mt-[41px] hidden lg:flex ">
-          Storefront
+          <Link href="/gallery/store-front">Storefront</Link>
         </li>
         <li className="w-[180px] ml-[55px] text-[15px] mt-[10px] hidden lg:flex ">
-          Impact Storefront
+          <Link href="/gallery/impact-store-front">Impact Storefront</Link>
         </li>
         <li className="w-[180px] ml-[55px] text-[15px] mt-[10px] hidden lg:flex ">
-          Office Partition
+          <Link href="/gallery/office-partition">Office Partition</Link>
         </li>
       </ul>
 
