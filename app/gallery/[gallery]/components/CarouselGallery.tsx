@@ -19,16 +19,57 @@ import {
     RailingStair,
 } from "../../../data/galleryDataRecidencial";
 
-const CarouselGallery: React.FC = () => {
+const CarouselGallery: React.FC = (gallery) => {
     const [galleryData, setGalleryData] = useState(Storefront);
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
         setLoading(true);
 
-        // setGalleryData(formattedData);
+        switch (gallery) {
+            case 'store-front': {
+                setGalleryData(Storefront);
+                break;
+            }
+            case 'impact-store-front': {
+                setGalleryData(ImpactStorefront);
+                break;
+            }
+            case 'office-partition': {
+                setGalleryData(OfficePartion);
+                break;
+            }
+            case 'patio-door': {
+                setGalleryData(PatioDoor);
+                break;
+            }
+            case 'patio-enclosure': {
+                setGalleryData(PatioEnclosure);
+                break;
+            }
+            case 'sliding-glass': {
+                setGalleryData(SlidingGlass);
+                break;
+            }
+            case 'shower-glass': {
+                setGalleryData(ShowerGlass);
+                break;
+            }
+            case 'mirrors': {
+                setGalleryData(Mirrors);
+                break;
+            }
+            case 'railing-stair': {
+                setGalleryData(RailingStair);
+                break;
+            }
+            default: {
+
+                break;
+            }
+        }
         setLoading(false);
-    }, []);
+    }, [gallery]);
     return (
         <>{loading ? (
             <div className="text-center text-blue-400">Loading...</div>
@@ -59,7 +100,7 @@ const CarouselGallery: React.FC = () => {
                         </div>
                     );
                 }}
-                renderThumbs = {() => (
+                renderThumbs={() => (
                     galleryData.map((image, index) => (
                         <Image
                             key={index}
