@@ -1,0 +1,25 @@
+.carousel .thumb img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.carousel .slide img {
+    max-height: 500px;
+    min-height: 500px; 
+    width: auto;
+}
+
+.arrowCarouselIcon{
+    color: white;
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    border-radius: 50px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel .slide img {
+        max-height: 300px;  
+        width: auto;
+    }
+  }
