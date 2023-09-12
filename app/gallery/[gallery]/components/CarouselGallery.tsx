@@ -1,8 +1,9 @@
 "use client";
 import { useState, useEffect } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import './CarouselGallery.css'
 import { Carousel } from 'react-responsive-carousel';
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa"
+import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io"
 import Image from "next/image";
 import ZoomableImg from "../../../components/common/ZoomImg";
 
@@ -23,7 +24,19 @@ import {
 function CarouselGallery(props: { gallery: string }) {
     const [galleryData, setGalleryData] = useState(Storefront);
     const [loading, setLoading] = useState(false);
+    const [isHover, setIsHover] = useState(false);
 
+    const handleMouseEnter = () => {
+        setIsHover(true);
+    };
+    const handleMouseLeave = () => {
+        setIsHover(false);
+    };
+    const boxArrowBack = 'top-0 bottom-0 left-0 flex justify-center items-center p-3 opacity-30 hover:opacity-100 hover:bg-center hover:bg-slate-700 cursor-pointer z-20'
+    const boxArrowNext = 'top-0 bottom-0 right-0 flex justify-center items-center p-3 opacity-30 hover:opacity-100 hover:bg-center hover:bg-slate-700 cursor-pointer z-20'
+    const arrowStyles = {
+        backgroundColor: isHover ? 'black' : '#747679',
+    }
     useEffect(() => {
         setLoading(true);
 
@@ -78,15 +91,18 @@ function CarouselGallery(props: { gallery: string }) {
             <Carousel
                 axis="horizontal"
                 showStatus={false}
+                dynamicHeight={false}
                 className="relative"
                 renderArrowPrev={(clickHandler, hasPrev) => {
                     return (
                         <div
                             className={`${hasPrev ? "absolute" : "hidden"
-                                } top-0 bottom-0 left-0 flex justify-center items-center p-3 opacity-30 hover:opacity-100 cursor-pointer z-20`}
+                                } ${boxArrowBack}`}
                             onClick={clickHandler}
+                            onMouseEnter={handleMouseEnter}
+                            onMouseLeave={handleMouseLeave}
                         >
-                            <FaArrowLeft className="w-9 h-9 text-white " />
+                            <IoIosArrowBack className="arrowCarouselIcon hover:bg-center hover:bg-slate-700" style={arrowStyles} />
                         </div>
                     );
                 }}
@@ -94,10 +110,12 @@ function CarouselGallery(props: { gallery: string }) {
                     return (
                         <div
                             className={`${hasNext ? "absolute" : "hidden"
-                                } top-0 bottom-0 right-0 flex justify-center items-center p-3 opacity-30 hover:opacity-100 cursor-pointer z-20`}
+                                } ${boxArrowNext}`}
                             onClick={clickHandler}
+                            onMouseEnter={handleMouseEnter}
+                            onMouseLeave={handleMouseLeave}
                         >
-                            <FaArrowRight className="w-9 h-9 text-white" />
+                            <IoIosArrowForward className="arrowCarouselIcon hover:bg-center hover:bg-slate-700" style={arrowStyles} />
                         </div>
                     );
                 }}
@@ -120,7 +138,7 @@ function CarouselGallery(props: { gallery: string }) {
                             alt={img.alt}
                             zoom={180}
                         />
-                        {/* <img src={img.url} alt={img.alt} /> */}
+
                     </div>))}
 
             </Carousel>

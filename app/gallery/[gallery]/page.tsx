@@ -85,18 +85,22 @@ export default function GalleryPage() {
             }
             <SocialMedia />
             <div className=" mt-[90px] max-h-max">
-                <div className="flex flex-col-reverse lg:flex-row">
-                    <div className="w-[100%] lg:w-[60%] flex justify-center items-center border-t-dk-main border-t-[20px] pt-[14px] lg:pt-0 lg:border-none">
-                        <div className="w-[90%]  h-[630px]  relative">
-
-                            <CarouselGallery gallery={gallery} />
+                <div className="flex flex-col  relative" >
+                    <div className="w-[100%] lg:w-[100%]  h-[100%] mb-[60px] lg:mb-0">
+                        <div className="block h-[29px] bg-dk-main" />
+                        <div className="px-[30px] lg:px-[80px] mt-[20px] flex flex-col">
+                            <h2 className="text-[25px] font-medium">{galleryData.galleryTitle}</h2>
 
                         </div>
                     </div>
-                    <div className="w-[100%] lg:w-[40%]  h-[100%] mb-[60px] lg:mb-0">
+                    <div className="w-[100%] lg:w-[100%] flex justify-center items-center border-t-dk-main border-t-[20px] pt-[14px] lg:pt-0 lg:border-none">
+                        <div className="w-[90%]  relative">
+                            <CarouselGallery gallery={gallery} />
+                        </div>
+                    </div>
+                    <div className="w-[100%] lg:w-[100%]  h-[100%] mb-[60px] lg:mb-0">
                         <div className="block h-[29px] bg-dk-main" />
                         <div className="px-[30px] lg:px-[80px] mt-[20px] flex flex-col">
-                            <span className="text-[25px] font-medium">{galleryData.galleryTitle}</span>
                             <p className="mt-[20px] mb-[30px] text-[18px] font-medium">{galleryData.galleryDescription}</p>
                             <div className="lg:ml-[40px] lg:mb-[50px] xs:mb-[10px] flex justify-center lg:block" >
                                 <Button text="Contact us" onClick={handleContactPopUp} />
