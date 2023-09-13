@@ -50,7 +50,7 @@ export const SlidingGlass = [
     {
         "id": 2,
         "author": "Dk glass & Velasco",
-        "url": "/gallery/Sliding_glass_doors_2.jpg",
+        "url": "/gallery/Sliding_glass_doors_2.jpeg",
         "alt": "Dk glass & Velasco SlidingGlass"
     },
     {
@@ -77,7 +77,7 @@ export const ShowerGlass = [
     {
         "id": 2,
         "author": "Dk glass & Velasco",
-        "url": "/gallery/shower_glass_doors_2.jpg",
+        "url": "/gallery/shower_glass_doors_2.jpeg",
         "alt": "Dk glass & Velasco ShowerGlass"
     },
     {

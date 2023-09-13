@@ -31,42 +31,42 @@ const Proyects = () => (
     id="residencial"
     className="mb-[100px] lg:mb-[20px] lg:flex lg:justify-between"
   >
-    <div className="ml-[60px]">
+    <div className="ml-[60px] relative">
       <div className="border-l-4 border-dk-secondary h-[52px] items-center mt-[40px] ml-[57px] pl-[21px] hidden lg:flex">
         <span className="text-dk-main text-[36px]">Residencial</span>
       </div>
       <ul>
-        <li className="w-[180px] ml-[100px] text-[15px] mt-[41px] hidden lg:flex ">
+        <li className="w-[180px] ml-[100px] text-[15px] mt-[41px] hidden lg:flex hover-item">
           <Link href="/gallery/patio-door">Patio Door</Link>
         </li>
-        <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex ">
+        <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex hover-item ">
           <Link href="/gallery/patio-enclosure"> Patio Enclosure</Link>
         </li>
-        <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex ">
+        <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex hover-item">
           <Link href="/gallery/sliding-glass"> Sliding Glass Door</Link>
         </li>
-        <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex ">
-          <Link href="/galleryshower-glass">Shower Glass Door</Link>
+        <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex hover-item">
+          <Link href="/gallery/shower-glass">Shower Glass Door</Link>
         </li>
-        <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex ">
+        <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex hover-item">
           <Link href="/gallery/mirrors"> Mirrors</Link>
         </li>
-        <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex ">
+        <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex hover-item">
           <Link href="/gallery/railing-stair">Railing stair system</Link>
         </li>
       </ul>
 
       <div className="lg:hidden">
         <h3 className="text-[36px]">Commercial</h3>
-        <div className="border-b-4 border-dk-secondary w-[92px] mt-[15px]" />
+        <div className="border-b-4 border-dk-secondary w-[92px] mt-[15px] relative" />
         <ul>
-          <li className="w-[180px] ml-[100px] text-[15px] mt-[41px] hidden lg:flex ">
+          <li className="w-[180px] ml-[100px] text-[15px] mt-[41px] hidden lg:flex hover-item">
           <Link href="/gallery/store-front"> Storefront</Link>
           </li>
-          <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex ">
+          <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex hover-item">
           <Link href="/gallery/impact-store-front"> Impact Storefront</Link>
           </li>
-          <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex ">
+          <li className="w-[180px] ml-[100px] text-[15px] mt-[10px] hidden lg:flex hover-item">
           <Link href="/gallery/office-partition"> Office Partition</Link>
           </li>
         </ul>
