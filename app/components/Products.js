@@ -4,6 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import CarouselCard from "./common/CarouselCard";
 import CarouselSimpleCard from "./common/CarouselSimpleCard";
 import LazyImage from "./common/LazyImages";
+import Link from "next/link";
 
 const responsive = {
   superLargeDesktop: {
@@ -34,15 +35,15 @@ const Products = () => (
       <div className="border-l-4 border-dk-main h-[52px] flex items-center mt-[40px] ml-[57px] pl-[21px] lg:ml-[17px]">
         <span className="text-dk-main text-[36px]">Commercial</span>
       </div>
-      <ul>
-        <li className="w-[180px] ml-[55px] text-[15px] mt-[41px] hidden lg:flex ">
-          Storefront
+      <ul className="relative">
+        <li className="w-[180px] ml-[55px] text-[15px] mt-[41px] hidden lg:flex hover-item ">
+          <Link href="/gallery/store-front">Storefront</Link>
         </li>
-        <li className="w-[180px] ml-[55px] text-[15px] mt-[10px] hidden lg:flex ">
-          Impact Storefront
+        <li className="w-[180px] ml-[55px] text-[15px] mt-[10px] hidden lg:flex hover-item ">
+          <Link href="/gallery/impact-store-front">Impact Storefront</Link>
         </li>
-        <li className="w-[180px] ml-[55px] text-[15px] mt-[10px] hidden lg:flex ">
-          Office Partition
+        <li className="w-[180px] ml-[55px] text-[15px] mt-[10px] hidden lg:flex hover-item">
+          <Link href="/gallery/office-partition">Office Partition</Link>
         </li>
       </ul>
 
