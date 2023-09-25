@@ -1,8 +1,16 @@
 import ImageZoom from 'react-image-zooom';
 
-function ZoomableImg({src, alt, zoom = 200 , className}) {
+interface ZoomableImgProps {
+  src: string;
+  alt: string;
+  zoom?: number;
+  className?: string;
+}
+
+function ZoomableImg({ src, alt, zoom = 200, className }: ZoomableImgProps) {
+
   return (
-      <ImageZoom className={className} src={src} alt={alt} zoom={zoom} />
+    <ImageZoom className={className} src={src} alt={alt} zoom={zoom} />
   );
 }
 
