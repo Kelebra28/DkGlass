@@ -25,22 +25,22 @@ const SideBar = ({ handleClickMenu }) => (
           <Link href="/">
             <h2 className="text-[18px] font-medium hover:bg-dk-secondary pl-[12px] hover:text-[white]">Home</h2>
           </Link>
-          <Link href="/nosotros">
+          <Link href="/about-us">
             <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">About Us</span>
           </Link>
           <span className="mt-[15px] hidden text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">{`¿Porque elegir DK Glass & velasco?`}</span>
         </section>
         <section className="border-b-[2px] border-b-dk-secondary pt-[20px] pb-[20px] flex flex-col">
-          <Link href="#products" scroll className="flex flex-col">
+          <Link href="/#services" scroll className="flex flex-col">
             <h2 className="text-[18px] font-medium hover:bg-dk-secondary pl-[12px] hover:text-[white]">Products</h2>
           </Link>
-          <Link href="#residencial">
+          <Link href="/#residencial">
             <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Residencial</span>
           </Link>
-          <Link href="#industrial">
+          <Link href="/#industrial">
             <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Commercial</span>
           </Link>
-          <Link href="#services">
+          <Link href="/#services">
             <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Services</span>
           </Link>
         </section>

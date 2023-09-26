@@ -16,16 +16,16 @@ const Footer = () => (
         <Link className="hover_footer" href="/">
           <span className="my-[11px] text-[17px] font-semibold">Home</span>
         </Link>
-        <Link className="hover_footer" href="/nosotros">
+        <Link className="hover_footer" href="/about-us">
           <span className="my-[11px] text-[17px] font-semibold">About Us</span>
         </Link>
-        <Link className="hover_footer" href="#services">
+        <Link className="hover_footer" href="#residencial">
           <span className="my-[11px] text-[17px] font-semibold"> Services</span>
         </Link>
-        <Link className="hover_footer" href="#products">
+        <Link className="hover_footer" href="/#services">
           <span className="my-[11px] text-[17px] font-semibold">Products</span>
         </Link>
-        <Link className="hover_footer" href="#contact">
+        <Link className="hover_footer" href="/#contact">
           <span className="my-[11px] text-[17px] font-semibold">
             Contact us
           </span>
