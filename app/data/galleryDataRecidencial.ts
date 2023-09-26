@@ -120,26 +120,26 @@ export const RailingStair = [
     {
         "id": 1,
         "author": "Dk glass & Velasco",
-        "url": "/about1.png",
-        "alt": "Dk glass & Velasco"
+        "url": "/gallery/Glass_Railing_1.jpg",
+        "alt": "Dk glass & Velasco Railing"
     },
     {
         "id": 2,
         "author": "Dk glass & Velasco",
-        "url": "/about1.png",
-        "alt": "Dk glass & Velasco"
+        "url": "/gallery/Glass_Railing_2.jpg",
+        "alt": "Dk glass & Velasco Railing"
     },
     {
         "id": 3,
         "author": "Dk glass & Velasco",
-        "url": "/about1.png",
-        "alt": "Dk glass & Velasco"
+        "url": "/gallery/Glass_Railing_3.jpg",
+        "alt": "Dk glass & Velasco Railing"
     },
     {
         "id": 4,
         "author": "Dk glass & Velasco",
-        "url": "/about1.png",
-        "alt": "Dk glass & Velasco"
+        "url": "/gallery/Glass_Railing_4.jpg",
+        "alt": "Dk glass & Velasco Railing"
     }
 
 ]
