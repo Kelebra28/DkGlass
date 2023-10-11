@@ -38,14 +38,6 @@ const Testimonials = () => (
           autoPlaySpeed={4000}
           infinite={true} 
           className="mt-[50px]">
-          <div className="w-[220px] relative mx-[40px]">
-            <a href="https://www.google.com/maps/contrib/103080209440644939912/reviews?hl=en-US" target="_blank" className="">
-              <span className="text-[15px] font-semibold">Daikel Barea Utria</span>
-              <p className="mt-[20px] text-[14px] text-[#6B6B6B]">
-                Very professional staff. Excellent experience in the process of remodeling my bathroom. They also have all the accessories for glass doors..."Very professional person. Excellent experience in the process of remodeling my bathroom. They also have all the accessories for glass doors".
-              </p>
-            </a>
-          </div>
 
           <div className="w-[220px] relative mx-[40px]">
             <a href="https://www.facebook.com/edmund.rodriguez.14/posts/pfbid024vSot3sjB6AJ7pXmBn66v535n1FNBszq63txzi3hP8wpuTVghVUCwZiyXc9gAg9Zl" target="_blank" className="">
@@ -68,14 +60,6 @@ const Testimonials = () => (
               <span className="text-[15px] font-semibold">Dianet Barea Rodríguez</span>
               <p className="mt-[20px] text-[14px] text-[#6B6B6B]">
                 I love it, excellent service !!
-              </p>
-            </a>
-          </div>
-          <div className="w-[220px] relative mx-[40px]">
-            <a href="https://www.google.com/maps/contrib/105093483314072535346/place/ChIJh3KOJubRQIYRo57X7YKaOks/@30.0492184,-95.3403768,10z/data=!4m6!1m5!8m4!1e1!2s105093483314072535346!3m1!1e1?hl=en-US&entry=ttu" target="_blank" className="">
-              <span className="text-[15px] font-semibold">Daikel Barea Utria</span>
-              <p className="mt-[20px] text-[14px] text-[#6B6B6B]">
-                N⁰ 1 in the quality of services offered (design, manufacture and installation of glass doors, store front, stairs and mirrors) sales of hardware.
               </p>
             </a>
           </div>
