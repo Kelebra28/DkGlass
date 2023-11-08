@@ -361,7 +361,18 @@
 }
 
 /* animation  */
-
+.iframeLogo {
+  width: 10rem !important;
+  height: 4rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoBuisisne{
+  /* border: 1px solid; */
+  width: 10rem !important;
+  height: 10rem !important;
+}
 @keyframes zoom-in-zoom-out-logo {
   0% {
     transform: scale(1, 1);
