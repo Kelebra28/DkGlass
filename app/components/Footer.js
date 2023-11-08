@@ -3,12 +3,15 @@ import Link from "next/link";
 
 const Footer = () => (
   <div className=" bg-dk-bg-gray pt-[64px] pb-[48px] footer">
-    <div className="flex justify-center">
-      <p className="text-center mb-[50px] textBig">
+    <div className="flex justify-around items-center flex-col ">
+      <p className="text-center mb-[10px] textBig">
         ©2023 DK & Velasco Glass All Rights Reserved.
       </p>
+      <a href="https://www.bbb.org/us/tx/jersey-village/profile/glass-company/dk-glass-velasco-0915-90070189#sealclick" target="_blank" className="mb-[20px]">
+         <img src="https://seal-houston.bbb.org/gen-seals/img.png?bid=90070189&w=280&h=80&color=blue&v=2&chk=49C2E82AAF"/>
+      </a>
     </div>
-    <div className="pl-[70px] ">
+    <div className="">
       <div className="w-[213px] h-[54px] relative mb-[54px] lg:mx-auto">
         <LazyImage src="/logoBlanco.svg" alt="Dk glass Logo Blanco" />
       </div>
@@ -59,8 +62,9 @@ const Footer = () => (
       >
         <LazyImage src="/icons/tik-tok-white.svg" alt="dk glass icon tik-tok" />
       </a>
-    </div>
+    </div> 
   </div>
 );
 
 export default Footer;
+// src="https://seal-houston.bbb.org/gen-seals/img.png?bid=90070189&w=280&h=80&color=blue&v=2&chk=49C2E82AAF"

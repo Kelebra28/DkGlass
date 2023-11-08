@@ -32,6 +32,11 @@ const Header = ({ handleContactPopUp }) => {
             />
           </div>
         </Link>
+        <div className="iframeLogo">
+          <a href="https://www.bbb.org/us/tx/jersey-village/profile/glass-company/dk-glass-velasco-0915-90070189#sealclick" target="_blank">
+             <img src="https://seal-houston.bbb.org/gen-seals/img.png?bid=90070189&w=280&h=80&color=blue&v=2&chk=49C2E82AAF" />
+          </a>
+        </div>
       </div>
       <div className="hidden lg:flex  w-8/12 pt-[20px]">
         <Link className="hover_header" href="/">
