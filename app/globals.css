@@ -367,11 +367,38 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 10rem;
 }
 .logoBuisisne{
   /* border: 1px solid; */
   width: 10rem !important;
   height: 10rem !important;
+  bottom: 10;
+}
+
+.popup {
+  border: 0;
+  width: 30rem;
+  position: fixed;
+  z-index: 10;
+  bottom: 2.5rem;
+  right: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #5cdac3;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.popup.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 @keyframes zoom-in-zoom-out-logo {
   0% {
