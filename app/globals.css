@@ -17,6 +17,10 @@
     url('/https://fonts.gstatic.com/s/cinzeldecorative/v14/daaHSScvJGqLYhG8nNt8KPPswUAPniZQa9lESTc.woff') format('woff');
 }
 
+.loggo {
+  width: 40px!important;
+}
+
 .random-images-container {
   position: fixed;
   top: 50%;
@@ -367,7 +371,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 10rem;
+  margin-right: 5rem;
 }
 .logoBuisisne{
   /* border: 1px solid; */

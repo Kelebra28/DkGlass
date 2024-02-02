@@ -11,9 +11,9 @@ const Header = ({ handleContactPopUp }) => {
     setShowMenu(!showMenu);
   };
   return (
-    <div className=" border-dk-secondary bg-[white] w-full  lg:bg-[rgba(255,255,255,.8)] flex pt-[20px] pl-[20px] fixed z-10 left-0 right-0 top-0 justify-center lg:justify-start lg:pb-[17px]">
+    <div className=" border-dk-secondary bg-[white]  lg:bg-[rgba(255,255,255,.8)] flex pt-[20px] pl-[20px] fixed z-10 left-0 right-0 top-0 justify-center lg:justify-start lg:pb-[17px]">
       {showMenu && <SideBar handleClickMenu={handleClickMenu} />}
-      <div className="flex justify-center lg:w-4/12 w-12/12  lg:justify-start">
+      <div className="flex justify-center lg:w-2/12 w-10/12  lg:justify-start">
         <div
           onClick={handleClickMenu}
           className="w-[29px] h-[54px] absolute left-[20px] lg:relative lg:left-0 lg:mr-[30px] cursor-pointer"
