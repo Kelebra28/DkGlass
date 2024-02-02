@@ -44,6 +44,21 @@ const Hero = ({ handleContactPopUp }) => (
             infinite={true}
             showDots={true}
           >
+             <div className="w-[736px] h-[450px] relative carrusel_hover bg-dk-main">
+              <div className="absolute z-30 top-[50%] w-screen  flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]  ">
+                  {/* <LazyImage src="/logoBlanco.svg" alt="Dk glass Custom Glass" /> */}
+                <span className="text-[30px] text-center font-semibold text-[white]">
+                  Catalog
+                </span>
+                <a href="https://issuu.com/dkglassvelasco/docs/catalog_2024" target="_blank">
+                  <Button
+                    className="button_hover"
+                    text="See our catalog"
+                    color="white"
+                  />
+                </a>
+              </div>
+            </div>
             <div className="w-[736px] h-[450px] relative carrusel_hover">
               <div className="absolute z-30 top-[50%] w-screen  flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]  ">
                 <span className="text-[30px] text-center font-semibold text-[white]">
