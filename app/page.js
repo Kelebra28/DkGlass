@@ -1,5 +1,6 @@
 import HomeLayout from './components/Home'
 import RandomImages from './components/RandomBack'
+import Popup from './components/common/Popup'
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <>
       <RandomImages />
       <HomeLayout />
+      <Popup />
     </>
   )
 }
