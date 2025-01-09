@@ -13,7 +13,7 @@ const Footer = () => (
     </div>
     <div className="">
       <div className="w-[213px] h-[54px] relative mb-[54px] lg:mx-auto">
-        <LazyImage src="/logoBlanco.svg" alt="Dk glass Logo Blanco" />
+        <LazyImage src="/logo_blanco_r.svg" alt="Dk glass Logo Blanco" />
       </div>
       <div className="flex lg:flex flex-col pb-[25px] lg:flex-row  lg:justify-between lg:px-[300px]">
         <Link className="hover_footer" href="/">
