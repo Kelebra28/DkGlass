@@ -28,7 +28,7 @@ const Header = ({ handleContactPopUp }) => {
           <div className="w-[200px] h-[54px] relative ">
             <LazyImage
               className="logo"
-              src="/logo-full.svg"
+              src="/logo_r.svg"
               alt="Dk glass Logo Icon"
             />
           </div>
