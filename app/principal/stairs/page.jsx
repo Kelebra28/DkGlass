@@ -26,7 +26,7 @@ export default function Home() {
           <div className="w-[100%] lg:w-[50%]  mb-[60px] lg:mb-0">
             <div className="hidden lg:block h-[29px] bg-dk-main" />
             <div className="px-[30px] lg:px-[80px] mt-[20px] flex flex-col">
-              <span className="text-[25px] font-medium">Custom Glass</span>
+              <span className="text-[25px] font-medium">Glass Raili </span>
               <p className="mt-[20px] mb-[30px] text-[18px] font-medium">
                 Add A Modern Accent To Your Staircase, Deck, Or Balcony With Our
                 Glass Railing systems
@@ -42,7 +42,7 @@ export default function Home() {
           <div className="w-[100%] lg:w-[50%] flex justify-center border-t-dk-main border-t-[20px] pt-[14px] lg:pt-0 lg:border-none">
             <div className="w-[90%] lg:w-[100%] h-[630px] relative">
               <ZoomableImg 
-                src="/carousel1.jpg"
+                src="/carrusel_new_2.jpg"
                 alt="Dk glass carousel1" 
                 className='w-[90%] lg:w-[100%] h-[630px]'
               />

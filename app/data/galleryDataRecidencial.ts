@@ -23,7 +23,7 @@ export const PatioEnclosure = [
     {
         "id": 1,
         "author": "Dk glass & Velasco",
-        "url": "/gallery/Patio_Enclosure_1.jpg",
+        "url": "/gallery/Patio_Enclosure_new_1.jpg",
         "alt": "Dk glass & Velasco PatioEnclosure"
     },
     {
