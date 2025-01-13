@@ -36,12 +36,12 @@ const Header = ({ handleContactPopUp }) => {
       </div>
       <div className="hidden lg:flex  w-8/12 pt-[20px]">
         <Link className="hover_header" href="/">
-          <span className="text-[17px] px-[10px] font-semibold  mx-[25px] cursor-pointer">
+          <span className="text-[17px] px-[10px] font-semibold  mx-[20px] cursor-pointer">
             Home
           </span>
         </Link>
         <Link className="hover_header" href="/about-us">
-          <span className="text-[17px] px-[10px] font-semibold mx-[25px] cursor-pointer">
+          <span className="text-[17px] px-[10px] font-semibold mx-[20px] cursor-pointer">
             About Us
           </span>
         </Link>
@@ -50,7 +50,7 @@ const Header = ({ handleContactPopUp }) => {
           href="#residencial"
           scroll={false}
         >
-          <span className="text-[17px] px-[10px] font-semibold mx-[25px] cursor-pointer">
+          <span className="text-[17px] px-[10px] font-semibold mx-[20px] cursor-pointer">
             Services
           </span>
         </Link>
@@ -59,14 +59,23 @@ const Header = ({ handleContactPopUp }) => {
           href="#services"
           scroll={false}
         >
-          <span className="text-[17px] px-[10px] font-semibold mx-[25px] cursor-pointer">
+          <span className="text-[17px] px-[10px] font-semibold mx-[20px] cursor-pointer">
             Products
+          </span>
+        </Link>
+        <Link
+          className="hover_header smooth-scroll"
+          href="/video"
+          scroll={false}
+        >
+          <span className="text-[17px] px-[10px] font-semibold mx-[20px] cursor-pointer">
+            Videos
           </span>
         </Link>
         <DownloadButton />
         <div className="animate-bounce">
           <div className="hover_header" onClick={handleContactPopUp}>
-            <span className="text-[17px] px-[10px] font-semibold mx-[25px] cursor-pointer">
+            <span className="text-[17px] px-[10px] font-semibold mx-[20px] cursor-pointer">
               Contact us
             </span>
           </div>
