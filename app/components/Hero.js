@@ -72,7 +72,7 @@ const Hero = ({ handleContactPopUp }) => (
                   />
                 </Link>
               </div>
-              <LazyImage src="/carousel4.jpg" alt="Dk glass Custom Glass" />
+              <LazyImage src="/carrusel_new_1.jpg" alt="Dk glass Custom Glass" />
             </div>
             <div className="w-[736px] h-[450px] relative">
               <div className="absolute z-30 top-[50%] w-screen flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]">
@@ -157,7 +157,7 @@ const Hero = ({ handleContactPopUp }) => (
                   />
                 </Link>
               </div>
-              <LazyImage src="/carousel1.jpg" alt="Dk glass Glass Railing" />
+              <LazyImage src="/carrusel_new_2.jpg" alt="Dk glass Glass Railing" />
             </div>
           </Carousel>
         </div>

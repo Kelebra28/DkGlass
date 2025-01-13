@@ -36,7 +36,7 @@ export default function Home() {
           </div>
           <div className="w-[100%] lg:w-[50%] flex justify-center border-t-dk-main border-t-[20px] pt-[14px] lg:pt-0 lg:border-none">
             <div className="w-[90%] lg:w-[100%] h-[630px] relative">
-              <ZoomableImg src="/carousel4.jpg" alt="Dk glass carousel4" className='w-[90%] lg:w-[100%] h-[630px]' />
+              <ZoomableImg src="/carrusel_new_1.jpg" alt="Dk glass carousel4" className='w-[90%] lg:w-[100%] h-[630px]' />
             </div>
           </div>
         </div>
