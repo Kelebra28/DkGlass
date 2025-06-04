@@ -11,7 +11,6 @@ import CarouselSimpleCard from "../components/common/CarouselSimpleCard"
 
 const responsive = {
   superLargeDesktop: {
-    // the naming can be any, depends on you.
     breakpoint: { max: 4000, min: 3000 },
     items: 5
   },
@@ -47,11 +46,6 @@ const AboutUs = () => {
         <div className="w-[52px] h-[100%] bg-dk-secondary absolute top-0 left-0 z-[-1] lg:w-[80px]"> </div>
         <div className="flex flex-col lg:flex-row items-center">
           <div className="w-[90%] lg:w-[40%] h-[450px] flex relative img_team">
-            {/* <LazyImage
-              src="/team.jpg"
-              alt="Dk glass team"
-              className="img_team"
-            /> */}
             <ZoomableImage src='/team.jpg' alt='Dk glass team' zoom={200}/>
           </div>
           <div className="lg:w-[50%] flex flex-col pl-[20%] lg:pl-[40px] mb-[31px] lg:mb-[0] mt-[80px] logoAbout">
@@ -63,19 +57,6 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="flex justify-end mt-[100px]">
-          {/* <div className="mt-[40px] mb-[40px] w-[80%] lg:block hidden">
-          <Carousel 
-            responsive={responsive}
-            autoPlay={true}
-            autoPlaySpeed={2000} 
-            infinite={true}
-          >
-            <CarouselSimpleCard img="/comercial/comercial1.jpeg"  />
-            <CarouselSimpleCard img="/comercial/comercial2.jpg"  />
-            <CarouselSimpleCard img="/comercial/comercail3.jpg"  />
-            <CarouselSimpleCard img="/comercial/comercial3.jpg"  />
-          </Carousel>
-          </div> */}
         </div>
         <Footer />
       </div>

@@ -30,8 +30,6 @@ export default function Home() {
               <span className="text-[25px] font-medium">Shower Glass Doors & Supplies</span>
               <p className="mt-[20px] mb-[30px] text-[18px] font-medium">Shower doors are panels of glass designed to keep water from splashing and spraying all over the bathroom. Along with preventing slips and falls on wet floors, they add a certain elegance and finish to your bathroom that a shower curtain usually can’t equal.</p>
               <p className="mt-[20px] mb-[30px] text-[18px] font-medium">The Finest & Elegant Shower Doors Available: Designed, manufactured, shipped and installed by The Best Technicians in Texas.</p>
-              {/* <span className="text-[15px]">Model</span> */}
-              {/* <span className="mt-[20px] bg-dk-secondary w-[330px] text-[]15px pl-[18px] text-[white] italic font-semibold">Specifications</span> */}
               <ul className="mb-[20px]">
                 <li className="mt-[20px]">- Custom shower enclosures</li>
                 <li>- Shower door design</li>

@@ -24,7 +24,6 @@ const OGMetaTags = () => {
         itemprop="image"
         content="https://www.dkglassvelasco.com/team.png"
       />
-      {/* Meta Fabook meatdata */}
       <meta name="twitter:title" content="Dk Glass & Velasco" />
       <meta
         name="twitter:description"

@@ -67,10 +67,8 @@ const Map = () => {
   const mapRef = useRef(null);
 
   const handleMapLoad = (map) => {
-    // Get access to the map container element
     if (map) {
       const mapContainer = map.getDiv();
-      // Attach your passive event listeners to mapContainer here
       mapContainer.addEventListener("scroll", handleScroll, { passive: true });
     }
   };
@@ -85,10 +83,8 @@ const Map = () => {
 
   useEffect(() => {
     return () => {
-      // Clean up event listener when the component unmounts
       if (mapRef.current) {
         const mapContainer = mapRef.current.getDiv();
-        // mapContainer.removeEventListener('scroll', handleScroll);
       }
     };
   }, []);

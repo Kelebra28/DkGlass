@@ -10,9 +10,6 @@ export const metadata =  {
   title: "Dk Glass & Velasco",
   description: "What you imagine in glass",
   image: "/favicon.png",
-  // icons: {
-  //   icon: '',
-  // },
   generator: "Next.js",
   applicationName: "Shower Patio Door Glass Mirrors Houston Texas",
   referrer: "origin-when-cross-origin",

@@ -12,7 +12,7 @@
   font-family: 'Cinzel';
   font-style: normal;
   font-display: swap;
-  /* Use "swap" to ensure text remains visible during font load */
+
   src: local('Cinzel'), url('https://fonts.gstatic.com/s/cinzeldecorative/v14/daaHSScvJGqLYhG8nNt8KPPswUAPniZQa9lESTE.woff2') format('woff2'),
     url('/https://fonts.gstatic.com/s/cinzeldecorative/v14/daaHSScvJGqLYhG8nNt8KPPswUAPniZQa9lESTc.woff') format('woff');
 }

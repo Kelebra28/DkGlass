@@ -20,18 +20,6 @@ const SocialMedia = () => (
           />
         </a>
       </div>
-      {/* <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
-        <LazyImage
-          src="/icons/LinkedIn-white.svg"
-          alt="Dk glass Icon LinkedIn"
-        />
-      </div> */}
-      {/* <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
-        <LazyImage
-          src="/icons/twiter-white.svg"
-          alt="Dk glass Icon twiter"
-        />
-      </div> */}
       <div className="w-[30px] h-[30px] my-[20px] relative cursor-pointer">
         <span className="relative flex h-3 w-3">
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75">
@@ -60,21 +48,7 @@ const SocialMedia = () => (
           />
         </a>
       </div>
-      {/* <div className="w-[26px] h-[26px] my-[20px] relative cursor-pointer">
-        <LazyImage
-          src="/icons/youtube-white.svg"
-          alt="Dk glass Icon youtube"
-        />
-      </div> */}
     </div>
-    {/* <div className="bg-[#255429] mb-[250px] w-[67px] h-[67px] rounded-lg relative flex justify-center items-center cursor-pointer">
-      <div className="w-[40px] h-[40px] relative">
-        <LazyImage
-          src="/icons/message-white.svg"
-          alt="Dk glass Icon message"
-        />
-      </div>
-    </div> */}
   </div>
 );
 

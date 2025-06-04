@@ -44,17 +44,6 @@ const SideBar = ({ handleClickMenu }) => (
             <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Services</span>
           </Link>
         </section>
-        {/* <section className="border-b-[2px] border-b-dk-secondary pt-[20px] pb-[20px] flex flex-col">
-          <h2 className="text-[18px] font-medium  hover:bg-dk-secondary pl-[12px] hover:text-[white]">Tienda</h2>
-        </section>
-        <section className="border-b-[2px] border-b-dk-secondary pt-[20px] pb-[20px] flex flex-col">
-          <h2 className="text-[18px] font-medium hover:bg-dk-secondary pl-[12px] hover:text-[white]">Blog</h2>
-        </section>
-        <section className="border-b-[2px] border-b-dk-secondary pt-[20px] pb-[20px] flex flex-col">
-          <h2 className="text-[18px] font-medium  hover:bg-dk-secondary pl-[12px] hover:text-[white]">Información</h2>
-          <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Titulo</span>
-          <span className="mt-[15px] text-[12px] hover:bg-dk-secondary pl-[12px] hover:text-[white]">Titulo</span>
-        </section> */}
         <div className="flex flex-col mt-[87px]">
           <Link href="tel:(832) 740-4977">
             <div className="flex items-center">

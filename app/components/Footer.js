@@ -67,4 +67,3 @@ const Footer = () => (
 );
 
 export default Footer;
-// src="https://seal-houston.bbb.org/gen-seals/img.png?bid=90070189&w=280&h=80&color=blue&v=2&chk=49C2E82AAF"

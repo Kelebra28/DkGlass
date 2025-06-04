@@ -10,7 +10,6 @@ const CarouselCard2 = ({ text, img, title }) => (
       <p className="mt-3 text-[14px] text-dk-darkgray">{text}</p>
 
       <div className="mt-[30px] text-[14px]">
-        {/* <span>TITULO</span> <span className="text-dk-darkgray">/   August 21 2023</span>x */}
       </div>
     </div>
   </div>

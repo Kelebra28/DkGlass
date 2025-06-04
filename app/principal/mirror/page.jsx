@@ -56,9 +56,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* <div className="h-[76px] bg-dk-gray flex justify-center lg:justify-end pt-[15px] pr-[80px]">
-          <span className="text-[15px]">Términos y condiciones</span>
-        </div> */}
         <Footer />
       </div>
     </div>

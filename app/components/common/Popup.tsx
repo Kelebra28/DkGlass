@@ -4,10 +4,9 @@ const Popup = () => {
     const [showPopup, setShowPopup] = useState(false);
 
     useEffect(() => {
-      // Lógica para mostrar o esconder el popup según tus necesidades
       const timeout = setTimeout(() => {
         setShowPopup(true);
-      }, 2000); // Mostrar el popup después de 2 segundos
+      }, 2000);
   
       return () => clearTimeout(timeout);
     }, []);
@@ -27,13 +26,4 @@ const Popup = () => {
       </div>
     );
   };
-    //   return (
-    //     <div className="popup">
-    //         <p>Met our new location</p>
-    //         <p>with bulk disccounts and special offers at</p>
-    //         <p>12245 Farm to Market 529 Rd Suite H Houston Tx 77041</p>
-    //     </div>
-    //   );
-
-
 export default Popup;

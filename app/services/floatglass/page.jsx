@@ -39,7 +39,6 @@ export default function Home() {
                 these advantages, the float glass process has largely become
                 established in the manufacture of flat glass.
               </p>
-              {/* <span className="text-[15px]">Model</span> */}
               <span className="mt-[20px] bg-dk-secondary w-[330px] text-[]15px pl-[18px] text-[white] italic font-semibold">
                 Other properties of float glass:
               </span>
@@ -100,9 +99,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* <div className="h-[76px] bg-dk-gray flex justify-center lg:justify-end pt-[15px] pr-[80px]">
-          <span className="text-[15px]">Términos y condiciones</span>
-        </div> */}
         <Footer />
       </div>
     </div>

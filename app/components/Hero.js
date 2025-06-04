@@ -5,14 +5,11 @@ import ForwardToInboxSharpIcon from "@mui/icons-material/ForwardToInboxSharp";
 import "react-multi-carousel/lib/styles.css";
 import LazyImage from "./common/LazyImages";
 import Button from "./common/Button";
-// import CarouselCard from "./common/CarouselCard";
 import WhatsAppLink from "./common/whatsApp";
 import Link from "next/link";
-// import { CustomNextButton, CustomPrevButton } from '../components/common/CustomButtonCarrusel'
 
 const responsive = {
   superLargeDesktop: {
-    // the naming can be any, depends on you.
     breakpoint: { max: 4000, min: 3000 },
     items: 3,
   },
@@ -30,7 +27,7 @@ const responsive = {
   },
 };
 const customButtonStyles = {
-  zIndex: 1, // Ajusta el valor de z-index según tus necesidades
+  zIndex: 1,
 };
 const Hero = ({ handleContactPopUp }) => (
   <div>
@@ -46,7 +43,6 @@ const Hero = ({ handleContactPopUp }) => (
           >
              <div className="w-[736px] h-[450px] relative carrusel_hover bg-dk-main">
               <div className="absolute z-30 top-[50%] w-screen  flex justify-center flex-col items-center lg:w-6/12 lg:pl-[80px]  ">
-                  {/* <LazyImage src="/logoBlanco.svg" alt="Dk glass Custom Glass" /> */}
                 <span className="text-[30px] text-center font-semibold text-[white]">
                   Catalog
                 </span>

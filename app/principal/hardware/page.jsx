@@ -1,13 +1,12 @@
 'use client'
 import { useState } from "react"
-// import LazyImage from "../../components/common/LazyImages";
 import Button from "../../components/common/Button"
 import Header from "../../components/common/header"
 import SocialMedia from "../../components/common/SocialMedia"
 import Footer from "../../components/Footer"
 import EmailPopUp from "../../components/EmailPopUp"
 import { Gallery } from "../../components/common/Galery"
-// import RandomImages from '../../components/RandomBack'
+
 
 
 export default function Home() {
